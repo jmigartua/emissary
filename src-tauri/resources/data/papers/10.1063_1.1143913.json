@@ -1,0 +1,119 @@
+{
+  "id": "10.1063/1.1143913",
+  "bibliographic": {
+    "doi": "10.1063/1.1143913",
+    "scopus_id": "1174395",
+    "title": "Bench top Fourier transform infrared based instrument for simultaneously measuring surface spectral emittance and temperature",
+    "authors": [
+      "James R. Markham",
+      "Karen Kinsella",
+      "Robert M. Carangelo",
+      "Carl R. Brouillette",
+      "Martin D. Carangelo",
+      "Philip E. Best",
+      "Peter R. Solomon"
+    ],
+    "year": 1993,
+    "venue": "Review of Scientific Instruments"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      0.8,
+      20.0
+    ],
+    "direction": null,
+    "temperature_measurement_method": [],
+    "temperature_control_method": [
+      "multiple: torch",
+      "lamps",
+      "laser"
+    ],
+    "temperature_range_K": [
+      373.0,
+      2273.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "US",
+    "affiliations": [
+      {
+        "name": "Advanced Fuel Research Incorporated",
+        "country": "US",
+        "city": "East Hartford",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Advanced Fuel Research Incorporated",
+        "country": "US",
+        "city": "East Hartford",
+        "author_position": "middle"
+      },
+      {
+        "name": "Advanced Fuel Research Incorporated",
+        "country": "US",
+        "city": "East Hartford",
+        "author_position": "middle"
+      },
+      {
+        "name": "Advanced Fuel Research Incorporated",
+        "country": "US",
+        "city": "East Hartford",
+        "author_position": "middle"
+      },
+      {
+        "name": "Advanced Fuel Research Incorporated",
+        "country": "US",
+        "city": "East Hartford",
+        "author_position": "middle"
+      },
+      {
+        "name": "Advanced Fuel Research Incorporated",
+        "country": "US",
+        "city": "East Hartford",
+        "author_position": "middle"
+      },
+      {
+        "name": "Advanced Fuel Research Incorporated",
+        "country": "US",
+        "city": "East Hartford",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 75,
+    "total_updated": "2026-08-02",
+    "cites": [],
+    "cited_by": []
+  }
+}

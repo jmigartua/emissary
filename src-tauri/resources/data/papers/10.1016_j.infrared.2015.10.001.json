@@ -1,0 +1,128 @@
+{
+  "id": "10.1016/j.infrared.2015.10.001",
+  "bibliographic": {
+    "doi": "10.1016/j.infrared.2015.10.001",
+    "scopus_id": "84945306297",
+    "title": "An emissivity measurement apparatus for near infrared spectrum",
+    "authors": [
+      "Feng Zhang",
+      "Kun Yu",
+      "Kaihua Zhang",
+      "Yanlei Liu",
+      "Kaipin Xu",
+      "Yufang Liu"
+    ],
+    "year": 2015,
+    "venue": "Infrared Physics and Technology"
+  },
+  "instrument": {
+    "detection_method": [
+      "InGaAs detector with filter with locking anplifier"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      0.8,
+      2.2
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      473.0,
+      1273.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "School of Optics and Photonics, Beijing Institute of Technology",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "first"
+      },
+      {
+        "name": "School of Optics and Photonics, Beijing Institute of Technology",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "middle"
+      },
+      {
+        "name": "School of Optics and Photonics, Beijing Institute of Technology",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "middle"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "middle"
+      },
+      {
+        "name": "School of Optics and Photonics, Beijing Institute of Technology",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 30,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-021-02813-0",
+      "10.1063/1.2393157",
+      "10.1109/TIM.2023.3268656",
+      "10.1109/TIM.2024.3457934"
+    ],
+    "cited_by": [
+      "10.1007/s10765-013-1400-8",
+      "10.1007/s10765-013-1531-y",
+      "10.1016/j.applthermaleng.2025.127648",
+      "10.1016/j.measurement.2007.10.007",
+      "10.1016/j.nme.2022.101182",
+      "10.1023/B:IJOT.0000028479.90667.8a",
+      "10.1063/1.5116425",
+      "10.1088/1681-7575/ab84ff",
+      "10.1117/12.542224",
+      "10.3390/ma12071141"
+    ]
+  }
+}

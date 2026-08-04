@@ -1,0 +1,125 @@
+{
+  "id": "10.1016/j.ijheatmasstransfer.2021.122092",
+  "bibliographic": {
+    "doi": "10.1016/j.ijheatmasstransfer.2021.122092",
+    "scopus_id": "85117245856",
+    "title": "Measurements of spectral emissivity, reflectance and transmittance at high temperatures using laser heating and auxiliary light source",
+    "authors": [
+      "Jiazhou Li",
+      "Yang Huang",
+      "Lin Fu",
+      "Tairan Fu",
+      "Jiansheng Zhang"
+    ],
+    "year": 2022,
+    "venue": "International Journal of Heat and Mass Transfer"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "Bruker Vertex 70v"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      2.0,
+      16.0
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "pyrometer"
+    ],
+    "temperature_control_method": [
+      "laser",
+      "500W"
+    ],
+    "temperature_range_K": null
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "Tsinghua University",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "first"
+      },
+      {
+        "name": "Tsinghua University",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "middle"
+      },
+      {
+        "name": "Tsinghua University",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Tsinghua University",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Tsinghua University",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 26,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1016/j.applthermaleng.2025.127648",
+      "10.1016/j.ijheatmasstransfer.2024.125975",
+      "10.1016/j.ijthermalsci.2025.109809",
+      "10.1016/j.infrared.2020.103572",
+      "10.1016/j.solener.2022.01.050",
+      "10.1063/1.2393157"
+    ],
+    "cited_by": [
+      "10.1007/s10765-007-0183-1",
+      "10.1007/s10765-008-0442-9",
+      "10.1007/s10765-011-0986-y",
+      "10.1007/s10765-016-2058-9",
+      "10.1016/j.applthermaleng.2016.11.022",
+      "10.1016/j.ijheatmasstransfer.2004.10.003",
+      "10.1016/j.ijheatmasstransfer.2012.02.055",
+      "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "10.1016/j.infrared.2015.01.011",
+      "10.1016/j.matlet.2011.01.067",
+      "10.1088/0026-1394/47/2/S14",
+      "10.1088/0957-0233/25/9/095501",
+      "10.1088/1742-6596/13/1/015"
+    ]
+  }
+}

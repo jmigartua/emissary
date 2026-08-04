@@ -1,0 +1,101 @@
+{
+  "id": "10.1023/A:1021415305603",
+  "bibliographic": {
+    "doi": "10.1023/A:1021415305603",
+    "scopus_id": "32639468",
+    "title": "System for measuring the spectral distribution of normal emissivity of metals with direct current heating",
+    "authors": [
+      "M. Kobayashi",
+      "M. Otsuki",
+      "H. Sakate",
+      "F. Sakuma",
+      "A. Ono"
+    ],
+    "year": 1999,
+    "venue": "International Journal of Thermophysics"
+  },
+  "instrument": {
+    "detection_method": [
+      "Multiband radiation thermometer with grating"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      0.55,
+      5.3
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "radiation thermometer"
+    ],
+    "temperature_control_method": [
+      "direct current through the sample"
+    ],
+    "temperature_range_K": [
+      1053.0,
+      1473.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "JP",
+    "affiliations": [
+      {
+        "name": "National Metrology Institute of Japan",
+        "country": "JP",
+        "city": "Tsukuba",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "National Metrology Institute of Japan",
+        "country": "JP",
+        "city": "Tsukuba",
+        "author_position": "middle"
+      },
+      {
+        "name": "National Metrology Institute of Japan",
+        "country": "JP",
+        "city": "Tsukuba",
+        "author_position": "middle"
+      },
+      {
+        "name": "National Metrology Institute of Japan",
+        "country": "JP",
+        "city": "Tsukuba",
+        "author_position": "middle"
+      },
+      {
+        "name": "National Metrology Institute of Japan",
+        "country": "JP",
+        "city": "Tsukuba",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 55,
+    "total_updated": "2026-08-02",
+    "cites": [],
+    "cited_by": []
+  }
+}

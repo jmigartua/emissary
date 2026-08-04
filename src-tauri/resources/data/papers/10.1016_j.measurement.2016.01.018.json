@@ -1,0 +1,108 @@
+{
+  "id": "10.1016/j.measurement.2016.01.018",
+  "bibliographic": {
+    "doi": "10.1016/j.measurement.2016.01.018",
+    "scopus_id": "84955263494",
+    "title": "Methodology for spectral emissivity measurement by means of single color pyrometer",
+    "authors": [
+      "Carlo Purpura",
+      "Eduardo Trifoni",
+      "Marilena Musto",
+      "Giuseppe Rotondo",
+      "Roberto Della Ragione"
+    ],
+    "year": 2016,
+    "venue": "Measurement: Journal of the International Measurement Confederation"
+  },
+  "instrument": {
+    "detection_method": [
+      "pyrometers"
+    ],
+    "spectral": null,
+    "spectral_range_um": null,
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "thermocouple",
+      "calculated"
+    ],
+    "temperature_control_method": [
+      "electric furnace"
+    ],
+    "temperature_range_K": [
+      573.0,
+      1273.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "IT",
+    "affiliations": [
+      {
+        "name": "Centro Italiano Ricerche Aerospaziali",
+        "country": "IT",
+        "city": "Capua",
+        "author_position": "first"
+      },
+      {
+        "name": "Centro Italiano Ricerche Aerospaziali",
+        "country": "IT",
+        "city": "Capua",
+        "author_position": "middle"
+      },
+      {
+        "name": "Università degli Studi di Napoli Federico II",
+        "country": "IT",
+        "city": "Naples",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Università degli Studi di Napoli Federico II",
+        "country": "IT",
+        "city": "Naples",
+        "author_position": "middle"
+      },
+      {
+        "name": "Università degli Studi di Napoli Federico II",
+        "country": "IT",
+        "city": "Naples",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 13,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1016/j.infrared.2019.102974",
+      "10.1016/j.infrared.2022.104515"
+    ],
+    "cited_by": [
+      "10.1016/j.infrared.2014.07.004"
+    ]
+  }
+}

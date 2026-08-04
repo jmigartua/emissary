@@ -1,0 +1,81 @@
+{
+  "id": "10.1088/0957-0233/12/12/311",
+  "bibliographic": {
+    "doi": "10.1088/0957-0233/12/12/311",
+    "scopus_id": "35666065",
+    "title": "Uncertainty estimation for emissivity measurements near room temperature with a fourier transform spectrometer",
+    "authors": [
+      "J. Ishii",
+      "A. Ono"
+    ],
+    "year": 2001,
+    "venue": "Measurement Science and Technology"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      5.0,
+      12.0
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "platinum resistance thermometer (in fluid)"
+    ],
+    "temperature_control_method": [
+      "thermostatic fluid"
+    ],
+    "temperature_range_K": null
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "JP",
+    "affiliations": [
+      {
+        "name": "National Metrology Institute of Japan",
+        "country": "JP",
+        "city": "Tsukuba",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "National Metrology Institute of Japan",
+        "country": "JP",
+        "city": "Tsukuba",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 93,
+    "total_updated": "2026-08-02",
+    "cites": [],
+    "cited_by": []
+  }
+}

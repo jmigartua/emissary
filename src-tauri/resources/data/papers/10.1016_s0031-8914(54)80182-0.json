@@ -1,0 +1,81 @@
+{
+  "id": "10.1016/s0031-8914(54)80182-0",
+  "bibliographic": {
+    "doi": "10.1016/s0031-8914(54)80182-0",
+    "scopus_id": "21944450631",
+    "title": "A new determination of the emissivity of tungsten ribbon",
+    "authors": [
+      "J. C. De Vos"
+    ],
+    "year": 1954,
+    "venue": "Physica"
+  },
+  "instrument": {
+    "detection_method": [
+      "monochromators"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      0.23,
+      2.7
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "pyrometer"
+    ],
+    "temperature_control_method": [
+      "current through sample"
+    ],
+    "temperature_range_K": [
+      1600.0,
+      2800.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "US",
+    "affiliations": [
+      {
+        "name": "the N.V. KEMA",
+        "country": "US",
+        "city": "Nederland",
+        "author_position": "corresponding"
+      }
+    ]
+  },
+  "citations": {
+    "total": 321,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-007-0183-1"
+    ],
+    "cited_by": [
+      "10.1016/j.expthermflusci.2019.110017"
+    ]
+  }
+}

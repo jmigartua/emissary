@@ -1,0 +1,93 @@
+{
+  "id": "10.1063/1.1141538",
+  "bibliographic": {
+    "doi": "10.1063/1.1141538",
+    "scopus_id": "857872",
+    "title": "An FT-IR based instrument for measuring spectral emittance of material at high temperature",
+    "authors": [
+      "J. R. Markham",
+      "P. R. Solomon",
+      "P. E. Best"
+    ],
+    "year": 1990,
+    "venue": "Review of Scientific Instruments"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "Nicolet 7199"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      1.6,
+      20.0
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "calculated",
+      "christiansen"
+    ],
+    "temperature_control_method": [
+      "torch"
+    ],
+    "temperature_range_K": [
+      300.0,
+      2226.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "US",
+    "affiliations": [
+      {
+        "name": "Advanced Fuel Research Incorporated",
+        "country": "US",
+        "city": "East Hartford",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Advanced Fuel Research Incorporated",
+        "country": "US",
+        "city": "East Hartford",
+        "author_position": "middle"
+      },
+      {
+        "name": "Advanced Fuel Research Incorporated",
+        "country": "US",
+        "city": "East Hartford",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 69,
+    "total_updated": "2026-08-02",
+    "cites": [],
+    "cited_by": []
+  }
+}

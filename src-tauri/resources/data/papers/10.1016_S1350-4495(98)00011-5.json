@@ -1,0 +1,98 @@
+{
+  "id": "10.1016/S1350-4495(98)00011-5",
+  "bibliographic": {
+    "doi": "10.1016/S1350-4495(98)00011-5",
+    "scopus_id": "32094231",
+    "title": "High-temperature infrared properties of sapphire, AlON, fused silica, yttria, and spinel",
+    "authors": [
+      "Raymond M. Sova",
+      "Milton J. Linevsky",
+      "Michael E. Thomas",
+      "Frank F. Mark"
+    ],
+    "year": 1998,
+    "venue": "Infrared Physics and Technology"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "Bomem DA 3.02"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      2.0,
+      20.0
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "thermocouple",
+      "pyrometer",
+      "christiansen"
+    ],
+    "temperature_control_method": [
+      "laser"
+    ],
+    "temperature_range_K": null
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "US",
+    "affiliations": [
+      {
+        "name": "Johns Hopkins University Applied Physics Laboratory",
+        "country": "US",
+        "city": "Laurel",
+        "author_position": "first"
+      },
+      {
+        "name": "Johns Hopkins University Applied Physics Laboratory",
+        "country": "US",
+        "city": "Laurel",
+        "author_position": "middle"
+      },
+      {
+        "name": "Johns Hopkins University Applied Physics Laboratory",
+        "country": "US",
+        "city": "Laurel",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Johns Hopkins University Applied Physics Laboratory",
+        "country": "US",
+        "city": "Laurel",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 109,
+    "total_updated": "2026-08-02",
+    "cites": [],
+    "cited_by": []
+  }
+}

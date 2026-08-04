@@ -1,0 +1,108 @@
+{
+  "id": "10.1016/j.jqsrt.2020.107316",
+  "bibliographic": {
+    "doi": "10.1016/j.jqsrt.2020.107316",
+    "scopus_id": "85093662020",
+    "title": "Apparent emissivity measurement of semi-transparent materials part 1: Experimental realization",
+    "authors": [
+      "Julian Gieseler",
+      "Albert Adibekyan",
+      "Christian Monte",
+      "Jörg Hollandt"
+    ],
+    "year": 2020,
+    "venue": "Journal of Quantitative Spectroscopy and Radiative Transfer"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "Bruker Vertex 80v"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      4.5,
+      20.0
+    ],
+    "direction": "directional",
+    "temperature_measurement_method": [
+      "pt100",
+      "calculated"
+    ],
+    "temperature_control_method": [
+      "circulating water"
+    ],
+    "temperature_range_K": [
+      293.0,
+      363.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "DE",
+    "affiliations": [
+      {
+        "name": "Physikalisch-Technische Bundesanstalt",
+        "country": "DE",
+        "city": "Braunschweig",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Physikalisch-Technische Bundesanstalt",
+        "country": "DE",
+        "city": "Braunschweig",
+        "author_position": "middle"
+      },
+      {
+        "name": "Physikalisch-Technische Bundesanstalt",
+        "country": "DE",
+        "city": "Braunschweig",
+        "author_position": "middle"
+      },
+      {
+        "name": "Physikalisch-Technische Bundesanstalt",
+        "country": "DE",
+        "city": "Braunschweig",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 9,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-008-0442-9",
+      "10.1007/s10765-014-1745-7",
+      "10.1016/j.ijheatmasstransfer.2024.125975",
+      "10.1016/j.ijthermalsci.2025.109809",
+      "10.1016/j.infrared.2023.105060"
+    ],
+    "cited_by": [
+      "scopus_77957053134"
+    ]
+  }
+}

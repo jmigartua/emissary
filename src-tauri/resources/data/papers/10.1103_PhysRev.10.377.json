@@ -1,0 +1,74 @@
+{
+  "id": "10.1103/PhysRev.10.377",
+  "bibliographic": {
+    "doi": "10.1103/PhysRev.10.377",
+    "scopus_id": "36149014657",
+    "title": "The true temperature scale of tungsten and its emissive powers at incandescent temperatures",
+    "authors": [
+      "A. G. Worthing"
+    ],
+    "year": 1917,
+    "venue": "Physical Review"
+  },
+  "instrument": {
+    "detection_method": [
+      "pyrometer"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      0.467,
+      0.665
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "pyrometer"
+    ],
+    "temperature_control_method": [
+      "current through sample"
+    ],
+    "temperature_range_K": null
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "US",
+    "affiliations": [
+      {
+        "name": "General Electric Company",
+        "country": "US",
+        "city": "Cincinnati",
+        "author_position": "corresponding"
+      }
+    ]
+  },
+  "citations": {
+    "total": 8,
+    "total_updated": "2026-08-02",
+    "cites": [],
+    "cited_by": []
+  }
+}

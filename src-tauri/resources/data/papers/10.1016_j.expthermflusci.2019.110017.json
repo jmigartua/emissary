@@ -1,0 +1,101 @@
+{
+  "id": "10.1016/j.expthermflusci.2019.110017",
+  "bibliographic": {
+    "doi": "10.1016/j.expthermflusci.2019.110017",
+    "scopus_id": "85076093378",
+    "title": "Spectral emissivity and temperature of heated surfaces based on spectrometry and digital thermal imaging – Validation with thermocouple temperature measurements",
+    "authors": [
+      "Weijie Yan",
+      "Aidin Panahi",
+      "Yiannis A. Levendis"
+    ],
+    "year": 2020,
+    "venue": "Experimental Thermal and Fluid Science"
+  },
+  "instrument": {
+    "detection_method": [
+      "fiber optic spectrometer",
+      "Avantes AvaSpec-ULS2048-USB2"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      0.5,
+      1.0
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "thermocouple",
+      "calculated"
+    ],
+    "temperature_control_method": [
+      "bunsen burner"
+    ],
+    "temperature_range_K": [
+      1273.0,
+      1673.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "US",
+    "affiliations": [
+      {
+        "name": "China University of Mining and Technology",
+        "country": "CN",
+        "city": "Xuzhou",
+        "author_position": "first"
+      },
+      {
+        "name": "College of Engineering",
+        "country": "US",
+        "city": "Boston",
+        "author_position": "middle"
+      },
+      {
+        "name": "College of Engineering",
+        "country": "US",
+        "city": "Boston",
+        "author_position": "corresponding"
+      }
+    ]
+  },
+  "citations": {
+    "total": 53,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1016/s0031-8914(54)80182-0",
+      "10.1063/1.5007225",
+      "10.1109/TIM.2023.3268656"
+    ],
+    "cited_by": [
+      "10.1016/j.icheatmasstransfer.2024.107695",
+      "10.1016/j.proci.2010.07.042",
+      "10.1364/OE.547412"
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "id": "10.1016/j.solener.2022.01.050",
+  "bibliographic": {
+    "doi": "10.1016/j.solener.2022.01.050",
+    "scopus_id": "85124313041",
+    "title": "Measuring the spectral emissivity of single particle at high temperature",
+    "authors": [
+      "Lili Yang",
+      "Yezheng Zhan",
+      "Guan Huang"
+    ],
+    "year": 2022,
+    "venue": "Solar Energy"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "ThermoFisher Nicolet Is50"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      2.5,
+      25.0
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      773.0,
+      1173.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "Nanjing University of Aeronautics and Astronautics",
+        "country": "CN",
+        "city": "Nanjing",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Nanjing University of Aeronautics and Astronautics",
+        "country": "CN",
+        "city": "Nanjing",
+        "author_position": "middle"
+      },
+      {
+        "name": "Nanjing University of Aeronautics and Astronautics",
+        "country": "CN",
+        "city": "Nanjing",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 8,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-015-1866-7",
+      "10.1007/s10765-016-2058-9",
+      "10.3390/ma12071141"
+    ],
+    "cited_by": [
+      "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "10.1016/j.ijheatmasstransfer.2021.122092",
+      "10.1088/1742-6596/13/1/015"
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "10.1366/0003702953963607",
+  "bibliographic": {
+    "doi": "10.1366/0003702953963607",
+    "scopus_id": "7565676",
+    "title": "Novel Experimental Technique for Measuring High-Temperature Spectral Emissivities",
+    "authors": [
+      "Mark J. Ballico",
+      "Trebor P. Jones"
+    ],
+    "year": 1995,
+    "venue": "Applied Spectroscopy"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "Bomem DA 2.16"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      2.0,
+      22.22
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "heat pipe (sodium)"
+    ],
+    "temperature_range_K": [
+      773.0,
+      1273.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "AU",
+    "affiliations": [
+      {
+        "name": "Commonwealth Scientific and Industrial Research Organisation",
+        "country": "AU",
+        "city": "Canberra",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Commonwealth Scientific and Industrial Research Organisation",
+        "country": "AU",
+        "city": "Canberra",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 23,
+    "total_updated": "2026-08-02",
+    "cites": [],
+    "cited_by": []
+  }
+}

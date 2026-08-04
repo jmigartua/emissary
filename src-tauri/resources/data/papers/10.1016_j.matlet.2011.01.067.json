@@ -1,0 +1,102 @@
+{
+  "id": "10.1016/j.matlet.2011.01.067",
+  "bibliographic": {
+    "doi": "10.1016/j.matlet.2011.01.067",
+    "scopus_id": "79952447546",
+    "title": "Greatly enhanced infrared normal spectral emissivity of microstructured silicon using a femtosecond laser",
+    "authors": [
+      "Guojin Feng",
+      "Yu Wang",
+      "Yuan Li",
+      "Jingtao Zhu",
+      "Li Zhao"
+    ],
+    "year": 2011,
+    "venue": "Materials Letters"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "Bruker Equinox 55"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      2.5,
+      25.0
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [],
+    "temperature_control_method": [],
+    "temperature_range_K": null
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "Fudan University",
+        "country": "CN",
+        "city": "Shanghai",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "National Institute of Metrology China",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "middle"
+      },
+      {
+        "name": "Fudan University",
+        "country": "CN",
+        "city": "Shanghai",
+        "author_position": "middle"
+      },
+      {
+        "name": "Institute of Precision Optical Engineering",
+        "country": "CN",
+        "city": "Shanghai",
+        "author_position": "middle"
+      },
+      {
+        "name": "Fudan University",
+        "country": "CN",
+        "city": "Shanghai",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 29,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "10.1016/j.ijheatmasstransfer.2021.122092"
+    ],
+    "cited_by": []
+  }
+}

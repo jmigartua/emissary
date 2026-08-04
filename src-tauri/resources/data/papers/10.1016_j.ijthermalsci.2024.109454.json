@@ -1,0 +1,104 @@
+{
+  "id": "10.1016/j.ijthermalsci.2024.109454",
+  "bibliographic": {
+    "doi": "10.1016/j.ijthermalsci.2024.109454",
+    "scopus_id": "85205324239",
+    "title": "A directional spectral emissivity measurement device with built-in calibration radiation source",
+    "authors": [
+      "Yang Wang",
+      "Jingmin Dai",
+      "Yufeng Zhang"
+    ],
+    "year": 2025,
+    "venue": "International Journal of Thermal Sciences"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      2.0,
+      14.0
+    ],
+    "direction": "directional",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      473.0,
+      1473.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "School of Instrumentation Science and Engineering, Harbin Institute of Technology",
+        "country": "CN",
+        "city": "Harbin",
+        "author_position": "first"
+      },
+      {
+        "name": "School of Instrumentation Science and Engineering, Harbin Institute of Technology",
+        "country": "CN",
+        "city": "Harbin",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Bohai University",
+        "country": "CN",
+        "city": "Jinzhou",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 3,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-021-02813-0",
+      "10.1016/j.infrared.2015.01.011",
+      "10.1016/j.nme.2022.101182"
+    ],
+    "cited_by": [
+      "10.1007/s10765-018-2472-2",
+      "10.1016/j.applthermaleng.2019.114854",
+      "10.1016/j.expthermflusci.2021.110379",
+      "10.1016/j.fuproc.2020.106423",
+      "10.1016/j.infrared.2023.105060",
+      "10.1088/0026-1394/47/2/S14",
+      "10.1088/1361-6501/ab5e9b",
+      "10.1088/1681-7575/ab84ff"
+    ]
+  }
+}

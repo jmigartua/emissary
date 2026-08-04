@@ -1,0 +1,112 @@
+{
+  "id": "10.1007/s11018-012-0103-z",
+  "bibliographic": {
+    "doi": "10.1007/s11018-012-0103-z",
+    "scopus_id": "84872486760",
+    "title": "The development of emissivity measurements under vacuum at the PTB",
+    "authors": [
+      "A. R. Adibekyan",
+      "C. Monte",
+      "M. Kehrt",
+      "S. P. Morozova",
+      "B. Gutschwager",
+      "J. Hollandt"
+    ],
+    "year": 2013,
+    "venue": "Measurement Techniques"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR"
+    ],
+    "spectral": null,
+    "spectral_range_um": null,
+    "direction": null,
+    "temperature_measurement_method": [],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": null
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "DE",
+    "affiliations": [
+      {
+        "name": "Physikalisch-Technische Bundesanstalt",
+        "country": "DE",
+        "city": "Braunschweig",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Physikalisch-Technische Bundesanstalt",
+        "country": "DE",
+        "city": "Braunschweig",
+        "author_position": "middle"
+      },
+      {
+        "name": "Physikalisch-Technische Bundesanstalt",
+        "country": "DE",
+        "city": "Braunschweig",
+        "author_position": "middle"
+      },
+      {
+        "name": "All-Russian Research Institute for Optical and Physical Measurements",
+        "country": "RU",
+        "city": "Moscow",
+        "author_position": "middle"
+      },
+      {
+        "name": "Physikalisch-Technische Bundesanstalt",
+        "country": "DE",
+        "city": "Braunschweig",
+        "author_position": "middle"
+      },
+      {
+        "name": "Physikalisch-Technische Bundesanstalt",
+        "country": "DE",
+        "city": "Braunschweig",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 4,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-008-0442-9",
+      "10.1007/s10765-014-1745-7",
+      "10.1016/j.jqsrt.2022.108277",
+      "10.1088/0026-1394/47/2/S14",
+      "10.3390/ma12071141"
+    ],
+    "cited_by": [
+      "scopus_77957053134"
+    ]
+  }
+}

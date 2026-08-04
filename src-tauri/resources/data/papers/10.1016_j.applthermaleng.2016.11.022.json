@@ -1,0 +1,100 @@
+{
+  "id": "10.1016/j.applthermaleng.2016.11.022",
+  "bibliographic": {
+    "doi": "10.1016/j.applthermaleng.2016.11.022",
+    "scopus_id": "84994662907",
+    "title": "Normal spectral emissivity of GH536 (HastelloyX) in three surface conditions",
+    "authors": [
+      "Bo Kong",
+      "Ting Li",
+      "Qitai Eri"
+    ],
+    "year": 2017,
+    "venue": "Applied Thermal Engineering"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "Nicolet iS-50"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      0.9,
+      26.0
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      400.0,
+      1200.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "Beihang University",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "first"
+      },
+      {
+        "name": "Beihang University",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "middle"
+      },
+      {
+        "name": "Beihang University",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "corresponding"
+      }
+    ]
+  },
+  "citations": {
+    "total": 53,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-021-02813-0",
+      "10.1016/j.ijheatmasstransfer.2021.122092",
+      "10.1016/j.ijthermalsci.2025.109809",
+      "10.1016/j.infrared.2020.103572",
+      "10.1088/1681-7575/ab84ff",
+      "10.1109/TIM.2023.3268656",
+      "10.1109/TIM.2024.3457934"
+    ],
+    "cited_by": []
+  }
+}

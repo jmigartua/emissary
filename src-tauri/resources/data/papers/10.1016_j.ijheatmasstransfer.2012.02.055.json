@@ -1,0 +1,117 @@
+{
+  "id": "10.1016/j.ijheatmasstransfer.2012.02.055",
+  "bibliographic": {
+    "doi": "10.1016/j.ijheatmasstransfer.2012.02.055",
+    "scopus_id": "84859403657",
+    "title": "A new experimental apparatus for measurement of spectral emissivity of opaque materials using a reflector as the dummy light source",
+    "authors": [
+      "Deheng Shi",
+      "Yufang Liu",
+      "Jinfeng Sun",
+      "Zuelue Zhu",
+      "Hui Liu"
+    ],
+    "year": 2012,
+    "venue": "International Journal of Heat and Mass Transfer"
+  },
+  "instrument": {
+    "detection_method": [
+      "pyrometer"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      1.5,
+      1.5
+    ],
+    "direction": null,
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      700.0,
+      1200.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "middle"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "middle"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "middle"
+      },
+      {
+        "name": "Xinyang Normal University",
+        "country": "CN",
+        "city": "Xinyang",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 17,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1016/j.ijheatmasstransfer.2021.122092",
+      "10.1063/1.2393157"
+    ],
+    "cited_by": [
+      "10.1007/s10765-007-0183-1",
+      "10.1007/s10765-016-2142-1",
+      "10.1016/j.ijheatmasstransfer.2004.10.003",
+      "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "10.1016/j.infrared.2019.102974",
+      "10.1023/A:1012817726103",
+      "10.1023/A:1013103419949",
+      "10.1088/1674-1056/25/4/047801"
+    ]
+  }
+}

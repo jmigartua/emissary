@@ -1,0 +1,120 @@
+{
+  "id": "10.1016/j.infrared.2015.01.011",
+  "bibliographic": {
+    "doi": "10.1016/j.infrared.2015.01.011",
+    "scopus_id": "84922496652",
+    "title": "Apparatus for measuring the emittance of materials from far infrared to visible wavelengths in extreme conditions of temperature",
+    "authors": [
+      "D. De Sousa Meneses",
+      "P. Melin",
+      "L. Del Campo",
+      "L. Cosson",
+      "P. Echegut"
+    ],
+    "year": 2015,
+    "venue": "Infrared Physics and Technology"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "Bruker Vertex 70",
+      "Bruker Vertex 80v"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      0.55,
+      500.0
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "calculated"
+    ],
+    "temperature_control_method": [
+      "laser",
+      "500W"
+    ],
+    "temperature_range_K": [
+      null,
+      2500.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "FR",
+    "affiliations": [
+      {
+        "name": "Université d'Orléans",
+        "country": "FR",
+        "city": "Orleans",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Université d'Orléans",
+        "country": "FR",
+        "city": "Orleans",
+        "author_position": "middle"
+      },
+      {
+        "name": "Université d'Orléans",
+        "country": "FR",
+        "city": "Orleans",
+        "author_position": "middle"
+      },
+      {
+        "name": "Université d'Orléans",
+        "country": "FR",
+        "city": "Orleans",
+        "author_position": "middle"
+      },
+      {
+        "name": "Université d'Orléans",
+        "country": "FR",
+        "city": "Orleans",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 55,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1016/j.ijheatmasstransfer.2021.122092",
+      "10.1063/1.2393157"
+    ],
+    "cited_by": [
+      "10.1007/s10765-007-0183-1",
+      "10.1007/s10765-013-1400-8",
+      "10.1016/j.ijthermalsci.2024.109454",
+      "10.1016/j.infrared.2023.105060",
+      "10.1063/1.5116425",
+      "10.1088/0957-0233/25/9/095501",
+      "10.1088/1681-7575/ab84ff",
+      "10.1088/1742-6596/13/1/015"
+    ]
+  }
+}

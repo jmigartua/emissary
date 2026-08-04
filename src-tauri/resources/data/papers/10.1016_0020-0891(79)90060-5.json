@@ -1,0 +1,89 @@
+{
+  "id": "10.1016/0020-0891(79)90060-5",
+  "bibliographic": {
+    "doi": "10.1016/0020-0891(79)90060-5",
+    "scopus_id": "18506862",
+    "title": "Spectral emissivity and absorption coefficient of silica glass at extremely high temperatures in the semitransparent region",
+    "authors": [
+      "A. V. Dvurechensky",
+      "V. A. Petrov",
+      "V. Yu Reznik"
+    ],
+    "year": 1979,
+    "venue": "Infrared Physics"
+  },
+  "instrument": {
+    "detection_method": [
+      "spectrometer"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      2.0,
+      5.0
+    ],
+    "direction": null,
+    "temperature_measurement_method": [
+      "pyrometer",
+      "christiansen"
+    ],
+    "temperature_control_method": [
+      "induction heating"
+    ],
+    "temperature_range_K": null
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "RU",
+    "affiliations": [
+      {
+        "name": "Joint Institute for High Temperatures of the Russian Academy of Sciences",
+        "country": "RU",
+        "city": "Moscow",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Joint Institute for High Temperatures of the Russian Academy of Sciences",
+        "country": "RU",
+        "city": "Moscow",
+        "author_position": "middle"
+      },
+      {
+        "name": "Joint Institute for High Temperatures of the Russian Academy of Sciences",
+        "country": "RU",
+        "city": "Moscow",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 27,
+    "total_updated": "2026-08-02",
+    "cites": [],
+    "cited_by": []
+  }
+}

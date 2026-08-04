@@ -1,0 +1,97 @@
+{
+  "id": "10.1016/j.measurement.2007.10.007",
+  "bibliographic": {
+    "doi": "10.1016/j.measurement.2007.10.007",
+    "scopus_id": "47549112671",
+    "title": "Emissivity reference paints for high temperature applications",
+    "authors": [
+      "Ruediger Brandt",
+      "Colin Bird",
+      "Guenther Neuer"
+    ],
+    "year": 2008,
+    "venue": "Measurement: Journal of the International Measurement Confederation"
+  },
+  "instrument": {
+    "detection_method": [
+      "pyrometer LP2"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      0.5,
+      8.3
+    ],
+    "direction": "directional",
+    "temperature_measurement_method": [
+      "pyrometer"
+    ],
+    "temperature_control_method": [
+      "induction heating"
+    ],
+    "temperature_range_K": [
+      1000.0,
+      3000.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "DE",
+    "affiliations": [
+      {
+        "name": "Universität Stuttgart",
+        "country": "DE",
+        "city": "Stuttgart",
+        "author_position": "first"
+      },
+      {
+        "name": "Rolls-Royce plc",
+        "country": "GB",
+        "city": "London",
+        "author_position": "middle"
+      },
+      {
+        "name": "Universität Stuttgart",
+        "country": "DE",
+        "city": "Stuttgart",
+        "author_position": "corresponding"
+      }
+    ]
+  },
+  "citations": {
+    "total": 65,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-016-2058-9",
+      "10.1016/j.applthermaleng.2025.127648",
+      "10.1016/j.infrared.2015.10.001",
+      "10.1088/1742-6596/395/1/012152",
+      "10.1109/TIM.2019.2944504"
+    ],
+    "cited_by": []
+  }
+}

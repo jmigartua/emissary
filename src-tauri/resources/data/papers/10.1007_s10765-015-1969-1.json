@@ -1,0 +1,102 @@
+{
+  "id": "10.1007/s10765-015-1969-1",
+  "bibliographic": {
+    "doi": "10.1007/s10765-015-1969-1",
+    "scopus_id": "84949103187",
+    "title": "Material Spectral Emissivity Measurement Based on Two Reference Blackbodies",
+    "authors": [
+      "Jing Cai",
+      "Yongjun Yang",
+      "Li Liao",
+      "Guoyi Lyu"
+    ],
+    "year": 2015,
+    "venue": "International Journal of Thermophysics"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      1.0,
+      25.0
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      323.0,
+      773.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "Changcheng Institute of Metrology and Measurement",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Changcheng Institute of Metrology and Measurement",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "middle"
+      },
+      {
+        "name": "Changcheng Institute of Metrology and Measurement",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "middle"
+      },
+      {
+        "name": "Changcheng Institute of Metrology and Measurement",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 6,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-008-0442-9",
+      "10.1007/s10765-024-03393-5",
+      "10.1088/0026-1394/47/2/S14"
+    ],
+    "cited_by": []
+  }
+}

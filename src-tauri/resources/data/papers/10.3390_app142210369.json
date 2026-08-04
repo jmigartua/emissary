@@ -1,0 +1,100 @@
+{
+  "id": "10.3390/app142210369",
+  "bibliographic": {
+    "doi": "10.3390/app142210369",
+    "scopus_id": "85210448650",
+    "title": "A Measurement Device for the Normal Spectral Emissivity of Materials Under Low-Temperature and Vacuum Conditions",
+    "authors": [
+      "Xufeng Liu",
+      "Zhenyuan Zhang",
+      "Guojin Feng"
+    ],
+    "year": 2024,
+    "venue": "Applied Sciences (Switzerland)"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "Bruker Vertex 80v"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      4.0,
+      16.0
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "Calculated"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      213.0,
+      373.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "National Institute of Metrology China",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "first"
+      },
+      {
+        "name": "Beijing University of Civil Engineering and Architecture",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "middle"
+      },
+      {
+        "name": "National Institute of Metrology China",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "corresponding"
+      }
+    ]
+  },
+  "citations": {
+    "total": 2,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-021-02813-0",
+      "10.1007/s10765-022-03129-3",
+      "10.1007/s10765-024-03393-5"
+    ],
+    "cited_by": [
+      "10.1007/s10765-014-1745-7",
+      "10.1007/s10765-016-2142-1",
+      "10.1109/TIM.2019.2944504"
+    ]
+  }
+}

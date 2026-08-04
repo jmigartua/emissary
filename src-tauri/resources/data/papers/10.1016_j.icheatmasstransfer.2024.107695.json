@@ -1,0 +1,120 @@
+{
+  "id": "10.1016/j.icheatmasstransfer.2024.107695",
+  "bibliographic": {
+    "doi": "10.1016/j.icheatmasstransfer.2024.107695",
+    "scopus_id": "85195851813",
+    "title": "Development of a micro-infrared thermometry method for surface temperature distribution and variation of millimeter particle during high-temperature reaction",
+    "authors": [
+      "Haigang Zhang",
+      "Zhongjie Shen",
+      "Jianliang Xu",
+      "Qinfeng Liang",
+      "Zhenghua Dai",
+      "Jianhong Gong",
+      "Haifeng Liu"
+    ],
+    "year": 2024,
+    "venue": "International Communications in Heat and Mass Transfer"
+  },
+  "instrument": {
+    "detection_method": [
+      "infrared camera",
+      "FLIR A615"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      7.5,
+      14.0
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "thermocouple",
+      "calculated"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": null
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "East China University of Science and Technology",
+        "country": "CN",
+        "city": "Shanghai",
+        "author_position": "first"
+      },
+      {
+        "name": "East China University of Science and Technology",
+        "country": "CN",
+        "city": "Shanghai",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "East China University of Science and Technology",
+        "country": "CN",
+        "city": "Shanghai",
+        "author_position": "middle"
+      },
+      {
+        "name": "East China University of Science and Technology",
+        "country": "CN",
+        "city": "Shanghai",
+        "author_position": "middle"
+      },
+      {
+        "name": "East China University of Science and Technology",
+        "country": "CN",
+        "city": "Shanghai",
+        "author_position": "middle"
+      },
+      {
+        "name": "Research Institute of Petroleum Processing",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "middle"
+      },
+      {
+        "name": "East China University of Science and Technology",
+        "country": "CN",
+        "city": "Shanghai",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 2,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1016/j.expthermflusci.2019.110017"
+    ],
+    "cited_by": []
+  }
+}

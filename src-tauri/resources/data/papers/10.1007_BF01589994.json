@@ -1,0 +1,99 @@
+{
+  "id": "10.1007/BF01589994",
+  "bibliographic": {
+    "doi": "10.1007/BF01589994",
+    "scopus_id": "25748259",
+    "title": "Measurements of the spectral emissivity of surfaces used in jet engines and space technology",
+    "authors": [
+      "V. Lippig",
+      "R. Waibel",
+      "H. Wilhelmi",
+      "D. Straub"
+    ],
+    "year": 1991,
+    "venue": "Wärme- und Stoffübertragung"
+  },
+  "instrument": {
+    "detection_method": [
+      "Grid-grating monochromator indium-antimonide photo detector"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      1.8,
+      5.6
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "electric heater",
+      "furnace"
+    ],
+    "temperature_range_K": [
+      null,
+      2073.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "DE",
+    "affiliations": [
+      {
+        "name": "University of the Bundeswehr Munich",
+        "country": "DE",
+        "city": "Neubiberg",
+        "author_position": "first"
+      },
+      {
+        "name": "University of the Bundeswehr Munich",
+        "country": "DE",
+        "city": "Neubiberg",
+        "author_position": "middle"
+      },
+      {
+        "name": "Rheinisch-Westfälische Technische Hochschule Aachen",
+        "country": "DE",
+        "city": "Aachen",
+        "author_position": "middle"
+      },
+      {
+        "name": "University of the Bundeswehr Munich",
+        "country": "DE",
+        "city": "Neubiberg",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 0,
+    "total_updated": "2026-08-02",
+    "cites": [],
+    "cited_by": []
+  }
+}

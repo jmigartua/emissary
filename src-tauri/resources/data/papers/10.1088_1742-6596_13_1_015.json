@@ -1,0 +1,114 @@
+{
+  "id": "10.1088/1742-6596/13/1/015",
+  "bibliographic": {
+    "doi": "10.1088/1742-6596/13/1/015",
+    "scopus_id": "24644488388",
+    "title": "Fourier transform spectrometer for spectral emissivity measurement in the temperature range between 60 and 1500°C",
+    "authors": [
+      "Dai, Jingmin",
+      "Wang, Xinbei",
+      "Yuan, Guibin"
+    ],
+    "year": 2005,
+    "venue": "Journal of Physics: Conference Series"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "JASCO FTIR 6100"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      0.6,
+      25.0
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "thermocouple",
+      "pyrometer"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      333.0,
+      1773.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "Harbin Institute of Technology",
+        "country": "CN",
+        "city": "Harbin",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Harbin Institute of Technology",
+        "country": "CN",
+        "city": "Harbin",
+        "author_position": "middle"
+      },
+      {
+        "name": "Harbin Institute of Technology",
+        "country": "CN",
+        "city": "Harbin",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 54,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s00340-024-08331-9",
+      "10.1007/s10765-022-03129-3",
+      "10.1016/j.applthermaleng.2019.114854",
+      "10.1016/j.expthermflusci.2021.110379",
+      "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "10.1016/j.ijheatmasstransfer.2017.06.133",
+      "10.1016/j.ijheatmasstransfer.2021.122092",
+      "10.1016/j.ijthermalsci.2025.110629",
+      "10.1016/j.infrared.2015.01.011",
+      "10.1016/j.infrared.2018.06.031",
+      "10.1016/j.infrared.2023.105060",
+      "10.1016/j.measurement.2023.113999",
+      "10.1016/j.solener.2022.01.050",
+      "10.1088/0957-0233/25/9/095501",
+      "10.1109/TIM.2024.3457934",
+      "10.3390/ma12071141",
+      "10.3390/ma15010235"
+    ],
+    "cited_by": [
+      "10.1007/s10765-013-1400-8",
+      "10.1088/1674-1056/25/4/047801"
+    ]
+  }
+}

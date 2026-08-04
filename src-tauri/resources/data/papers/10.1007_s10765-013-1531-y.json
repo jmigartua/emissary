@@ -1,0 +1,127 @@
+{
+  "id": "10.1007/s10765-013-1531-y",
+  "bibliographic": {
+    "doi": "10.1007/s10765-013-1531-y",
+    "scopus_id": "84890790230",
+    "title": "Direct measurements of infrared normal spectral emissivity of solid materials for high-temperature applications",
+    "authors": [
+      "S. Hatzl",
+      "M. Kirschner",
+      "V. Lippig",
+      "T. Sander",
+      "Ch Mundt",
+      "M. Pfitzner"
+    ],
+    "year": 2013,
+    "venue": "International Journal of Thermophysics"
+  },
+  "instrument": {
+    "detection_method": [
+      "grating monochromator",
+      "SolarTII MS 2704",
+      "4-grating monochromator"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      0.6,
+      15.0
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "thermocouple",
+      "calculated"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      773.0,
+      1623.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "DE",
+    "affiliations": [
+      {
+        "name": "University of the Bundeswehr Munich",
+        "country": "DE",
+        "city": "Neubiberg",
+        "author_position": "first"
+      },
+      {
+        "name": "University of the Bundeswehr Munich",
+        "country": "DE",
+        "city": "Neubiberg",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "University of the Bundeswehr Munich",
+        "country": "DE",
+        "city": "Neubiberg",
+        "author_position": "middle"
+      },
+      {
+        "name": "University of the Bundeswehr Munich",
+        "country": "DE",
+        "city": "Neubiberg",
+        "author_position": "middle"
+      },
+      {
+        "name": "University of the Bundeswehr Munich",
+        "country": "DE",
+        "city": "Neubiberg",
+        "author_position": "middle"
+      },
+      {
+        "name": "University of the Bundeswehr Munich",
+        "country": "DE",
+        "city": "Neubiberg",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 35,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-024-03393-5",
+      "10.1016/j.infrared.2015.10.001",
+      "10.1016/j.jqsrt.2022.108277",
+      "10.1063/1.2393157",
+      "10.1063/5.0073459",
+      "10.1109/TIM.2024.3457934"
+    ],
+    "cited_by": [
+      "10.1007/s10765-008-0442-9",
+      "10.1016/j.applthermaleng.2019.114854",
+      "10.1016/j.expthermflusci.2021.110379",
+      "10.1117/12.542224"
+    ]
+  }
+}

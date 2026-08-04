@@ -1,0 +1,79 @@
+{
+  "id": "10.1063/1.1150701",
+  "bibliographic": {
+    "doi": "10.1063/1.1150701",
+    "scopus_id": "4474246",
+    "title": "Experimental apparatus for radiometric emissivity measurements of metals",
+    "authors": [
+      "T. Furukawa",
+      "T. Iuchi"
+    ],
+    "year": 2000,
+    "venue": "Review of Scientific Instruments"
+  },
+  "instrument": {
+    "detection_method": [
+      "radiometers"
+    ],
+    "spectral": null,
+    "spectral_range_um": null,
+    "direction": "directional",
+    "temperature_measurement_method": [],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      null,
+      1023.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "JP",
+    "affiliations": [
+      {
+        "name": "Toyo University",
+        "country": "JP",
+        "city": "Tokyo",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Toyo University",
+        "country": "JP",
+        "city": "Tokyo",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 63,
+    "total_updated": "2026-08-02",
+    "cites": [],
+    "cited_by": []
+  }
+}

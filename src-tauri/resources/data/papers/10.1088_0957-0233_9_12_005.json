@@ -1,0 +1,89 @@
+{
+  "id": "10.1088/0957-0233/9/12/005",
+  "bibliographic": {
+    "doi": "10.1088/0957-0233/9/12/005",
+    "scopus_id": "32297027",
+    "title": "A periodic technique for emissivity measurements of insulating materials at moderate temperature",
+    "authors": [
+      "Monica Siroux",
+      "Eric Tang-Kwor",
+      "Simone Mattel"
+    ],
+    "year": 1998,
+    "venue": "Measurement Science and Technology"
+  },
+  "instrument": {
+    "detection_method": [
+      "thermopile",
+      "KRS5"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      1.0,
+      50.0
+    ],
+    "direction": "hemispherical",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "electic heater"
+    ],
+    "temperature_range_K": null
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "FR",
+    "affiliations": [
+      {
+        "name": "IUT de Bourges",
+        "country": "FR",
+        "city": "Bourges",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Université Paris-Est Créteil Val de Marne",
+        "country": "FR",
+        "city": "Creteil",
+        "author_position": "middle"
+      },
+      {
+        "name": "Université Paris-Est Créteil Val de Marne",
+        "country": "FR",
+        "city": "Creteil",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 12,
+    "total_updated": "2026-08-02",
+    "cites": [],
+    "cited_by": []
+  }
+}

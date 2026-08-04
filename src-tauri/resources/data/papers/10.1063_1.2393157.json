@@ -1,0 +1,147 @@
+{
+  "id": "10.1063/1.2393157",
+  "bibliographic": {
+    "doi": "10.1063/1.2393157",
+    "scopus_id": "33751577360",
+    "title": "New experimental device for infrared spectral directional emissivity measurements in a controlled environment",
+    "authors": [
+      "Leire Del Campo",
+      "Raúl B. ?rez-Sáez",
+      "Xabier Esquisabel",
+      "Ignacio Fernández",
+      "Manuel J. Tello"
+    ],
+    "year": 2006,
+    "venue": "Review of Scientific Instruments"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "Bruker IFS 66v/S"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      1.28,
+      25.0
+    ],
+    "direction": "directional",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "electic heater"
+    ],
+    "temperature_range_K": [
+      300.0,
+      1050.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "ES",
+    "affiliations": [
+      {
+        "name": "Universidad del Pais Vasco",
+        "country": "ES",
+        "city": "Leioa",
+        "author_position": "first"
+      },
+      {
+        "name": "Universidad del Pais Vasco",
+        "country": "ES",
+        "city": "Leioa",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Industria de Turbo Propulsores, S. A.",
+        "country": "ES",
+        "city": "Madrid",
+        "author_position": "middle"
+      },
+      {
+        "name": "Industria de Turbo Propulsores, S. A.",
+        "country": "ES",
+        "city": "Madrid",
+        "author_position": "middle"
+      },
+      {
+        "name": "Universidad del Pais Vasco",
+        "country": "ES",
+        "city": "Leioa",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 177,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1016/j.infrared.2018.06.031"
+    ],
+    "cited_by": [
+      "10.1007/s10765-011-0986-y",
+      "10.1007/s10765-013-1531-y",
+      "10.1007/s10765-016-2142-1",
+      "10.1007/s10765-021-02813-0",
+      "10.1007/s10765-022-03129-3",
+      "10.1007/s10765-024-03433-0",
+      "10.1016/j.applthermaleng.2019.114854",
+      "10.1016/j.expthermflusci.2021.110379",
+      "10.1016/j.ijheatmasstransfer.2012.02.055",
+      "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "10.1016/j.ijheatmasstransfer.2017.06.133",
+      "10.1016/j.ijheatmasstransfer.2021.122092",
+      "10.1016/j.ijthermalsci.2025.109740",
+      "10.1016/j.infrared.2014.07.004",
+      "10.1016/j.infrared.2015.01.011",
+      "10.1016/j.infrared.2015.10.001",
+      "10.1016/j.infrared.2019.102974",
+      "10.1016/j.infrared.2020.103572",
+      "10.1016/j.infrared.2022.104515",
+      "10.1016/j.infrared.2023.105060",
+      "10.1016/j.jqsrt.2022.108277",
+      "10.1016/j.measurement.2023.113999",
+      "10.1023/A:1012817726103",
+      "10.1023/A:1013103419949",
+      "10.1063/1.115104",
+      "10.1063/1.5007225",
+      "10.1063/1.5116425",
+      "10.1063/5.0073459",
+      "10.1088/0957-0233/25/9/095501",
+      "10.1088/1674-1056/25/4/047801",
+      "10.1088/1681-7575/ab84ff",
+      "10.1088/1742-6596/395/1/012152",
+      "10.1109/TIM.2023.3268656",
+      "10.1109/TIM.2024.3457934",
+      "10.1115/1.4006088",
+      "10.1117/12.2208334",
+      "10.1364/AO.54.008700",
+      "10.3390/s21186252"
+    ]
+  }
+}

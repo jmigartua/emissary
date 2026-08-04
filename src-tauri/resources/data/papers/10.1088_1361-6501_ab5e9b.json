@@ -1,0 +1,102 @@
+{
+  "id": "10.1088/1361-6501/ab5e9b",
+  "bibliographic": {
+    "doi": "10.1088/1361-6501/ab5e9b",
+    "scopus_id": "85081968057",
+    "title": "An accurate instrument for emissivity measurements by direct and indirect methods",
+    "authors": [
+      "Chengxi Zhu",
+      "Matthew J. Hobbs",
+      "Jon R. Willmott"
+    ],
+    "year": 2020,
+    "venue": "Measurement Science and Technology"
+  },
+  "instrument": {
+    "detection_method": [
+      "InGaAs detector photodiode"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      2.1,
+      2.5
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      473.0,
+      723.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "GB",
+    "affiliations": [
+      {
+        "name": "The University of Sheffield",
+        "country": "GB",
+        "city": "Sheffield",
+        "author_position": "first"
+      },
+      {
+        "name": "The University of Sheffield",
+        "country": "GB",
+        "city": "Sheffield",
+        "author_position": "middle"
+      },
+      {
+        "name": "The University of Sheffield",
+        "country": "GB",
+        "city": "Sheffield",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 44,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-008-0442-9",
+      "10.1016/j.ijheatmasstransfer.2004.10.003",
+      "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "10.1016/j.ijthermalsci.2024.109454",
+      "10.1063/1.5007225",
+      "10.1088/0957-0233/25/9/095501",
+      "10.1117/12.542224"
+    ],
+    "cited_by": [
+      "10.1016/j.measurement.2016.04.006",
+      "10.3390/s25020487"
+    ]
+  }
+}

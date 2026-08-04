@@ -1,0 +1,85 @@
+{
+  "id": "10.1023/A:1012817726103",
+  "bibliographic": {
+    "doi": "10.1023/A:1012817726103",
+    "scopus_id": "33750675253",
+    "title": "The spectral directional emissivity of photovoltaic surfaces",
+    "authors": [
+      "D. Labuhn",
+      "S. Kabelac"
+    ],
+    "year": 2001,
+    "venue": "International Journal of Thermophysics"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      4.0,
+      20.0
+    ],
+    "direction": "directional",
+    "temperature_measurement_method": [
+      "platinum resistance thermometer"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      373.15,
+      473.15
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "DE",
+    "affiliations": [
+      {
+        "name": "OHB System AG",
+        "country": "DE",
+        "city": "Bremen",
+        "author_position": "first"
+      },
+      {
+        "name": "Helmut Schmidt University - University of the Federal Armed Forces Hamburg",
+        "country": "DE",
+        "city": "Hamburg",
+        "author_position": "corresponding"
+      }
+    ]
+  },
+  "citations": {
+    "total": 15,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1016/j.ijheatmasstransfer.2012.02.055",
+      "10.1016/j.ijheatmasstransfer.2017.06.133",
+      "10.1063/1.2393157",
+      "10.1063/5.0073459"
+    ],
+    "cited_by": []
+  }
+}

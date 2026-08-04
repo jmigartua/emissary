@@ -1,0 +1,92 @@
+{
+  "id": "10.1109/ICEOE.2011.6013317",
+  "bibliographic": {
+    "doi": "10.1109/ICEOE.2011.6013317",
+    "scopus_id": "80053286491",
+    "title": "Experimental apparatus for simultaneous measurement of temperature and emissivity at medium-high temperature",
+    "authors": [
+      "Liu, Yufang",
+      "Yu, Kun",
+      "Shi, Deheng"
+    ],
+    "year": 2011,
+    "venue": "Proceedings of 2011 International Conference on Electronics and Optoelectronics"
+  },
+  "instrument": {
+    "detection_method": [
+      "photodiode"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      1.5,
+      1.5
+    ],
+    "direction": "directional",
+    "temperature_measurement_method": [
+      "thermocouple",
+      "calculated"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      773.0,
+      1373.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "School of Optics and Photonics, Beijing Institute of Technology",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "School of Optics and Photonics, Beijing Institute of Technology",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "middle"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 3,
+    "total_updated": "2026-08-02",
+    "cites": [],
+    "cited_by": []
+  }
+}

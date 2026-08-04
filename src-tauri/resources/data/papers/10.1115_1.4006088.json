@@ -1,0 +1,100 @@
+{
+  "id": "10.1115/1.4006088",
+  "bibliographic": {
+    "doi": "10.1115/1.4006088",
+    "scopus_id": "84862751289",
+    "title": "Direct measurement of thermal emission from a Fabry-Perot cavity resonator",
+    "authors": [
+      "L. P. Wang",
+      "S. Basu",
+      "Z. M. Zhang"
+    ],
+    "year": 2012,
+    "venue": "Journal of Heat Transfer"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "ABB FTLA2000"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      2.5,
+      20.0
+    ],
+    "direction": "directional",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      null,
+      800.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "US",
+    "affiliations": [
+      {
+        "name": "George W. Woodruff School of Mechanical Engineering",
+        "country": "US",
+        "city": "Atlanta",
+        "author_position": "first"
+      },
+      {
+        "name": "George W. Woodruff School of Mechanical Engineering",
+        "country": "US",
+        "city": "Atlanta",
+        "author_position": "middle"
+      },
+      {
+        "name": "George W. Woodruff School of Mechanical Engineering",
+        "country": "US",
+        "city": "Atlanta",
+        "author_position": "corresponding"
+      }
+    ]
+  },
+  "citations": {
+    "total": 68,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-007-0183-1",
+      "10.1007/s10765-008-0442-9",
+      "10.1007/s10765-018-2472-2",
+      "10.1007/s10765-022-03129-3",
+      "10.1016/j.ijthermalsci.2025.109809",
+      "10.1016/j.jqsrt.2022.108277",
+      "10.1063/1.2393157"
+    ],
+    "cited_by": []
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "id": "10.1016/j.jqsrt.2022.108277",
+  "bibliographic": {
+    "doi": "10.1016/j.jqsrt.2022.108277",
+    "scopus_id": "85131362357",
+    "title": "A new approach for accurately measuring the spectral emissivity via modulating the surrounding radiation",
+    "authors": [
+      "Kaihua Zhang",
+      "Yanfen Xu",
+      "Xiaohu Wu",
+      "Kun Yu",
+      "Yufang Liu"
+    ],
+    "year": 2022,
+    "venue": "Journal of Quantitative Spectroscopy and Radiative Transfer"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "Bruker Vertex 70v"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      2.0,
+      25.0
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      null,
+      1073.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "first"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "middle"
+      },
+      {
+        "name": "Shandong Institute of Advanced Technology",
+        "country": "CN",
+        "city": "Jinan",
+        "author_position": "middle"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 3,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1063/1.2393157"
+    ],
+    "cited_by": [
+      "10.1007/s10765-007-0183-1",
+      "10.1007/s10765-008-0442-9",
+      "10.1007/s10765-010-0847-0",
+      "10.1007/s10765-013-1531-y",
+      "10.1007/s10765-016-2058-9",
+      "10.1007/s10765-018-2404-1",
+      "10.1007/s10765-018-2472-2",
+      "10.1007/s11018-012-0103-z",
+      "10.1016/j.applthermaleng.2019.114854",
+      "10.1016/j.ijheatmasstransfer.2017.06.133",
+      "10.1016/j.infrared.2018.06.031",
+      "10.1063/1.1627210",
+      "10.1088/0026-1394/47/2/S14",
+      "10.1088/0957-0233/25/9/095501",
+      "10.1088/1674-1056/25/4/047801",
+      "10.1115/1.4006088"
+    ]
+  }
+}

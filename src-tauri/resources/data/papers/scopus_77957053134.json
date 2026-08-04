@@ -1,0 +1,94 @@
+{
+  "id": "scopus_77957053134",
+  "bibliographic": {
+    "doi": null,
+    "scopus_id": "77957053134",
+    "title": "The measurement of directional spectral emissivity in the temperature range from 80 °C to 500 °C at the Physikalisch-Technische Bundesanstalt",
+    "authors": [
+      "Christian Monte",
+      "Jörg Hollandt"
+    ],
+    "year": 2010,
+    "venue": "High Temperatures - High Pressures"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "Nicolet 5DXB"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      4.0,
+      40.0
+    ],
+    "direction": "directional",
+    "temperature_measurement_method": [
+      "platinum resistance thermometer",
+      "calculated"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      353.0,
+      773.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "DE",
+    "affiliations": [
+      {
+        "name": "Physikalisch-Technische Bundesanstalt",
+        "country": "DE",
+        "city": "Braunschweig",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Physikalisch-Technische Bundesanstalt",
+        "country": "DE",
+        "city": "Braunschweig",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 37,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-014-1745-7",
+      "10.1007/s11018-012-0103-z",
+      "10.1016/j.jqsrt.2020.107316",
+      "10.1063/5.0073459",
+      "10.1088/0957-0233/25/9/095501"
+    ],
+    "cited_by": [
+      "10.1007/s10765-008-0442-9"
+    ]
+  }
+}

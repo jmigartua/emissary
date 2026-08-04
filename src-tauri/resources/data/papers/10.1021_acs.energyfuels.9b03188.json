@@ -1,0 +1,114 @@
+{
+  "id": "10.1021/acs.energyfuels.9b03188",
+  "bibliographic": {
+    "doi": "10.1021/acs.energyfuels.9b03188",
+    "scopus_id": "85077118270",
+    "title": "Online Measurement of the Flame Temperature and Emissivity during Biomass Volatile Combustion Using Spectral Thermometry and Image Thermometry",
+    "authors": [
+      "Weijie Yan",
+      "Kuangyu Li",
+      "Xianliang Huang",
+      "Lingbo Yu",
+      "Chun Lou",
+      "Yumin Chen"
+    ],
+    "year": 2020,
+    "venue": "Energy and Fuels"
+  },
+  "instrument": {
+    "detection_method": [
+      "fiber optic spectrometer",
+      "Avantes AvaSpec-ULS2048CL-EVO"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      0.3,
+      0.8
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "thermocouple",
+      "calculated"
+    ],
+    "temperature_control_method": [
+      "combustion furnace"
+    ],
+    "temperature_range_K": null
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "China University of Mining and Technology",
+        "country": "CN",
+        "city": "Xuzhou",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "China University of Mining and Technology",
+        "country": "CN",
+        "city": "Xuzhou",
+        "author_position": "middle"
+      },
+      {
+        "name": "China University of Mining and Technology",
+        "country": "CN",
+        "city": "Xuzhou",
+        "author_position": "middle"
+      },
+      {
+        "name": "China University of Mining and Technology",
+        "country": "CN",
+        "city": "Xuzhou",
+        "author_position": "middle"
+      },
+      {
+        "name": "Huazhong University of Science and Technology",
+        "country": "CN",
+        "city": "Wuhan",
+        "author_position": "middle"
+      },
+      {
+        "name": "China University of Mining and Technology",
+        "country": "CN",
+        "city": "Xuzhou",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 36,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1016/j.proci.2010.07.042",
+      "10.1109/TIM.2023.3268656"
+    ],
+    "cited_by": []
+  }
+}

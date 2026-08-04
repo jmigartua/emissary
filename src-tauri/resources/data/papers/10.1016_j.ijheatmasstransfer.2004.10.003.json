@@ -1,0 +1,91 @@
+{
+  "id": "10.1016/j.ijheatmasstransfer.2004.10.003",
+  "bibliographic": {
+    "doi": "10.1016/j.ijheatmasstransfer.2004.10.003",
+    "scopus_id": "13644270642",
+    "title": "Emissivity characteristics of polished aluminum alloy surfaces and assessment of multispectral radiation thermometry (MRT) emissivity models",
+    "authors": [
+      "Chang Da Wen",
+      "Issam Mudawar"
+    ],
+    "year": 2005,
+    "venue": "International Journal of Heat and Mass Transfer"
+  },
+  "instrument": {
+    "detection_method": [
+      "Fast infrared array spectrometer (FIAS)",
+      "Spectraline Model ES100"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      1.8,
+      4.9
+    ],
+    "direction": null,
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": null
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "US",
+    "affiliations": [
+      {
+        "name": "College of Engineering",
+        "country": "US",
+        "city": "West Lafayette",
+        "author_position": "first"
+      },
+      {
+        "name": "College of Engineering",
+        "country": "US",
+        "city": "West Lafayette",
+        "author_position": "corresponding"
+      }
+    ]
+  },
+  "citations": {
+    "total": 126,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1016/j.ijheatmasstransfer.2012.02.055",
+      "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "10.1016/j.ijheatmasstransfer.2021.122092",
+      "10.1088/0022-3727/42/15/155412",
+      "10.1109/TIM.2019.2944504"
+    ],
+    "cited_by": [
+      "10.1016/j.measurement.2016.04.006",
+      "10.1088/1361-6501/ab5e9b"
+    ]
+  }
+}

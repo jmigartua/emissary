@@ -1,0 +1,3030 @@
+{
+  "nodes": [
+    {
+      "id": "10.1007/BF01439254",
+      "title": "Method and apparatus for determination of the total directional emissivity of opaque materials in the temperature range 300 to 600 K",
+      "year": 1994,
+      "citation_count": 6
+    },
+    {
+      "id": "10.1007/BF01443671",
+      "title": "Measurement of the total emittance of graphite, molybdenum, tantalum and tungsten in the temperature range from 1200 K to 2400 K Messung des Gresamtemissionsgrades von Graphit, Molybdän, Tantal und Wolfram bei Temperaturen zwischen 1200 K und 2400 K",
+      "year": 1971,
+      "citation_count": 10
+    },
+    {
+      "id": "10.1007/BF01539529",
+      "title": "Determination of the directional spectral emissivity of solids in the spectral range from 2.5 ?m to 45 ?m at temperatures between 80°C and 350°C Bestimmung des gerichteten spektralen Emissionsgrades von Feststoffen im Wellenlängenbereich von 2,5 ?m bis 45 ?m bei Temperaturen zwischen 80°C und 350°C",
+      "year": 1993,
+      "citation_count": 23
+    },
+    {
+      "id": "10.1007/BF01589994",
+      "title": "Measurements of the spectral emissivity of surfaces used in jet engines and space technology",
+      "year": 1991,
+      "citation_count": 0
+    },
+    {
+      "id": "10.1007/s00339-008-4601-4",
+      "title": "Laser pulse transient method for measuring the normal spectral emissivity of samples with arbitrary surface quality",
+      "year": 2008,
+      "citation_count": 3
+    },
+    {
+      "id": "10.1007/s00340-024-08331-9",
+      "title": "Experimental setup for the determination of spectral normal emissivity of conductive materials in the 1–18 ?m wavelength range at 300–1700 °C in air",
+      "year": 2024,
+      "citation_count": 1
+    },
+    {
+      "id": "10.1007/s10765-007-0183-1",
+      "title": "Temperature-resolved infrared spectral emissivity of SiC and Pt-10Rh for temperatures up to 900°C",
+      "year": 2007,
+      "citation_count": 115
+    },
+    {
+      "id": "10.1007/s10765-008-0442-9",
+      "title": "Radiation thermometry and emissivity measurements under vacuum at the PTB",
+      "year": 2009,
+      "citation_count": 98
+    },
+    {
+      "id": "10.1007/s10765-010-0847-0",
+      "title": "Simultaneous measurement method of normal spectral emissivity and optical constants of solids at high temperature in vacuum",
+      "year": 2010,
+      "citation_count": 19
+    },
+    {
+      "id": "10.1007/s10765-011-0986-y",
+      "title": "Normal and directional spectral emittance measurement of semi-transparent materials using two-substrate method: Alumina",
+      "year": 2011,
+      "citation_count": 13
+    },
+    {
+      "id": "10.1007/s10765-013-1400-8",
+      "title": "New facilities for the measurements of high-temperature thermophysical properties at LNE",
+      "year": 2014,
+      "citation_count": 36
+    },
+    {
+      "id": "10.1007/s10765-013-1531-y",
+      "title": "Direct measurements of infrared normal spectral emissivity of solid materials for high-temperature applications",
+      "year": 2013,
+      "citation_count": 35
+    },
+    {
+      "id": "10.1007/s10765-014-1745-7",
+      "title": "Emissivity Measurement Under Vacuum from 4µm to 100µm and from ?40?C to 450?C at PTB",
+      "year": 2015,
+      "citation_count": 37
+    },
+    {
+      "id": "10.1007/s10765-015-1866-7",
+      "title": "A Dynamic Method to Measure Emissivity at High Temperatures",
+      "year": 2015,
+      "citation_count": 30
+    },
+    {
+      "id": "10.1007/s10765-015-1969-1",
+      "title": "Material Spectral Emissivity Measurement Based on Two Reference Blackbodies",
+      "year": 2015,
+      "citation_count": 6
+    },
+    {
+      "id": "10.1007/s10765-016-2058-9",
+      "title": "Apparatus for Measuring Spectral Emissivity of Solid Materials at Elevated Temperatures",
+      "year": 2016,
+      "citation_count": 47
+    },
+    {
+      "id": "10.1007/s10765-016-2142-1",
+      "title": "Study on the Multi-wavelength Emissivity of GCr15 Steel and its Application on Temperature Measurement for Continuous Casting Billets",
+      "year": 2016,
+      "citation_count": 23
+    },
+    {
+      "id": "10.1007/s10765-017-2339-y",
+      "title": "Improving the Dynamic Emissivity Measurement Above 1000 K by Extending the Spectral Range",
+      "year": 2018,
+      "citation_count": 7
+    },
+    {
+      "id": "10.1007/s10765-018-2404-1",
+      "title": "Research of Ultra-Black Coating Emissivity Based on a Controlling the Surrounding Radiation Method",
+      "year": 2018,
+      "citation_count": 36
+    },
+    {
+      "id": "10.1007/s10765-018-2472-2",
+      "title": "Measurement of Directional Spectral Emissivity at High Temperatures",
+      "year": 2019,
+      "citation_count": 73
+    },
+    {
+      "id": "10.1007/s10765-021-02813-0",
+      "title": "An Apparatus for the Directional Spectral Emissivity Measurement in the Near Infrared Band",
+      "year": 2021,
+      "citation_count": 15
+    },
+    {
+      "id": "10.1007/s10765-022-03129-3",
+      "title": "New Emissivity Measuring System with High Accuracy Under Controlled Environment Conditions",
+      "year": 2023,
+      "citation_count": 8
+    },
+    {
+      "id": "10.1007/s10765-024-03393-5",
+      "title": "Development of An Apparatus for the Directional Spectral Emissivity Measurement from 50 ? to 1000 ?",
+      "year": 2024,
+      "citation_count": 7
+    },
+    {
+      "id": "10.1007/s10765-024-03433-0",
+      "title": "Black Body Cavity Apparatus for Measuring the Emissivity of Nickel-Titanium-Based Shape-Memory Alloys and Other Metals",
+      "year": 2024,
+      "citation_count": 7
+    },
+    {
+      "id": "10.1007/s11018-012-0103-z",
+      "title": "The development of emissivity measurements under vacuum at the PTB",
+      "year": 2013,
+      "citation_count": 4
+    },
+    {
+      "id": "10.1016/0020-0891(79)90060-5",
+      "title": "Spectral emissivity and absorption coefficient of silica glass at extremely high temperatures in the semitransparent region",
+      "year": 1979,
+      "citation_count": 27
+    },
+    {
+      "id": "10.1016/S1350-4495(96)00017-5",
+      "title": "Total emissivity measurements without use of an absolute reference",
+      "year": 1996,
+      "citation_count": 35
+    },
+    {
+      "id": "10.1016/S1350-4495(98)00011-5",
+      "title": "High-temperature infrared properties of sapphire, AlON, fused silica, yttria, and spinel",
+      "year": 1998,
+      "citation_count": 109
+    },
+    {
+      "id": "10.1016/j.applthermaleng.2009.12.005",
+      "title": "Measurements of brake disc surface temperature and emissivity by two-color pyrometry",
+      "year": 2010,
+      "citation_count": 94
+    },
+    {
+      "id": "10.1016/j.applthermaleng.2016.11.022",
+      "title": "Normal spectral emissivity of GH536 (HastelloyX) in three surface conditions",
+      "year": 2017,
+      "citation_count": 53
+    },
+    {
+      "id": "10.1016/j.applthermaleng.2019.114854",
+      "title": "Modified two-temperature calibration method for emissivity measurements at high temperatures",
+      "year": 2020,
+      "citation_count": 31
+    },
+    {
+      "id": "10.1016/j.applthermaleng.2025.127648",
+      "title": "Emissivity measurement device for manufactured parts based on induction heating",
+      "year": 2025,
+      "citation_count": 2
+    },
+    {
+      "id": "10.1016/j.cap.2011.04.011",
+      "title": "Microstructure and infrared emissivity property of coating containing TiO2 formed on titanium alloy by microarc oxidation",
+      "year": 2011,
+      "citation_count": 80
+    },
+    {
+      "id": "10.1016/j.cryogenics.2023.103671",
+      "title": "Preliminary development of emissivity measurement system at low temperature based on radiometric method",
+      "year": 2023,
+      "citation_count": 7
+    },
+    {
+      "id": "10.1016/j.expthermflusci.2019.110017",
+      "title": "Spectral emissivity and temperature of heated surfaces based on spectrometry and digital thermal imaging – Validation with thermocouple temperature measurements",
+      "year": 2020,
+      "citation_count": 53
+    },
+    {
+      "id": "10.1016/j.expthermflusci.2021.110379",
+      "title": "Accuracy improvement for directional polarized spectral emissivity measurement in the wavelength range of 4–20 ?m",
+      "year": 2021,
+      "citation_count": 17
+    },
+    {
+      "id": "10.1016/j.fuproc.2020.106423",
+      "title": "Temperature and emissivity measurements from combustion of pine wood, rice husk and fir wood using flame emission spectrum",
+      "year": 2020,
+      "citation_count": 70
+    },
+    {
+      "id": "10.1016/j.icheatmasstransfer.2024.107695",
+      "title": "Development of a micro-infrared thermometry method for surface temperature distribution and variation of millimeter particle during high-temperature reaction",
+      "year": 2024,
+      "citation_count": 2
+    },
+    {
+      "id": "10.1016/j.ijheatmasstransfer.2004.10.003",
+      "title": "Emissivity characteristics of polished aluminum alloy surfaces and assessment of multispectral radiation thermometry (MRT) emissivity models",
+      "year": 2005,
+      "citation_count": 126
+    },
+    {
+      "id": "10.1016/j.ijheatmasstransfer.2012.02.055",
+      "title": "A new experimental apparatus for measurement of spectral emissivity of opaque materials using a reflector as the dummy light source",
+      "year": 2012,
+      "citation_count": 17
+    },
+    {
+      "id": "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "title": "Measurements of the directional spectral emissivity based on a radiation heating source with alternating spectral distributions",
+      "year": 2015,
+      "citation_count": 42
+    },
+    {
+      "id": "10.1016/j.ijheatmasstransfer.2017.06.133",
+      "title": "An improved algorithm for spectral emissivity measurements at low temperatures based on the multi-temperature calibration method",
+      "year": 2017,
+      "citation_count": 53
+    },
+    {
+      "id": "10.1016/j.ijheatmasstransfer.2021.122092",
+      "title": "Measurements of spectral emissivity, reflectance and transmittance at high temperatures using laser heating and auxiliary light source",
+      "year": 2022,
+      "citation_count": 26
+    },
+    {
+      "id": "10.1016/j.ijheatmasstransfer.2024.125975",
+      "title": "Approaching the emissivity of CMAS at high temperatures by convenient thermocouple-based infrared thermography",
+      "year": 2024,
+      "citation_count": 9
+    },
+    {
+      "id": "10.1016/j.ijthermalsci.2017.01.016",
+      "title": "A refined methodology to determine the spatial and temporal variation in the emissivity of diffusion flames",
+      "year": 2017,
+      "citation_count": 23
+    },
+    {
+      "id": "10.1016/j.ijthermalsci.2024.109454",
+      "title": "A directional spectral emissivity measurement device with built-in calibration radiation source",
+      "year": 2025,
+      "citation_count": 3
+    },
+    {
+      "id": "10.1016/j.ijthermalsci.2025.109740",
+      "title": "A high precision infrared emissivity measurement method for micro/nano structures",
+      "year": 2025,
+      "citation_count": 3
+    },
+    {
+      "id": "10.1016/j.ijthermalsci.2025.109809",
+      "title": "Experimental apparatus for radiation characteristics of semi-transparent materials at high temperature:A direct radiometric method",
+      "year": 2025,
+      "citation_count": 1
+    },
+    {
+      "id": "10.1016/j.ijthermalsci.2025.110629",
+      "title": "Research on directional emissivity measurement system based on finite detection solid angle analysis method",
+      "year": 2026,
+      "citation_count": 2
+    },
+    {
+      "id": "10.1016/j.infrared.2014.07.004",
+      "title": "Spectral emissivity modeling of steel 201 during the growth of oxidation film over the temperature range from 800 to 1100 K in air",
+      "year": 2014,
+      "citation_count": 14
+    },
+    {
+      "id": "10.1016/j.infrared.2015.01.011",
+      "title": "Apparatus for measuring the emittance of materials from far infrared to visible wavelengths in extreme conditions of temperature",
+      "year": 2015,
+      "citation_count": 55
+    },
+    {
+      "id": "10.1016/j.infrared.2015.10.001",
+      "title": "An emissivity measurement apparatus for near infrared spectrum",
+      "year": 2015,
+      "citation_count": 30
+    },
+    {
+      "id": "10.1016/j.infrared.2018.06.031",
+      "title": "Development of experimental apparatus for precise emissivity determination based on the improved method compensating disturbances by background radiation",
+      "year": 2018,
+      "citation_count": 18
+    },
+    {
+      "id": "10.1016/j.infrared.2019.102974",
+      "title": "An in situ online methodology for emissivity measurement between 100?°C and 500?°C utilizing infrared sensor",
+      "year": 2019,
+      "citation_count": 4
+    },
+    {
+      "id": "10.1016/j.infrared.2020.103572",
+      "title": "A new experimental apparatus for polarized spectral emissivity measurement in a controlled environment",
+      "year": 2020,
+      "citation_count": 10
+    },
+    {
+      "id": "10.1016/j.infrared.2022.104515",
+      "title": "Improving the measurement accuracy of directional spectral emissivity at large emission zenith angle by surface temperature correction",
+      "year": 2023,
+      "citation_count": 9
+    },
+    {
+      "id": "10.1016/j.infrared.2023.105060",
+      "title": "A multispectral radiometry method for measuring the normal spectral emissivity and temperature",
+      "year": 2024,
+      "citation_count": 10
+    },
+    {
+      "id": "10.1016/j.jqsrt.2020.107316",
+      "title": "Apparent emissivity measurement of semi-transparent materials part 1: Experimental realization",
+      "year": 2020,
+      "citation_count": 9
+    },
+    {
+      "id": "10.1016/j.jqsrt.2022.108277",
+      "title": "A new approach for accurately measuring the spectral emissivity via modulating the surrounding radiation",
+      "year": 2022,
+      "citation_count": 3
+    },
+    {
+      "id": "10.1016/j.matlet.2011.01.067",
+      "title": "Greatly enhanced infrared normal spectral emissivity of microstructured silicon using a femtosecond laser",
+      "year": 2011,
+      "citation_count": 29
+    },
+    {
+      "id": "10.1016/j.measurement.2007.10.007",
+      "title": "Emissivity reference paints for high temperature applications",
+      "year": 2008,
+      "citation_count": 65
+    },
+    {
+      "id": "10.1016/j.measurement.2016.01.018",
+      "title": "Methodology for spectral emissivity measurement by means of single color pyrometer",
+      "year": 2016,
+      "citation_count": 13
+    },
+    {
+      "id": "10.1016/j.measurement.2016.04.006",
+      "title": "Accurate methods for single-band apparent emissivity measurement of opaque materials",
+      "year": 2016,
+      "citation_count": 23
+    },
+    {
+      "id": "10.1016/j.measurement.2023.113999",
+      "title": "Directional spectral emissivity measurement approach in a broad-spectrum at low temperatures: Device and methodology study",
+      "year": 2024,
+      "citation_count": 7
+    },
+    {
+      "id": "10.1016/j.measurement.2024.115591",
+      "title": "In-situ measurement method for surface temperature and normal spectral emissivity of TC-4 high-temperature alloy based on thin film interference mechanism model",
+      "year": 2025,
+      "citation_count": 2
+    },
+    {
+      "id": "10.1016/j.nme.2022.101182",
+      "title": "Research on the normal emissivity of graphite between 150 and 500 °C by an infrared camera for nuclear fusion devices",
+      "year": 2022,
+      "citation_count": 12
+    },
+    {
+      "id": "10.1016/j.proci.2010.07.042",
+      "title": "A simple judgment method of gray property of flames based on spectral analysis and the two-color method for measurements of temperatures and emissivity",
+      "year": 2011,
+      "citation_count": 100
+    },
+    {
+      "id": "10.1016/j.solener.2022.01.050",
+      "title": "Measuring the spectral emissivity of single particle at high temperature",
+      "year": 2022,
+      "citation_count": 8
+    },
+    {
+      "id": "10.1016/j.tca.2017.03.004",
+      "title": "A new numerical method and modified apparatus for the simultaneous evaluation of thermo-physical properties above 1500 K: A case study on isostatically pressed graphite",
+      "year": 2017,
+      "citation_count": 34
+    },
+    {
+      "id": "10.1016/s0031-8914(54)80182-0",
+      "title": "A new determination of the emissivity of tungsten ribbon",
+      "year": 1954,
+      "citation_count": 321
+    },
+    {
+      "id": "10.1021/acs.energyfuels.9b03188",
+      "title": "Online Measurement of the Flame Temperature and Emissivity during Biomass Volatile Combustion Using Spectral Thermometry and Image Thermometry",
+      "year": 2020,
+      "citation_count": 36
+    },
+    {
+      "id": "10.1023/A:1012817726103",
+      "title": "The spectral directional emissivity of photovoltaic surfaces",
+      "year": 2001,
+      "citation_count": 15
+    },
+    {
+      "id": "10.1023/A:1013103419949",
+      "title": "A simple high-sensitivity radiometer in the infrared for measurements of the directional total emissivity of opaque materials at near-ambient temperatures",
+      "year": 2001,
+      "citation_count": 12
+    },
+    {
+      "id": "10.1023/A:1021415305603",
+      "title": "System for measuring the spectral distribution of normal emissivity of metals with direct current heating",
+      "year": 1999,
+      "citation_count": 55
+    },
+    {
+      "id": "10.1023/A:1024193515227",
+      "title": "Determination of flame emissivity in hydrocarbon pool fires using infrared thermography",
+      "year": 2003,
+      "citation_count": 52
+    },
+    {
+      "id": "10.1023/B:IJOT.0000028479.90667.8a",
+      "title": "A transient method for total emissivity determination",
+      "year": 2004,
+      "citation_count": 29
+    },
+    {
+      "id": "10.1029/96JE01089",
+      "title": "New laboratory measurements of mid-IR emission spectra of simulated planetary surfaces",
+      "year": 1996,
+      "citation_count": 24
+    },
+    {
+      "id": "10.1063/1.1139125",
+      "title": "Design and testing of a high-temperature emissometer for porous and particulate dielectrics",
+      "year": 1986,
+      "citation_count": 25
+    },
+    {
+      "id": "10.1063/1.1141538",
+      "title": "An FT-IR based instrument for measuring spectral emittance of material at high temperature",
+      "year": 1990,
+      "citation_count": 69
+    },
+    {
+      "id": "10.1063/1.1143913",
+      "title": "Bench top Fourier transform infrared based instrument for simultaneously measuring surface spectral emittance and temperature",
+      "year": 1993,
+      "citation_count": 75
+    },
+    {
+      "id": "10.1063/1.1150028",
+      "title": "A spectroscopic method to measure the spectral emissivity of semi-transparent materials up to high temperature",
+      "year": 1999,
+      "citation_count": 141
+    },
+    {
+      "id": "10.1063/1.1150701",
+      "title": "Experimental apparatus for radiometric emissivity measurements of metals",
+      "year": 2000,
+      "citation_count": 63
+    },
+    {
+      "id": "10.1063/1.115104",
+      "title": "Emissivity of B-implanted and annealed silicon",
+      "year": 1995,
+      "citation_count": 12
+    },
+    {
+      "id": "10.1063/1.1627210",
+      "title": "A Fourier-Transform Spectrometer for Accurate Thermometric Applications at Low Temperatures",
+      "year": 2003,
+      "citation_count": 10
+    },
+    {
+      "id": "10.1063/1.1752284",
+      "title": "An apparatus for the measurement of the total normal thermal emissivity of sheet materials in the temperature range 140 to 500°f",
+      "year": 1937,
+      "citation_count": 3
+    },
+    {
+      "id": "10.1063/1.2393157",
+      "title": "New experimental device for infrared spectral directional emissivity measurements in a controlled environment",
+      "year": 2006,
+      "citation_count": 177
+    },
+    {
+      "id": "10.1063/1.4769084",
+      "title": "A new experimental setup for making thermal emission measurements in a simulated lunar environment",
+      "year": 2012,
+      "citation_count": 35
+    },
+    {
+      "id": "10.1063/1.4819635",
+      "title": "Measurements of infrared spectral directional emittance at NIST-A status update",
+      "year": 2013,
+      "citation_count": 5
+    },
+    {
+      "id": "10.1063/1.4949213",
+      "title": "Pyrometric method for measuring emittances at high temperatures",
+      "year": 2016,
+      "citation_count": 4
+    },
+    {
+      "id": "10.1063/1.5007225",
+      "title": "A new experimental apparatus for emissivity measurements of steel and the application of multi-wavelength thermometry to continuous casting billets",
+      "year": 2018,
+      "citation_count": 36
+    },
+    {
+      "id": "10.1063/1.5116425",
+      "title": "A fast and versatile method for spectral emissivity measurement at high temperatures",
+      "year": 2019,
+      "citation_count": 5
+    },
+    {
+      "id": "10.1063/5.0073459",
+      "title": "New directional spectral emissivity measurement apparatus simultaneously collecting the blackbody and sample radiation",
+      "year": 2022,
+      "citation_count": 9
+    },
+    {
+      "id": "10.1088/0022-3727/20/9/002",
+      "title": "The directional-total emittance at 368 K of some metals, solar absorbers and dielectrics",
+      "year": 1987,
+      "citation_count": 5
+    },
+    {
+      "id": "10.1088/0022-3727/42/15/155412",
+      "title": "Radiative properties of thermal barrier coatings at high temperatures",
+      "year": 2009,
+      "citation_count": 26
+    },
+    {
+      "id": "10.1088/0022-3735/1/3/310",
+      "title": "An apparatus for the measurement of the normal and off-normal spectral emissivity of incandescent materials",
+      "year": 1968,
+      "citation_count": 7
+    },
+    {
+      "id": "10.1088/0026-1394/47/2/S14",
+      "title": "The determination of the uncertainties of spectral emissivity measurements in air at the PTB",
+      "year": 2010,
+      "citation_count": 71
+    },
+    {
+      "id": "10.1088/0026-1394/49/6/737",
+      "title": "Broadband emissivity calibration of highly reflective samples at cryogenic temperatures",
+      "year": 2012,
+      "citation_count": 8
+    },
+    {
+      "id": "10.1088/0957-0233/12/12/311",
+      "title": "Uncertainty estimation for emissivity measurements near room temperature with a fourier transform spectrometer",
+      "year": 2001,
+      "citation_count": 93
+    },
+    {
+      "id": "10.1088/0957-0233/12/12/312",
+      "title": "A new spectrophotometer system for measuring thermal radiation phenomena in a 0.30-11 ?m wavelength region",
+      "year": 2001,
+      "citation_count": 24
+    },
+    {
+      "id": "10.1088/0957-0233/25/9/095501",
+      "title": "New experimental device for high-temperature normal spectral emissivity measurements of coatings",
+      "year": 2014,
+      "citation_count": 53
+    },
+    {
+      "id": "10.1088/0957-0233/3/5/012",
+      "title": "A radiometric method for measuring directional total emittance at ambient temperatures",
+      "year": 1992,
+      "citation_count": 2
+    },
+    {
+      "id": "10.1088/0957-0233/9/12/005",
+      "title": "A periodic technique for emissivity measurements of insulating materials at moderate temperature",
+      "year": 1998,
+      "citation_count": 12
+    },
+    {
+      "id": "10.1088/1361-6501/ab5e9b",
+      "title": "An accurate instrument for emissivity measurements by direct and indirect methods",
+      "year": 2020,
+      "citation_count": 44
+    },
+    {
+      "id": "10.1088/1674-1056/25/4/047801",
+      "title": "Apparent directional spectral emissivity determination of semitransparent materials",
+      "year": 2016,
+      "citation_count": 22
+    },
+    {
+      "id": "10.1088/1681-7575/ab84ff",
+      "title": "Updated measurement method and uncertainty budget for direct emissivity measurements at the University of the Basque Country",
+      "year": 2020,
+      "citation_count": 25
+    },
+    {
+      "id": "10.1088/1742-6596/13/1/015",
+      "title": "Fourier transform spectrometer for spectral emissivity measurement in the temperature range between 60 and 1500°C",
+      "year": 2005,
+      "citation_count": 54
+    },
+    {
+      "id": "10.1088/1742-6596/395/1/012152",
+      "title": "Newly designed apparatus for measuring the angular dependent surface emittance in a wide wavelength range and at elevated temperatures up to 1400°C",
+      "year": 2012,
+      "citation_count": 12
+    },
+    {
+      "id": "10.1103/PhysRev.10.377",
+      "title": "The true temperature scale of tungsten and its emissive powers at incandescent temperatures",
+      "year": 1917,
+      "citation_count": 8
+    },
+    {
+      "id": "10.1103/PhysRev.50.735",
+      "title": "Positive and negative thermionic emission from tungsten",
+      "year": 1936,
+      "citation_count": 4
+    },
+    {
+      "id": "10.1109/ACCESS.2021.3096599",
+      "title": "A probabilistic model and capturing device for remote simultaneous estimation of spectral emissivity and temperature of hot emissive materials",
+      "year": 2021,
+      "citation_count": 8
+    },
+    {
+      "id": "10.1109/ICEOE.2011.6013317",
+      "title": "Experimental apparatus for simultaneous measurement of temperature and emissivity at medium-high temperature",
+      "year": 2011,
+      "citation_count": 3
+    },
+    {
+      "id": "10.1109/LGRS.2017.2772783",
+      "title": "A measurement technique for infrared emissivity of epoxy-based microwave absorbing materials",
+      "year": 2018,
+      "citation_count": 10
+    },
+    {
+      "id": "10.1109/TIM.2019.2944504",
+      "title": "An accurate device for apparent emissivity characterization in controlled atmospheric conditions up to 1423 K",
+      "year": 2020,
+      "citation_count": 12
+    },
+    {
+      "id": "10.1109/TIM.2023.3268656",
+      "title": "Fast Emissivity Measuring Apparatus With Adjustable Focusing and Field Calibration",
+      "year": 2023,
+      "citation_count": 10
+    },
+    {
+      "id": "10.1109/TIM.2024.3457934",
+      "title": "Fast Measuring Device for the Normal Spectral Emissivity in a Broad Temperature Range",
+      "year": 2024,
+      "citation_count": 2
+    },
+    {
+      "id": "10.1109/TIM.2025.3551925",
+      "title": "A Novel Measurement Method for Material Emissivity Under High Temperature",
+      "year": 2025,
+      "citation_count": 0
+    },
+    {
+      "id": "10.1115/1.4006088",
+      "title": "Direct measurement of thermal emission from a Fabry-Perot cavity resonator",
+      "year": 2012,
+      "citation_count": 68
+    },
+    {
+      "id": "10.1117/12.2208334",
+      "title": "Design and test of a new facility for assessing spectral normal emittance of solid materials at high temperature",
+      "year": 2016,
+      "citation_count": 1
+    },
+    {
+      "id": "10.1117/12.542224",
+      "title": "Infrared spectral emissivity characterization facility at NIST",
+      "year": 2004,
+      "citation_count": 55
+    },
+    {
+      "id": "10.1117/12.560602",
+      "title": "Device for spectral emissivity measurements of ceramics using a FT-IR-spectrometer",
+      "year": 2004,
+      "citation_count": 12
+    },
+    {
+      "id": "10.1134/S0040601509030100",
+      "title": "Measurement of spectral directional emissivity of materials and coatings in the infrared region of spectrum",
+      "year": 2009,
+      "citation_count": 5
+    },
+    {
+      "id": "10.1364/AO.35.005683",
+      "title": "Measurement of surface temperature and emissivity by a multitemperature method for Fourier-transform infrared spectrometers",
+      "year": 1996,
+      "citation_count": 43
+    },
+    {
+      "id": "10.1364/AO.54.008700",
+      "title": "Facility for assessing spectral normal emittance of solid materials at high temperature",
+      "year": 2015,
+      "citation_count": 16
+    },
+    {
+      "id": "10.1364/OE.547412",
+      "title": "Advanced multispectral thermometry method based on an improved light spectrum optimizer for reliable temperature and emissivity measurement",
+      "year": 2025,
+      "citation_count": 5
+    },
+    {
+      "id": "10.1366/0003702953963607",
+      "title": "Novel Experimental Technique for Measuring High-Temperature Spectral Emissivities",
+      "year": 1995,
+      "citation_count": 23
+    },
+    {
+      "id": "10.2514/3.50929",
+      "title": "Method for measuring high temperature spectral emissivity of nonconducting materials",
+      "year": 1981,
+      "citation_count": 13
+    },
+    {
+      "id": "10.2514/3.558",
+      "title": "High-temperature, normal spectral emittance of silicon carbide based materials",
+      "year": 1994,
+      "citation_count": 23
+    },
+    {
+      "id": "10.3390/app142210369",
+      "title": "A Measurement Device for the Normal Spectral Emissivity of Materials Under Low-Temperature and Vacuum Conditions",
+      "year": 2024,
+      "citation_count": 2
+    },
+    {
+      "id": "10.3390/ma12071141",
+      "title": "An apparatus for spectral emissivity measurements of thermal control materials at low temperatures",
+      "year": 2019,
+      "citation_count": 13
+    },
+    {
+      "id": "10.3390/ma15010235",
+      "title": "Investigation of high-temperature normal infrared spectral emissivity of zro2 thermal barrier coating artefacts by the modified integrated blackbody method",
+      "year": 2022,
+      "citation_count": 7
+    },
+    {
+      "id": "10.3390/s21186252",
+      "title": "Development and evaluation of an improved apparatus for measuring the emissivity at high temperatures",
+      "year": 2021,
+      "citation_count": 15
+    },
+    {
+      "id": "10.3390/s25020487",
+      "title": "A Measurement Approach for Characterizing Temperature-Related Emissivity Variability in High-Emissivity Materials",
+      "year": 2025,
+      "citation_count": 4
+    },
+    {
+      "id": "noid-clark1966rotatingcylinderemittance",
+      "title": "A Rotating Cylinder Method for Measuring Normal Spectral Emittance of Ceramic Oxide Specimens From 1200 to 1600 °K",
+      "year": 1966,
+      "citation_count": null
+    },
+    {
+      "id": "noid-fussell1967approximatenormalemissivitycaf2",
+      "title": "Approximate Normal Emissivity Spectra in the Infrared at Elevated Temperatures of Single-Crystal and Polycrystalline Calcium Fluoride",
+      "year": 1967,
+      "citation_count": null
+    },
+    {
+      "id": "noid-maki1960emissivity",
+      "title": "Apparatus for the Measurement of the Normal Spectral Emissivity in the Infrared",
+      "year": 1960,
+      "citation_count": null
+    },
+    {
+      "id": "noid-maki1960normalspectralemissivityinfrared",
+      "title": "Apparatus for the Measurement of the Normal Spectral Emissivity in the Infrared",
+      "year": 1960,
+      "citation_count": null
+    },
+    {
+      "id": "noid-maki1962emissivitiesmetalsir",
+      "title": "Method of Measuring Emissivities of Metals in the Infrared",
+      "year": 1962,
+      "citation_count": null
+    },
+    {
+      "id": "scopus_26884580",
+      "title": "High-temperature optical properties of oxide ceramics",
+      "year": 1992,
+      "citation_count": 22
+    },
+    {
+      "id": "scopus_77957053134",
+      "title": "The measurement of directional spectral emissivity in the temperature range from 80 °C to 500 °C at the Physikalisch-Technische Bundesanstalt",
+      "year": 2010,
+      "citation_count": 37
+    }
+  ],
+  "links": [
+    {
+      "source": "10.1007/s00340-024-08331-9",
+      "target": "10.1007/s10765-007-0183-1",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s00340-024-08331-9",
+      "target": "10.1088/1742-6596/395/1/012152",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s00340-024-08331-9",
+      "target": "10.3390/s21186252",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-007-0183-1",
+      "target": "10.1007/s10765-016-2058-9",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-007-0183-1",
+      "target": "10.1007/s10765-022-03129-3",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-007-0183-1",
+      "target": "10.1007/s10765-024-03393-5",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-007-0183-1",
+      "target": "10.1016/j.ijheatmasstransfer.2012.02.055",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-007-0183-1",
+      "target": "10.1016/j.ijheatmasstransfer.2017.06.133",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-007-0183-1",
+      "target": "10.1016/j.ijheatmasstransfer.2021.122092",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-007-0183-1",
+      "target": "10.1016/j.ijthermalsci.2025.109809",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-007-0183-1",
+      "target": "10.1016/j.infrared.2015.01.011",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-007-0183-1",
+      "target": "10.1016/j.infrared.2018.06.031",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-007-0183-1",
+      "target": "10.1016/j.infrared.2023.105060",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-007-0183-1",
+      "target": "10.1016/j.jqsrt.2022.108277",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-007-0183-1",
+      "target": "10.1016/j.measurement.2023.113999",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-007-0183-1",
+      "target": "10.1088/0026-1394/47/2/S14",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-007-0183-1",
+      "target": "10.1088/0957-0233/25/9/095501",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-007-0183-1",
+      "target": "10.1088/1681-7575/ab84ff",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-008-0442-9",
+      "target": "10.1007/s10765-013-1531-y",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-008-0442-9",
+      "target": "10.1007/s10765-016-2058-9",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-008-0442-9",
+      "target": "10.1007/s10765-021-02813-0",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-008-0442-9",
+      "target": "10.1007/s10765-022-03129-3",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-008-0442-9",
+      "target": "10.1016/j.ijheatmasstransfer.2017.06.133",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-008-0442-9",
+      "target": "10.1016/j.ijheatmasstransfer.2021.122092",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-008-0442-9",
+      "target": "10.1016/j.jqsrt.2022.108277",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-008-0442-9",
+      "target": "10.1088/0026-1394/47/2/S14",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-008-0442-9",
+      "target": "10.1109/TIM.2023.3268656",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-008-0442-9",
+      "target": "10.3390/ma12071141",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-008-0442-9",
+      "target": "10.3390/s21186252",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-008-0442-9",
+      "target": "scopus_77957053134",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-010-0847-0",
+      "target": "10.1007/s10765-016-2058-9",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-010-0847-0",
+      "target": "10.1007/s10765-022-03129-3",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-010-0847-0",
+      "target": "10.1016/j.applthermaleng.2019.114854",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-010-0847-0",
+      "target": "10.1016/j.ijheatmasstransfer.2017.06.133",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-010-0847-0",
+      "target": "10.1016/j.infrared.2018.06.031",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-010-0847-0",
+      "target": "10.1016/j.infrared.2019.102974",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-010-0847-0",
+      "target": "10.1016/j.jqsrt.2022.108277",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-010-0847-0",
+      "target": "10.1109/TIM.2023.3268656",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-011-0986-y",
+      "target": "10.1016/j.ijheatmasstransfer.2021.122092",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-011-0986-y",
+      "target": "10.1016/j.infrared.2019.102974",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-011-0986-y",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-011-0986-y",
+      "target": "10.1088/1674-1056/25/4/047801",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-013-1400-8",
+      "target": "10.1007/s10765-021-02813-0",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-013-1400-8",
+      "target": "10.1016/j.expthermflusci.2021.110379",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-013-1400-8",
+      "target": "10.1016/j.ijthermalsci.2025.110629",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-013-1400-8",
+      "target": "10.1016/j.infrared.2015.01.011",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-013-1400-8",
+      "target": "10.1016/j.infrared.2015.10.001",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-013-1400-8",
+      "target": "10.1016/j.tca.2017.03.004",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-013-1400-8",
+      "target": "10.1063/5.0073459",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-013-1400-8",
+      "target": "10.1088/0957-0233/25/9/095501",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-013-1400-8",
+      "target": "10.1088/1742-6596/13/1/015",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-013-1400-8",
+      "target": "10.1109/TIM.2023.3268656",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-013-1400-8",
+      "target": "10.1109/TIM.2024.3457934",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-013-1400-8",
+      "target": "10.3390/ma15010235",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-013-1400-8",
+      "target": "10.3390/s21186252",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-013-1531-y",
+      "target": "10.1007/s10765-024-03393-5",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-013-1531-y",
+      "target": "10.1016/j.infrared.2015.10.001",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-013-1531-y",
+      "target": "10.1016/j.jqsrt.2022.108277",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-013-1531-y",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-013-1531-y",
+      "target": "10.1063/5.0073459",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-013-1531-y",
+      "target": "10.1109/TIM.2024.3457934",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-014-1745-7",
+      "target": "10.1007/s10765-008-0442-9",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-014-1745-7",
+      "target": "10.1007/s10765-021-02813-0",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-014-1745-7",
+      "target": "10.1007/s10765-024-03393-5",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-014-1745-7",
+      "target": "10.1016/j.expthermflusci.2021.110379",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-014-1745-7",
+      "target": "10.1016/j.infrared.2023.105060",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-014-1745-7",
+      "target": "10.1016/j.measurement.2023.113999",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-014-1745-7",
+      "target": "10.1088/0026-1394/47/2/S14",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-014-1745-7",
+      "target": "10.1088/1681-7575/ab84ff",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-014-1745-7",
+      "target": "10.1109/TIM.2023.3268656",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-014-1745-7",
+      "target": "10.1117/12.2208334",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-014-1745-7",
+      "target": "10.3390/app142210369",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-014-1745-7",
+      "target": "10.3390/ma12071141",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-015-1866-7",
+      "target": "10.1016/j.applthermaleng.2025.127648",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-015-1866-7",
+      "target": "10.1109/TIM.2019.2944504",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-015-1866-7",
+      "target": "10.1109/TIM.2024.3457934",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-015-1866-7",
+      "target": "10.3390/ma12071141",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-015-1969-1",
+      "target": "10.1007/s10765-008-0442-9",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-015-1969-1",
+      "target": "10.1007/s10765-024-03393-5",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-015-1969-1",
+      "target": "10.1088/0026-1394/47/2/S14",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-016-2058-9",
+      "target": "10.1007/s10765-022-03129-3",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-016-2058-9",
+      "target": "10.1007/s10765-024-03393-5",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-016-2058-9",
+      "target": "10.1016/j.ijheatmasstransfer.2021.122092",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-016-2058-9",
+      "target": "10.1016/j.infrared.2018.06.031",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-016-2058-9",
+      "target": "10.1016/j.jqsrt.2022.108277",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-016-2058-9",
+      "target": "10.1063/5.0073459",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-016-2058-9",
+      "target": "10.1109/TIM.2023.3268656",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-016-2058-9",
+      "target": "10.1109/TIM.2024.3457934",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-016-2142-1",
+      "target": "10.1007/s10765-021-02813-0",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-016-2142-1",
+      "target": "10.1016/j.ijheatmasstransfer.2012.02.055",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-016-2142-1",
+      "target": "10.1016/j.ijheatmasstransfer.2024.125975",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-016-2142-1",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-016-2142-1",
+      "target": "10.1109/TIM.2023.3268656",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-016-2142-1",
+      "target": "10.3390/app142210369",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-017-2339-y",
+      "target": "10.1007/s10765-015-1866-7",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-017-2339-y",
+      "target": "10.1088/1681-7575/ab84ff",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-017-2339-y",
+      "target": "10.1109/TIM.2024.3457934",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-018-2404-1",
+      "target": "10.1016/j.jqsrt.2022.108277",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-018-2472-2",
+      "target": "10.1007/s10765-007-0183-1",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-018-2472-2",
+      "target": "10.1007/s10765-014-1745-7",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-018-2472-2",
+      "target": "10.1007/s10765-021-02813-0",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-018-2472-2",
+      "target": "10.1007/s10765-024-03393-5",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-018-2472-2",
+      "target": "10.1016/j.applthermaleng.2019.114854",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-018-2472-2",
+      "target": "10.1016/j.expthermflusci.2021.110379",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-018-2472-2",
+      "target": "10.1016/j.ijheatmasstransfer.2024.125975",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-018-2472-2",
+      "target": "10.1016/j.ijthermalsci.2024.109454",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-018-2472-2",
+      "target": "10.1016/j.ijthermalsci.2025.109809",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-018-2472-2",
+      "target": "10.1016/j.infrared.2019.102974",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-018-2472-2",
+      "target": "10.1016/j.infrared.2020.103572",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-018-2472-2",
+      "target": "10.1016/j.infrared.2022.104515",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-018-2472-2",
+      "target": "10.1016/j.infrared.2023.105060",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-018-2472-2",
+      "target": "10.1016/j.jqsrt.2022.108277",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-018-2472-2",
+      "target": "10.1088/1681-7575/ab84ff",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-018-2472-2",
+      "target": "10.1109/TIM.2023.3268656",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-018-2472-2",
+      "target": "10.1109/TIM.2024.3457934",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-021-02813-0",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-021-02813-0",
+      "target": "10.1109/TIM.2024.3457934",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-022-03129-3",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-024-03393-5",
+      "target": "10.1007/s10765-021-02813-0",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-024-03393-5",
+      "target": "10.1016/j.infrared.2020.103572",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-024-03393-5",
+      "target": "10.1063/5.0073459",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s10765-024-03433-0",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s11018-012-0103-z",
+      "target": "10.1007/s10765-008-0442-9",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s11018-012-0103-z",
+      "target": "10.1007/s10765-014-1745-7",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s11018-012-0103-z",
+      "target": "10.1016/j.jqsrt.2022.108277",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s11018-012-0103-z",
+      "target": "10.1088/0026-1394/47/2/S14",
+      "type": "cites"
+    },
+    {
+      "source": "10.1007/s11018-012-0103-z",
+      "target": "10.3390/ma12071141",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.applthermaleng.2009.12.005",
+      "target": "10.1088/1674-1056/25/4/047801",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.applthermaleng.2016.11.022",
+      "target": "10.1007/s10765-021-02813-0",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.applthermaleng.2016.11.022",
+      "target": "10.1016/j.ijheatmasstransfer.2021.122092",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.applthermaleng.2016.11.022",
+      "target": "10.1016/j.ijthermalsci.2025.109809",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.applthermaleng.2016.11.022",
+      "target": "10.1016/j.infrared.2020.103572",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.applthermaleng.2016.11.022",
+      "target": "10.1088/1681-7575/ab84ff",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.applthermaleng.2016.11.022",
+      "target": "10.1109/TIM.2023.3268656",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.applthermaleng.2016.11.022",
+      "target": "10.1109/TIM.2024.3457934",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.applthermaleng.2019.114854",
+      "target": "10.1007/s10765-007-0183-1",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.applthermaleng.2019.114854",
+      "target": "10.1007/s10765-013-1531-y",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.applthermaleng.2019.114854",
+      "target": "10.1007/s10765-016-2058-9",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.applthermaleng.2019.114854",
+      "target": "10.1007/s10765-021-02813-0",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.applthermaleng.2019.114854",
+      "target": "10.1007/s10765-022-03129-3",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.applthermaleng.2019.114854",
+      "target": "10.1016/j.ijheatmasstransfer.2017.06.133",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.applthermaleng.2019.114854",
+      "target": "10.1016/j.ijthermalsci.2024.109454",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.applthermaleng.2019.114854",
+      "target": "10.1016/j.ijthermalsci.2025.109809",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.applthermaleng.2019.114854",
+      "target": "10.1016/j.infrared.2018.06.031",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.applthermaleng.2019.114854",
+      "target": "10.1016/j.jqsrt.2022.108277",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.applthermaleng.2019.114854",
+      "target": "10.1016/j.measurement.2023.113999",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.applthermaleng.2019.114854",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.applthermaleng.2019.114854",
+      "target": "10.1088/0026-1394/47/2/S14",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.applthermaleng.2019.114854",
+      "target": "10.1088/0957-0233/25/9/095501",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.applthermaleng.2019.114854",
+      "target": "10.1109/TIM.2024.3457934",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.applthermaleng.2025.127648",
+      "target": "10.1016/j.infrared.2015.10.001",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.applthermaleng.2025.127648",
+      "target": "10.1063/1.5007225",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.applthermaleng.2025.127648",
+      "target": "10.1109/TIM.2019.2944504",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.applthermaleng.2025.127648",
+      "target": "10.3390/s21186252",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.cap.2011.04.011",
+      "target": "10.1007/s10765-018-2472-2",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.cap.2011.04.011",
+      "target": "10.1063/5.0073459",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.cryogenics.2023.103671",
+      "target": "10.1088/0026-1394/49/6/737",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.expthermflusci.2019.110017",
+      "target": "10.1016/s0031-8914(54)80182-0",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.expthermflusci.2019.110017",
+      "target": "10.1063/1.5007225",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.expthermflusci.2019.110017",
+      "target": "10.1109/TIM.2023.3268656",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.expthermflusci.2021.110379",
+      "target": "10.1007/s10765-013-1531-y",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.expthermflusci.2021.110379",
+      "target": "10.1007/s10765-017-2339-y",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.expthermflusci.2021.110379",
+      "target": "10.1016/j.applthermaleng.2025.127648",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.expthermflusci.2021.110379",
+      "target": "10.1016/j.ijheatmasstransfer.2017.06.133",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.expthermflusci.2021.110379",
+      "target": "10.1016/j.ijthermalsci.2024.109454",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.expthermflusci.2021.110379",
+      "target": "10.1016/j.ijthermalsci.2025.109809",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.expthermflusci.2021.110379",
+      "target": "10.1016/j.infrared.2018.06.031",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.expthermflusci.2021.110379",
+      "target": "10.1016/j.infrared.2022.104515",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.expthermflusci.2021.110379",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.expthermflusci.2021.110379",
+      "target": "10.1063/1.5007225",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.expthermflusci.2021.110379",
+      "target": "10.1063/5.0073459",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.expthermflusci.2021.110379",
+      "target": "10.1088/0026-1394/47/2/S14",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.expthermflusci.2021.110379",
+      "target": "10.1088/0957-0233/25/9/095501",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.expthermflusci.2021.110379",
+      "target": "10.1109/TIM.2023.3268656",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.fuproc.2020.106423",
+      "target": "10.1016/j.ijthermalsci.2024.109454",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.fuproc.2020.106423",
+      "target": "10.1109/TIM.2023.3268656",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.icheatmasstransfer.2024.107695",
+      "target": "10.1016/j.expthermflusci.2019.110017",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2004.10.003",
+      "target": "10.1016/j.ijheatmasstransfer.2012.02.055",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2004.10.003",
+      "target": "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2004.10.003",
+      "target": "10.1016/j.ijheatmasstransfer.2021.122092",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2004.10.003",
+      "target": "10.1088/0022-3727/42/15/155412",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2004.10.003",
+      "target": "10.1109/TIM.2019.2944504",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2012.02.055",
+      "target": "10.1016/j.ijheatmasstransfer.2021.122092",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2012.02.055",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "target": "10.1007/s10765-007-0183-1",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "target": "10.1007/s10765-008-0442-9",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "target": "10.1016/j.expthermflusci.2021.110379",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "target": "10.1016/j.ijheatmasstransfer.2012.02.055",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "target": "10.1016/j.ijheatmasstransfer.2021.122092",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "target": "10.1016/j.infrared.2022.104515",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "target": "10.1016/j.infrared.2023.105060",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "target": "10.1016/j.solener.2022.01.050",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "target": "10.1063/1.5007225",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "target": "10.1088/0026-1394/47/2/S14",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "target": "10.1117/12.2208334",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "target": "10.1117/12.560602",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2017.06.133",
+      "target": "10.1007/s10765-021-02813-0",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2017.06.133",
+      "target": "10.1007/s10765-022-03129-3",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2017.06.133",
+      "target": "10.1007/s10765-024-03393-5",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2017.06.133",
+      "target": "10.1016/j.ijthermalsci.2025.109809",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2017.06.133",
+      "target": "10.1016/j.infrared.2018.06.031",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2017.06.133",
+      "target": "10.1016/j.jqsrt.2022.108277",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2017.06.133",
+      "target": "10.1016/j.measurement.2023.113999",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2017.06.133",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2017.06.133",
+      "target": "10.1088/0957-0233/25/9/095501",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2017.06.133",
+      "target": "10.1088/1681-7575/ab84ff",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2017.06.133",
+      "target": "10.1109/TIM.2023.3268656",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2017.06.133",
+      "target": "10.1109/TIM.2024.3457934",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2021.122092",
+      "target": "10.1016/j.applthermaleng.2025.127648",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2021.122092",
+      "target": "10.1016/j.ijheatmasstransfer.2024.125975",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2021.122092",
+      "target": "10.1016/j.ijthermalsci.2025.109809",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2021.122092",
+      "target": "10.1016/j.infrared.2020.103572",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2021.122092",
+      "target": "10.1016/j.solener.2022.01.050",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2021.122092",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijheatmasstransfer.2024.125975",
+      "target": "10.1007/s10765-015-1866-7",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijthermalsci.2024.109454",
+      "target": "10.1007/s10765-021-02813-0",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijthermalsci.2024.109454",
+      "target": "10.1016/j.infrared.2015.01.011",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijthermalsci.2024.109454",
+      "target": "10.1016/j.nme.2022.101182",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijthermalsci.2025.109740",
+      "target": "10.1007/s10765-018-2472-2",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijthermalsci.2025.109740",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijthermalsci.2025.109740",
+      "target": "10.1364/AO.54.008700",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.ijthermalsci.2025.109809",
+      "target": "10.3390/s21186252",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.infrared.2014.07.004",
+      "target": "10.1016/j.measurement.2016.01.018",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.infrared.2014.07.004",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.infrared.2015.01.011",
+      "target": "10.1016/j.ijheatmasstransfer.2021.122092",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.infrared.2015.01.011",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.infrared.2015.10.001",
+      "target": "10.1007/s10765-021-02813-0",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.infrared.2015.10.001",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.infrared.2015.10.001",
+      "target": "10.1109/TIM.2023.3268656",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.infrared.2015.10.001",
+      "target": "10.1109/TIM.2024.3457934",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.infrared.2018.06.031",
+      "target": "10.1016/j.jqsrt.2022.108277",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.infrared.2018.06.031",
+      "target": "10.1063/5.0073459",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.infrared.2018.06.031",
+      "target": "10.1109/TIM.2023.3268656",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.infrared.2019.102974",
+      "target": "10.1016/j.ijheatmasstransfer.2012.02.055",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.infrared.2019.102974",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.infrared.2020.103572",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.infrared.2020.103572",
+      "target": "10.1063/5.0073459",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.infrared.2022.104515",
+      "target": "10.1007/s10765-007-0183-1",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.infrared.2022.104515",
+      "target": "10.1007/s10765-008-0442-9",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.infrared.2022.104515",
+      "target": "10.1016/j.ijheatmasstransfer.2017.06.133",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.infrared.2022.104515",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.infrared.2022.104515",
+      "target": "10.1088/0026-1394/47/2/S14",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.infrared.2022.104515",
+      "target": "10.1088/0957-0233/25/9/095501",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.infrared.2022.104515",
+      "target": "10.1088/1742-6596/395/1/012152",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.infrared.2022.104515",
+      "target": "10.1117/12.560602",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.infrared.2023.105060",
+      "target": "10.1007/s10765-015-1866-7",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.infrared.2023.105060",
+      "target": "10.1016/j.ijthermalsci.2024.109454",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.infrared.2023.105060",
+      "target": "10.1016/j.infrared.2015.01.011",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.infrared.2023.105060",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.infrared.2023.105060",
+      "target": "10.1088/0026-1394/47/2/S14",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.jqsrt.2020.107316",
+      "target": "10.1007/s10765-008-0442-9",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.jqsrt.2020.107316",
+      "target": "10.1007/s10765-014-1745-7",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.jqsrt.2020.107316",
+      "target": "10.1016/j.ijheatmasstransfer.2024.125975",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.jqsrt.2020.107316",
+      "target": "10.1016/j.ijthermalsci.2025.109809",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.jqsrt.2020.107316",
+      "target": "10.1016/j.infrared.2023.105060",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.jqsrt.2022.108277",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.matlet.2011.01.067",
+      "target": "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.matlet.2011.01.067",
+      "target": "10.1016/j.ijheatmasstransfer.2021.122092",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.measurement.2007.10.007",
+      "target": "10.1007/s10765-016-2058-9",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.measurement.2007.10.007",
+      "target": "10.1016/j.applthermaleng.2025.127648",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.measurement.2007.10.007",
+      "target": "10.1016/j.infrared.2015.10.001",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.measurement.2007.10.007",
+      "target": "10.1088/1742-6596/395/1/012152",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.measurement.2007.10.007",
+      "target": "10.1109/TIM.2019.2944504",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.measurement.2016.01.018",
+      "target": "10.1016/j.infrared.2019.102974",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.measurement.2016.01.018",
+      "target": "10.1016/j.infrared.2022.104515",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.measurement.2016.04.006",
+      "target": "10.1016/j.expthermflusci.2021.110379",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.measurement.2016.04.006",
+      "target": "10.1016/j.ijheatmasstransfer.2004.10.003",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.measurement.2016.04.006",
+      "target": "10.1088/1361-6501/ab5e9b",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.measurement.2016.04.006",
+      "target": "10.1109/TIM.2019.2944504",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.measurement.2023.113999",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.measurement.2024.115591",
+      "target": "10.1007/s10765-022-03129-3",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.nme.2022.101182",
+      "target": "10.1007/s10765-016-2058-9",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.nme.2022.101182",
+      "target": "10.1016/j.infrared.2015.10.001",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.proci.2010.07.042",
+      "target": "10.1016/j.expthermflusci.2019.110017",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.proci.2010.07.042",
+      "target": "10.1109/TIM.2023.3268656",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.solener.2022.01.050",
+      "target": "10.1007/s10765-015-1866-7",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.solener.2022.01.050",
+      "target": "10.1007/s10765-016-2058-9",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/j.solener.2022.01.050",
+      "target": "10.3390/ma12071141",
+      "type": "cites"
+    },
+    {
+      "source": "10.1016/s0031-8914(54)80182-0",
+      "target": "10.1007/s10765-007-0183-1",
+      "type": "cites"
+    },
+    {
+      "source": "10.1021/acs.energyfuels.9b03188",
+      "target": "10.1016/j.proci.2010.07.042",
+      "type": "cites"
+    },
+    {
+      "source": "10.1021/acs.energyfuels.9b03188",
+      "target": "10.1109/TIM.2023.3268656",
+      "type": "cites"
+    },
+    {
+      "source": "10.1023/A:1012817726103",
+      "target": "10.1016/j.ijheatmasstransfer.2012.02.055",
+      "type": "cites"
+    },
+    {
+      "source": "10.1023/A:1012817726103",
+      "target": "10.1016/j.ijheatmasstransfer.2017.06.133",
+      "type": "cites"
+    },
+    {
+      "source": "10.1023/A:1012817726103",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1023/A:1012817726103",
+      "target": "10.1063/5.0073459",
+      "type": "cites"
+    },
+    {
+      "source": "10.1023/A:1013103419949",
+      "target": "10.1016/j.ijheatmasstransfer.2012.02.055",
+      "type": "cites"
+    },
+    {
+      "source": "10.1023/A:1013103419949",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1023/B:IJOT.0000028479.90667.8a",
+      "target": "10.1007/s10765-021-02813-0",
+      "type": "cites"
+    },
+    {
+      "source": "10.1023/B:IJOT.0000028479.90667.8a",
+      "target": "10.1016/j.ijheatmasstransfer.2017.06.133",
+      "type": "cites"
+    },
+    {
+      "source": "10.1023/B:IJOT.0000028479.90667.8a",
+      "target": "10.1016/j.infrared.2015.10.001",
+      "type": "cites"
+    },
+    {
+      "source": "10.1023/B:IJOT.0000028479.90667.8a",
+      "target": "10.1016/j.infrared.2022.104515",
+      "type": "cites"
+    },
+    {
+      "source": "10.1023/B:IJOT.0000028479.90667.8a",
+      "target": "10.1109/TIM.2025.3551925",
+      "type": "cites"
+    },
+    {
+      "source": "10.1063/1.115104",
+      "target": "10.1016/j.infrared.2022.104515",
+      "type": "cites"
+    },
+    {
+      "source": "10.1063/1.115104",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1063/1.1627210",
+      "target": "10.1016/j.jqsrt.2022.108277",
+      "type": "cites"
+    },
+    {
+      "source": "10.1063/1.2393157",
+      "target": "10.1016/j.infrared.2018.06.031",
+      "type": "cites"
+    },
+    {
+      "source": "10.1063/1.4819635",
+      "target": "10.1016/j.expthermflusci.2021.110379",
+      "type": "cites"
+    },
+    {
+      "source": "10.1063/1.4819635",
+      "target": "10.1016/j.ijthermalsci.2025.110629",
+      "type": "cites"
+    },
+    {
+      "source": "10.1063/1.4819635",
+      "target": "10.1016/j.infrared.2022.104515",
+      "type": "cites"
+    },
+    {
+      "source": "10.1063/1.4819635",
+      "target": "10.1016/j.infrared.2023.105060",
+      "type": "cites"
+    },
+    {
+      "source": "10.1063/1.4819635",
+      "target": "10.1117/12.542224",
+      "type": "cites"
+    },
+    {
+      "source": "10.1063/1.4949213",
+      "target": "10.3390/s25020487",
+      "type": "cites"
+    },
+    {
+      "source": "10.1063/1.5007225",
+      "target": "10.1007/s10765-021-02813-0",
+      "type": "cites"
+    },
+    {
+      "source": "10.1063/1.5007225",
+      "target": "10.1016/j.infrared.2020.103572",
+      "type": "cites"
+    },
+    {
+      "source": "10.1063/1.5007225",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1063/1.5007225",
+      "target": "10.1109/TIM.2024.3457934",
+      "type": "cites"
+    },
+    {
+      "source": "10.1063/1.5116425",
+      "target": "10.1007/s10765-013-1400-8",
+      "type": "cites"
+    },
+    {
+      "source": "10.1063/1.5116425",
+      "target": "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "type": "cites"
+    },
+    {
+      "source": "10.1063/1.5116425",
+      "target": "10.1016/j.infrared.2015.01.011",
+      "type": "cites"
+    },
+    {
+      "source": "10.1063/1.5116425",
+      "target": "10.1016/j.infrared.2015.10.001",
+      "type": "cites"
+    },
+    {
+      "source": "10.1063/1.5116425",
+      "target": "10.1023/A:1013103419949",
+      "type": "cites"
+    },
+    {
+      "source": "10.1063/1.5116425",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1063/5.0073459",
+      "target": "10.1016/j.measurement.2023.113999",
+      "type": "cites"
+    },
+    {
+      "source": "10.1063/5.0073459",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/0026-1394/47/2/S14",
+      "target": "10.1007/s10765-015-1866-7",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/0026-1394/47/2/S14",
+      "target": "10.1007/s10765-022-03129-3",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/0026-1394/47/2/S14",
+      "target": "10.1016/j.ijheatmasstransfer.2021.122092",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/0026-1394/47/2/S14",
+      "target": "10.1016/j.ijthermalsci.2024.109454",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/0026-1394/47/2/S14",
+      "target": "10.1016/j.infrared.2020.103572",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/0026-1394/47/2/S14",
+      "target": "10.1016/j.jqsrt.2022.108277",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/0026-1394/47/2/S14",
+      "target": "10.1016/j.measurement.2023.113999",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/0026-1394/47/2/S14",
+      "target": "10.1063/5.0073459",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/0026-1394/47/2/S14",
+      "target": "10.1109/TIM.2024.3457934",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/0026-1394/47/2/S14",
+      "target": "10.1117/12.2208334",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/0026-1394/47/2/S14",
+      "target": "10.3390/s21186252",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/0957-0233/25/9/095501",
+      "target": "10.1007/s10765-022-03129-3",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/0957-0233/25/9/095501",
+      "target": "10.1016/j.ijheatmasstransfer.2021.122092",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/0957-0233/25/9/095501",
+      "target": "10.1016/j.infrared.2015.01.011",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/0957-0233/25/9/095501",
+      "target": "10.1016/j.infrared.2018.06.031",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/0957-0233/25/9/095501",
+      "target": "10.1016/j.jqsrt.2022.108277",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/0957-0233/25/9/095501",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/0957-0233/25/9/095501",
+      "target": "10.1063/5.0073459",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/0957-0233/25/9/095501",
+      "target": "10.1109/TIM.2023.3268656",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/0957-0233/25/9/095501",
+      "target": "10.1109/TIM.2024.3457934",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1361-6501/ab5e9b",
+      "target": "10.1007/s10765-008-0442-9",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1361-6501/ab5e9b",
+      "target": "10.1016/j.ijheatmasstransfer.2004.10.003",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1361-6501/ab5e9b",
+      "target": "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1361-6501/ab5e9b",
+      "target": "10.1016/j.ijthermalsci.2024.109454",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1361-6501/ab5e9b",
+      "target": "10.1063/1.5007225",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1361-6501/ab5e9b",
+      "target": "10.1088/0957-0233/25/9/095501",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1361-6501/ab5e9b",
+      "target": "10.1117/12.542224",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1674-1056/25/4/047801",
+      "target": "10.1007/s10765-018-2472-2",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1674-1056/25/4/047801",
+      "target": "10.1007/s10765-021-02813-0",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1674-1056/25/4/047801",
+      "target": "10.1016/j.ijheatmasstransfer.2012.02.055",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1674-1056/25/4/047801",
+      "target": "10.1016/j.ijthermalsci.2025.109809",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1674-1056/25/4/047801",
+      "target": "10.1016/j.infrared.2022.104515",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1674-1056/25/4/047801",
+      "target": "10.1016/j.jqsrt.2022.108277",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1674-1056/25/4/047801",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1674-1056/25/4/047801",
+      "target": "10.1088/1742-6596/13/1/015",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1681-7575/ab84ff",
+      "target": "10.1007/s10765-015-1866-7",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1681-7575/ab84ff",
+      "target": "10.1016/j.ijthermalsci.2024.109454",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1681-7575/ab84ff",
+      "target": "10.1016/j.infrared.2015.01.011",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1681-7575/ab84ff",
+      "target": "10.1016/j.infrared.2015.10.001",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1681-7575/ab84ff",
+      "target": "10.1016/j.infrared.2018.06.031",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1681-7575/ab84ff",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1681-7575/ab84ff",
+      "target": "10.1088/0026-1394/47/2/S14",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1681-7575/ab84ff",
+      "target": "10.1109/ACCESS.2021.3096599",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1681-7575/ab84ff",
+      "target": "10.3390/ma12071141",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1681-7575/ab84ff",
+      "target": "10.3390/s21186252",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1742-6596/13/1/015",
+      "target": "10.1007/s00340-024-08331-9",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1742-6596/13/1/015",
+      "target": "10.1007/s10765-022-03129-3",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1742-6596/13/1/015",
+      "target": "10.1016/j.applthermaleng.2019.114854",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1742-6596/13/1/015",
+      "target": "10.1016/j.expthermflusci.2021.110379",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1742-6596/13/1/015",
+      "target": "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1742-6596/13/1/015",
+      "target": "10.1016/j.ijheatmasstransfer.2017.06.133",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1742-6596/13/1/015",
+      "target": "10.1016/j.ijheatmasstransfer.2021.122092",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1742-6596/13/1/015",
+      "target": "10.1016/j.ijthermalsci.2025.110629",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1742-6596/13/1/015",
+      "target": "10.1016/j.infrared.2015.01.011",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1742-6596/13/1/015",
+      "target": "10.1016/j.infrared.2018.06.031",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1742-6596/13/1/015",
+      "target": "10.1016/j.infrared.2023.105060",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1742-6596/13/1/015",
+      "target": "10.1016/j.measurement.2023.113999",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1742-6596/13/1/015",
+      "target": "10.1016/j.solener.2022.01.050",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1742-6596/13/1/015",
+      "target": "10.1088/0957-0233/25/9/095501",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1742-6596/13/1/015",
+      "target": "10.1109/TIM.2024.3457934",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1742-6596/13/1/015",
+      "target": "10.3390/ma12071141",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1742-6596/13/1/015",
+      "target": "10.3390/ma15010235",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1742-6596/395/1/012152",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1088/1742-6596/395/1/012152",
+      "target": "10.3390/s21186252",
+      "type": "cites"
+    },
+    {
+      "source": "10.1109/ACCESS.2021.3096599",
+      "target": "10.1109/TIM.2023.3268656",
+      "type": "cites"
+    },
+    {
+      "source": "10.1109/TIM.2019.2944504",
+      "target": "10.1063/1.5007225",
+      "type": "cites"
+    },
+    {
+      "source": "10.1109/TIM.2019.2944504",
+      "target": "10.1109/TIM.2024.3457934",
+      "type": "cites"
+    },
+    {
+      "source": "10.1109/TIM.2019.2944504",
+      "target": "10.3390/app142210369",
+      "type": "cites"
+    },
+    {
+      "source": "10.1109/TIM.2023.3268656",
+      "target": "10.1016/j.measurement.2023.113999",
+      "type": "cites"
+    },
+    {
+      "source": "10.1109/TIM.2023.3268656",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1109/TIM.2023.3268656",
+      "target": "10.1109/TIM.2024.3457934",
+      "type": "cites"
+    },
+    {
+      "source": "10.1109/TIM.2024.3457934",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1109/TIM.2025.3551925",
+      "target": "10.1007/s10765-008-0442-9",
+      "type": "cites"
+    },
+    {
+      "source": "10.1109/TIM.2025.3551925",
+      "target": "10.1063/5.0073459",
+      "type": "cites"
+    },
+    {
+      "source": "10.1109/TIM.2025.3551925",
+      "target": "10.1088/0026-1394/47/2/S14",
+      "type": "cites"
+    },
+    {
+      "source": "10.1115/1.4006088",
+      "target": "10.1007/s10765-007-0183-1",
+      "type": "cites"
+    },
+    {
+      "source": "10.1115/1.4006088",
+      "target": "10.1007/s10765-008-0442-9",
+      "type": "cites"
+    },
+    {
+      "source": "10.1115/1.4006088",
+      "target": "10.1007/s10765-018-2472-2",
+      "type": "cites"
+    },
+    {
+      "source": "10.1115/1.4006088",
+      "target": "10.1007/s10765-022-03129-3",
+      "type": "cites"
+    },
+    {
+      "source": "10.1115/1.4006088",
+      "target": "10.1016/j.ijthermalsci.2025.109809",
+      "type": "cites"
+    },
+    {
+      "source": "10.1115/1.4006088",
+      "target": "10.1016/j.jqsrt.2022.108277",
+      "type": "cites"
+    },
+    {
+      "source": "10.1115/1.4006088",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1117/12.2208334",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1117/12.542224",
+      "target": "10.1007/s10765-007-0183-1",
+      "type": "cites"
+    },
+    {
+      "source": "10.1117/12.542224",
+      "target": "10.1007/s10765-013-1531-y",
+      "type": "cites"
+    },
+    {
+      "source": "10.1117/12.542224",
+      "target": "10.1007/s10765-016-2058-9",
+      "type": "cites"
+    },
+    {
+      "source": "10.1117/12.542224",
+      "target": "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "type": "cites"
+    },
+    {
+      "source": "10.1117/12.542224",
+      "target": "10.1016/j.ijheatmasstransfer.2017.06.133",
+      "type": "cites"
+    },
+    {
+      "source": "10.1117/12.542224",
+      "target": "10.1016/j.infrared.2015.10.001",
+      "type": "cites"
+    },
+    {
+      "source": "10.1117/12.542224",
+      "target": "10.1016/j.infrared.2018.06.031",
+      "type": "cites"
+    },
+    {
+      "source": "10.1117/12.542224",
+      "target": "10.1063/5.0073459",
+      "type": "cites"
+    },
+    {
+      "source": "10.1117/12.542224",
+      "target": "10.3390/ma15010235",
+      "type": "cites"
+    },
+    {
+      "source": "10.1117/12.542224",
+      "target": "10.3390/s21186252",
+      "type": "cites"
+    },
+    {
+      "source": "10.1117/12.560602",
+      "target": "10.1007/s10765-016-2058-9",
+      "type": "cites"
+    },
+    {
+      "source": "10.1117/12.560602",
+      "target": "10.1109/TIM.2023.3268656",
+      "type": "cites"
+    },
+    {
+      "source": "10.1117/12.560602",
+      "target": "10.3390/s21186252",
+      "type": "cites"
+    },
+    {
+      "source": "10.1364/AO.54.008700",
+      "target": "10.1007/s10765-014-1745-7",
+      "type": "cites"
+    },
+    {
+      "source": "10.1364/AO.54.008700",
+      "target": "10.1016/j.applthermaleng.2019.114854",
+      "type": "cites"
+    },
+    {
+      "source": "10.1364/AO.54.008700",
+      "target": "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "type": "cites"
+    },
+    {
+      "source": "10.1364/AO.54.008700",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.1364/AO.54.008700",
+      "target": "10.1088/0026-1394/47/2/S14",
+      "type": "cites"
+    },
+    {
+      "source": "10.1364/AO.54.008700",
+      "target": "10.1117/12.2208334",
+      "type": "cites"
+    },
+    {
+      "source": "10.1364/OE.547412",
+      "target": "10.1016/j.expthermflusci.2019.110017",
+      "type": "cites"
+    },
+    {
+      "source": "10.3390/app142210369",
+      "target": "10.1007/s10765-021-02813-0",
+      "type": "cites"
+    },
+    {
+      "source": "10.3390/app142210369",
+      "target": "10.1007/s10765-022-03129-3",
+      "type": "cites"
+    },
+    {
+      "source": "10.3390/app142210369",
+      "target": "10.1007/s10765-024-03393-5",
+      "type": "cites"
+    },
+    {
+      "source": "10.3390/ma12071141",
+      "target": "10.1007/s10765-016-2058-9",
+      "type": "cites"
+    },
+    {
+      "source": "10.3390/ma12071141",
+      "target": "10.1016/j.infrared.2015.10.001",
+      "type": "cites"
+    },
+    {
+      "source": "10.3390/ma12071141",
+      "target": "10.1016/j.measurement.2023.113999",
+      "type": "cites"
+    },
+    {
+      "source": "10.3390/ma12071141",
+      "target": "10.1088/0957-0233/25/9/095501",
+      "type": "cites"
+    },
+    {
+      "source": "10.3390/ma12071141",
+      "target": "10.1109/TIM.2024.3457934",
+      "type": "cites"
+    },
+    {
+      "source": "10.3390/ma15010235",
+      "target": "10.1007/s10765-015-1866-7",
+      "type": "cites"
+    },
+    {
+      "source": "10.3390/ma15010235",
+      "target": "10.1007/s10765-016-2058-9",
+      "type": "cites"
+    },
+    {
+      "source": "10.3390/s21186252",
+      "target": "10.1063/1.2393157",
+      "type": "cites"
+    },
+    {
+      "source": "10.3390/s21186252",
+      "target": "10.1109/TIM.2024.3457934",
+      "type": "cites"
+    },
+    {
+      "source": "10.3390/s25020487",
+      "target": "10.1007/s10765-018-2404-1",
+      "type": "cites"
+    },
+    {
+      "source": "10.3390/s25020487",
+      "target": "10.1088/1361-6501/ab5e9b",
+      "type": "cites"
+    },
+    {
+      "source": "10.3390/s25020487",
+      "target": "10.3390/s21186252",
+      "type": "cites"
+    },
+    {
+      "source": "scopus_77957053134",
+      "target": "10.1007/s10765-014-1745-7",
+      "type": "cites"
+    },
+    {
+      "source": "scopus_77957053134",
+      "target": "10.1007/s11018-012-0103-z",
+      "type": "cites"
+    },
+    {
+      "source": "scopus_77957053134",
+      "target": "10.1016/j.jqsrt.2020.107316",
+      "type": "cites"
+    },
+    {
+      "source": "scopus_77957053134",
+      "target": "10.1063/5.0073459",
+      "type": "cites"
+    },
+    {
+      "source": "scopus_77957053134",
+      "target": "10.1088/0957-0233/25/9/095501",
+      "type": "cites"
+    }
+  ]
+}

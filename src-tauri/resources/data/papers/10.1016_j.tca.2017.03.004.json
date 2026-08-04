@@ -1,0 +1,122 @@
+{
+  "id": "10.1016/j.tca.2017.03.004",
+  "bibliographic": {
+    "doi": "10.1016/j.tca.2017.03.004",
+    "scopus_id": "85016140762",
+    "title": "A new numerical method and modified apparatus for the simultaneous evaluation of thermo-physical properties above 1500 K: A case study on isostatically pressed graphite",
+    "authors": [
+      "T. Pavlov",
+      "L. Vlahovic",
+      "D. Staicu",
+      "R. J.M. Konings",
+      "M. R. Wenman",
+      "P. Van Uffelen",
+      "R. W. Grimes"
+    ],
+    "year": 2017,
+    "venue": "Thermochimica Acta"
+  },
+  "instrument": {
+    "detection_method": [
+      "Spectropyrometer"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      0.5,
+      1.0
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "pyrometer"
+    ],
+    "temperature_control_method": [
+      "laser",
+      "500W"
+    ],
+    "temperature_range_K": [
+      1000.0,
+      3000.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "DE",
+    "affiliations": [
+      {
+        "name": "European Commission Joint Research Centre",
+        "country": "BE",
+        "city": "Brussels",
+        "author_position": "first"
+      },
+      {
+        "name": "European Commission Joint Research Centre",
+        "country": "BE",
+        "city": "Brussels",
+        "author_position": "middle"
+      },
+      {
+        "name": "European Commission Joint Research Centre",
+        "country": "BE",
+        "city": "Brussels",
+        "author_position": "middle"
+      },
+      {
+        "name": "European Commission Joint Research Centre",
+        "country": "BE",
+        "city": "Brussels",
+        "author_position": "middle"
+      },
+      {
+        "name": "Imperial College London",
+        "country": "GB",
+        "city": "London",
+        "author_position": "middle"
+      },
+      {
+        "name": "European Commission Joint Research Centre",
+        "country": "BE",
+        "city": "Brussels",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Imperial College London",
+        "country": "GB",
+        "city": "London",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 34,
+    "total_updated": "2026-08-02",
+    "cites": [],
+    "cited_by": [
+      "10.1007/s10765-013-1400-8"
+    ]
+  }
+}

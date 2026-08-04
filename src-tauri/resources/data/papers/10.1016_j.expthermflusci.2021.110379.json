@@ -1,0 +1,133 @@
+{
+  "id": "10.1016/j.expthermflusci.2021.110379",
+  "bibliographic": {
+    "doi": "10.1016/j.expthermflusci.2021.110379",
+    "scopus_id": "85102104413",
+    "title": "Accuracy improvement for directional polarized spectral emissivity measurement in the wavelength range of 4–20 ?m",
+    "authors": [
+      "Longfei Li",
+      "Kun Yu",
+      "Kaihua Zhang",
+      "Yanlei Liu",
+      "Feng Zhang",
+      "Yufang Liu"
+    ],
+    "year": 2021,
+    "venue": "Experimental Thermal and Fluid Science"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "Bruker Vertex 70v"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      4.0,
+      20.0
+    ],
+    "direction": "directional",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": null
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "first"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "middle"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "middle"
+      },
+      {
+        "name": "Henan Institute of Technology",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "middle"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 17,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-013-1531-y",
+      "10.1007/s10765-017-2339-y",
+      "10.1016/j.applthermaleng.2025.127648",
+      "10.1016/j.ijheatmasstransfer.2017.06.133",
+      "10.1016/j.ijthermalsci.2024.109454",
+      "10.1016/j.ijthermalsci.2025.109809",
+      "10.1016/j.infrared.2018.06.031",
+      "10.1016/j.infrared.2022.104515",
+      "10.1063/1.2393157",
+      "10.1063/1.5007225",
+      "10.1063/5.0073459",
+      "10.1088/0026-1394/47/2/S14",
+      "10.1088/0957-0233/25/9/095501",
+      "10.1109/TIM.2023.3268656"
+    ],
+    "cited_by": [
+      "10.1007/s10765-013-1400-8",
+      "10.1007/s10765-014-1745-7",
+      "10.1007/s10765-018-2472-2",
+      "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "10.1016/j.measurement.2016.04.006",
+      "10.1063/1.4819635",
+      "10.1088/1742-6596/13/1/015"
+    ]
+  }
+}

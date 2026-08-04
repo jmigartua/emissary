@@ -1,0 +1,118 @@
+{
+  "id": "10.1007/s10765-015-1866-7",
+  "bibliographic": {
+    "doi": "10.1007/s10765-015-1866-7",
+    "scopus_id": "84940719881",
+    "title": "A Dynamic Method to Measure Emissivity at High Temperatures",
+    "authors": [
+      "S. Krenek",
+      "D. Gilbers",
+      "K. Anhalt",
+      "D. R. Taubert",
+      "J. Hollandt"
+    ],
+    "year": 2015,
+    "venue": "International Journal of Thermophysics"
+  },
+  "instrument": {
+    "detection_method": [
+      "radiation thermometer LP5"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      1.064,
+      1.064
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "calculated"
+    ],
+    "temperature_control_method": [
+      "induction heating"
+    ],
+    "temperature_range_K": [
+      null,
+      1000.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "DE",
+    "affiliations": [
+      {
+        "name": "Physikalisch-Technische Bundesanstalt",
+        "country": "DE",
+        "city": "Braunschweig",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Physikalisch-Technische Bundesanstalt",
+        "country": "DE",
+        "city": "Braunschweig",
+        "author_position": "middle"
+      },
+      {
+        "name": "Physikalisch-Technische Bundesanstalt",
+        "country": "DE",
+        "city": "Braunschweig",
+        "author_position": "middle"
+      },
+      {
+        "name": "Physikalisch-Technische Bundesanstalt",
+        "country": "DE",
+        "city": "Braunschweig",
+        "author_position": "middle"
+      },
+      {
+        "name": "Physikalisch-Technische Bundesanstalt",
+        "country": "DE",
+        "city": "Braunschweig",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 30,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1016/j.applthermaleng.2025.127648",
+      "10.1109/TIM.2019.2944504",
+      "10.1109/TIM.2024.3457934",
+      "10.3390/ma12071141"
+    ],
+    "cited_by": [
+      "10.1007/s10765-017-2339-y",
+      "10.1016/j.ijheatmasstransfer.2024.125975",
+      "10.1016/j.infrared.2023.105060",
+      "10.1016/j.solener.2022.01.050",
+      "10.1088/0026-1394/47/2/S14",
+      "10.1088/1681-7575/ab84ff",
+      "10.3390/ma15010235"
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "10.1063/1.1627210",
+  "bibliographic": {
+    "doi": "10.1063/1.1627210",
+    "scopus_id": "85113619623",
+    "title": "A Fourier-Transform Spectrometer for Accurate Thermometric Applications at Low Temperatures",
+    "authors": [
+      "Ishii, Juntaro",
+      "Ono, Akira"
+    ],
+    "year": 2003,
+    "venue": "AIP Conference Proceedings"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "JASCO FTIR 6100"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      5.0,
+      12.0
+    ],
+    "direction": null,
+    "temperature_measurement_method": [
+      "platinum resistance thermometer",
+      "in the fluid"
+    ],
+    "temperature_control_method": [
+      "thermostatic fluid"
+    ],
+    "temperature_range_K": [
+      253.0,
+      373.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "JP",
+    "affiliations": [
+      {
+        "name": "National Metrology Institute of Japan",
+        "country": "JP",
+        "city": "Tsukuba",
+        "author_position": "first"
+      },
+      {
+        "name": "National Metrology Institute of Japan",
+        "country": "JP",
+        "city": "Tsukuba",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 10,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1016/j.jqsrt.2022.108277"
+    ],
+    "cited_by": []
+  }
+}

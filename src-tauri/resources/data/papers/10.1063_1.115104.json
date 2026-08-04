@@ -1,0 +1,93 @@
+{
+  "id": "10.1063/1.115104",
+  "bibliographic": {
+    "doi": "10.1063/1.115104",
+    "scopus_id": "5544235006",
+    "title": "Emissivity of B-implanted and annealed silicon",
+    "authors": [
+      "D. F. Takeuti",
+      "P. J. Timans",
+      "H. Ahmed"
+    ],
+    "year": 1995,
+    "venue": "Applied Physics Letters"
+  },
+  "instrument": {
+    "detection_method": [
+      "Monochromator",
+      "Bentham TM 300"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      0.9,
+      2.7
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "pyrometer",
+      "calculated"
+    ],
+    "temperature_control_method": [
+      "Electron-beam heating"
+    ],
+    "temperature_range_K": null
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "GB",
+    "affiliations": [
+      {
+        "name": "Department of Physics",
+        "country": "GB",
+        "city": "Cambridge",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Department of Physics",
+        "country": "GB",
+        "city": "Cambridge",
+        "author_position": "middle"
+      },
+      {
+        "name": "Department of Physics",
+        "country": "GB",
+        "city": "Cambridge",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 12,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1016/j.infrared.2022.104515",
+      "10.1063/1.2393157"
+    ],
+    "cited_by": []
+  }
+}

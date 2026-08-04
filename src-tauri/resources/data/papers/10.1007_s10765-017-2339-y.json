@@ -1,0 +1,103 @@
+{
+  "id": "10.1007/s10765-017-2339-y",
+  "bibliographic": {
+    "doi": "10.1007/s10765-017-2339-y",
+    "scopus_id": "85036480139",
+    "title": "Improving the Dynamic Emissivity Measurement Above 1000 K by Extending the Spectral Range",
+    "authors": [
+      "D. Urban",
+      "S. Krenek",
+      "K. Anhalt",
+      "D. R. Taubert"
+    ],
+    "year": 2018,
+    "venue": "International Journal of Thermophysics"
+  },
+  "instrument": {
+    "detection_method": [
+      "array spectrometer"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      0.55,
+      1.1
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "pyrometer",
+      "calculated",
+      "iterative method"
+    ],
+    "temperature_control_method": [
+      "induction heating"
+    ],
+    "temperature_range_K": null
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "DE",
+    "affiliations": [
+      {
+        "name": "Physikalisch-Technische Bundesanstalt",
+        "country": "DE",
+        "city": "Braunschweig",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Physikalisch-Technische Bundesanstalt",
+        "country": "DE",
+        "city": "Braunschweig",
+        "author_position": "middle"
+      },
+      {
+        "name": "Physikalisch-Technische Bundesanstalt",
+        "country": "DE",
+        "city": "Braunschweig",
+        "author_position": "middle"
+      },
+      {
+        "name": "Physikalisch-Technische Bundesanstalt",
+        "country": "DE",
+        "city": "Braunschweig",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 7,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-015-1866-7",
+      "10.1088/1681-7575/ab84ff",
+      "10.1109/TIM.2024.3457934"
+    ],
+    "cited_by": [
+      "10.1016/j.expthermflusci.2021.110379"
+    ]
+  }
+}

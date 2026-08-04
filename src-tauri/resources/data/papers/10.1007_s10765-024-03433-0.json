@@ -1,0 +1,99 @@
+{
+  "id": "10.1007/s10765-024-03433-0",
+  "bibliographic": {
+    "doi": "10.1007/s10765-024-03433-0",
+    "scopus_id": "85208542299",
+    "title": "Black Body Cavity Apparatus for Measuring the Emissivity of Nickel-Titanium-Based Shape-Memory Alloys and Other Metals",
+    "authors": [
+      "Muhammad Ali Javed",
+      "Burkhard Maaß",
+      "Daniel Zipplies",
+      "Markus Richter"
+    ],
+    "year": 2024,
+    "venue": "International Journal of Thermophysics"
+  },
+  "instrument": {
+    "detection_method": [
+      "infrared camera",
+      "ImageIR 8380",
+      "InfraTec GmbH"
+    ],
+    "spectral": null,
+    "spectral_range_um": null,
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "platinum resistance thermometer"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      308.0,
+      425.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "DE",
+    "affiliations": [
+      {
+        "name": "Technische Universität Chemnitz",
+        "country": "DE",
+        "city": "Chemnitz",
+        "author_position": "first"
+      },
+      {
+        "name": "Ingpuls GmbH",
+        "country": "DE",
+        "city": "Bochum",
+        "author_position": "middle"
+      },
+      {
+        "name": "Technische Universität Chemnitz",
+        "country": "DE",
+        "city": "Chemnitz",
+        "author_position": "middle"
+      },
+      {
+        "name": "Technische Universität Chemnitz",
+        "country": "DE",
+        "city": "Chemnitz",
+        "author_position": "corresponding"
+      }
+    ]
+  },
+  "citations": {
+    "total": 7,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1063/1.2393157"
+    ],
+    "cited_by": []
+  }
+}

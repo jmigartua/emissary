@@ -1,0 +1,99 @@
+{
+  "id": "10.1063/1.4819635",
+  "bibliographic": {
+    "doi": "10.1063/1.4819635",
+    "scopus_id": "84884993662",
+    "title": "Measurements of infrared spectral directional emittance at NIST-A status update",
+    "authors": [
+      "Wilthan, Boris",
+      "Hanssen, Leonard M",
+      "Mekhontsev, Sergey"
+    ],
+    "year": 2013,
+    "venue": "AIP Conference Proceedings"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "custom"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      2.0,
+      20.0
+    ],
+    "direction": "directional",
+    "temperature_measurement_method": [
+      "Thermocouple",
+      "radiometrically calculated"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      473.0,
+      1173.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "US",
+    "affiliations": [
+      {
+        "name": "SDL",
+        "country": "US",
+        "city": "Logan",
+        "author_position": "first"
+      },
+      {
+        "name": "National Institute of Standards and Technology",
+        "country": "US",
+        "city": "Gaithersburg",
+        "author_position": "middle"
+      },
+      {
+        "name": "National Institute of Standards and Technology",
+        "country": "US",
+        "city": "Gaithersburg",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 5,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1016/j.expthermflusci.2021.110379",
+      "10.1016/j.ijthermalsci.2025.110629",
+      "10.1016/j.infrared.2022.104515",
+      "10.1016/j.infrared.2023.105060",
+      "10.1117/12.542224"
+    ],
+    "cited_by": []
+  }
+}

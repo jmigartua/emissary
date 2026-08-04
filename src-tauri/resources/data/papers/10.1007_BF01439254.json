@@ -1,0 +1,96 @@
+{
+  "id": "10.1007/BF01439254",
+  "bibliographic": {
+    "doi": "10.1007/BF01439254",
+    "scopus_id": "28255074",
+    "title": "Method and apparatus for determination of the total directional emissivity of opaque materials in the temperature range 300 to 600 K",
+    "authors": [
+      "S. X. Cheng",
+      "S. X. Jing",
+      "X. S. Ge",
+      "C. C. Yao"
+    ],
+    "year": 1994,
+    "venue": "International Journal of Thermophysics"
+  },
+  "instrument": {
+    "detection_method": [
+      "pyroelectric detector",
+      "chopper locking"
+    ],
+    "spectral": false,
+    "spectral_range_um": null,
+    "direction": "directional",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      300.0,
+      600.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "University of Science and Technology of China",
+        "country": "CN",
+        "city": "Hefei",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "University of Science and Technology of China",
+        "country": "CN",
+        "city": "Hefei",
+        "author_position": "middle"
+      },
+      {
+        "name": "University of Science and Technology of China",
+        "country": "CN",
+        "city": "Hefei",
+        "author_position": "middle"
+      },
+      {
+        "name": "University of Science and Technology of China",
+        "country": "CN",
+        "city": "Hefei",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 6,
+    "total_updated": "2026-08-02",
+    "cites": [],
+    "cited_by": []
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "id": "10.1088/0026-1394/47/2/S14",
+  "bibliographic": {
+    "doi": "10.1088/0026-1394/47/2/S14",
+    "scopus_id": "77949383190",
+    "title": "The determination of the uncertainties of spectral emissivity measurements in air at the PTB",
+    "authors": [
+      "Christian Monte",
+      "Jörg Hollandt"
+    ],
+    "year": 2010,
+    "venue": "Metrologia"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "Nicolet 5DXB"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      4.0,
+      40.0
+    ],
+    "direction": "directional",
+    "temperature_measurement_method": [
+      "probe",
+      "calculated"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      353.0,
+      673.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "DE",
+    "affiliations": [
+      {
+        "name": "Physikalisch-Technische Bundesanstalt",
+        "country": "DE",
+        "city": "Braunschweig",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Physikalisch-Technische Bundesanstalt",
+        "country": "DE",
+        "city": "Braunschweig",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 71,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-015-1866-7",
+      "10.1007/s10765-022-03129-3",
+      "10.1016/j.ijheatmasstransfer.2021.122092",
+      "10.1016/j.ijthermalsci.2024.109454",
+      "10.1016/j.infrared.2020.103572",
+      "10.1016/j.jqsrt.2022.108277",
+      "10.1016/j.measurement.2023.113999",
+      "10.1063/5.0073459",
+      "10.1109/TIM.2024.3457934",
+      "10.1117/12.2208334",
+      "10.3390/s21186252"
+    ],
+    "cited_by": [
+      "10.1007/s10765-007-0183-1",
+      "10.1007/s10765-008-0442-9",
+      "10.1007/s10765-014-1745-7",
+      "10.1007/s10765-015-1969-1",
+      "10.1007/s11018-012-0103-z",
+      "10.1016/j.applthermaleng.2019.114854",
+      "10.1016/j.expthermflusci.2021.110379",
+      "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "10.1016/j.infrared.2022.104515",
+      "10.1016/j.infrared.2023.105060",
+      "10.1088/1681-7575/ab84ff",
+      "10.1109/TIM.2025.3551925",
+      "10.1364/AO.54.008700"
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": "10.1029/96JE01089",
+  "bibliographic": {
+    "doi": "10.1029/96JE01089",
+    "scopus_id": "10346463",
+    "title": "New laboratory measurements of mid-IR emission spectra of simulated planetary surfaces",
+    "authors": [
+      "Bràdley G. Henderson",
+      "Paul G. Lucey",
+      "Bruce M. Jakosky"
+    ],
+    "year": 1996,
+    "venue": "Journal of Geophysical Research: Planets"
+  },
+  "instrument": {
+    "detection_method": [
+      "scanning grating monochromator"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      7.0,
+      13.0
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      77.0,
+      500.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "US",
+    "affiliations": [
+      {
+        "name": "University of Colorado Boulder",
+        "country": "US",
+        "city": "Boulder",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "School of Ocean and Earth Science and Technology",
+        "country": "US",
+        "city": "Honolulu",
+        "author_position": "middle"
+      },
+      {
+        "name": "University of Colorado Boulder",
+        "country": "US",
+        "city": "Boulder",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 24,
+    "total_updated": "2026-08-02",
+    "cites": [],
+    "cited_by": []
+  }
+}

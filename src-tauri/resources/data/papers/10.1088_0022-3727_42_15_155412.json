@@ -1,0 +1,88 @@
+{
+  "id": "10.1088/0022-3727/42/15/155412",
+  "bibliographic": {
+    "doi": "10.1088/0022-3727/42/15/155412",
+    "scopus_id": "70349136339",
+    "title": "Radiative properties of thermal barrier coatings at high temperatures",
+    "authors": [
+      "Geunsik Lim",
+      "Aravinda Kar"
+    ],
+    "year": 2009,
+    "venue": "Journal of Physics D: Applied Physics"
+  },
+  "instrument": {
+    "detection_method": [
+      "Grating spectrometer",
+      "SpectraPro-300i"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      0.4,
+      1.08
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "electric heater",
+      "furnace"
+    ],
+    "temperature_range_K": [
+      673.0,
+      1423.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "US",
+    "affiliations": [
+      {
+        "name": "College of Engineering and Computer Science",
+        "country": "US",
+        "city": "Orlando",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "College of Engineering and Computer Science",
+        "country": "US",
+        "city": "Orlando",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 26,
+    "total_updated": "2026-08-02",
+    "cites": [],
+    "cited_by": [
+      "10.1016/j.ijheatmasstransfer.2004.10.003"
+    ]
+  }
+}

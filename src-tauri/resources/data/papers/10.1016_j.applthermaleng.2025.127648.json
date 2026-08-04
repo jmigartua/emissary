@@ -1,0 +1,116 @@
+{
+  "id": "10.1016/j.applthermaleng.2025.127648",
+  "bibliographic": {
+    "doi": "10.1016/j.applthermaleng.2025.127648",
+    "scopus_id": "105011511693",
+    "title": "Emissivity measurement device for manufactured parts based on induction heating",
+    "authors": [
+      "Yingying Li",
+      "Longfei Li",
+      "Kun Yu",
+      "Yanlei Liu",
+      "Yufang Liu"
+    ],
+    "year": 2025,
+    "venue": "Applied Thermal Engineering"
+  },
+  "instrument": {
+    "detection_method": [
+      "fiber optic spectrometer",
+      "NIRQuest512-2.5"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      1.4,
+      2.5
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "induction heating"
+    ],
+    "temperature_range_K": [
+      973.0,
+      1273.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "middle"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "middle"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 2,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1016/j.infrared.2015.10.001",
+      "10.1063/1.5007225",
+      "10.1109/TIM.2019.2944504",
+      "10.3390/s21186252"
+    ],
+    "cited_by": [
+      "10.1007/s10765-015-1866-7",
+      "10.1016/j.expthermflusci.2021.110379",
+      "10.1016/j.ijheatmasstransfer.2021.122092",
+      "10.1016/j.measurement.2007.10.007"
+    ]
+  }
+}

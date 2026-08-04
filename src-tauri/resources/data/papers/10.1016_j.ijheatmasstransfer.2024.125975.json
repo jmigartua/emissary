@@ -1,0 +1,126 @@
+{
+  "id": "10.1016/j.ijheatmasstransfer.2024.125975",
+  "bibliographic": {
+    "doi": "10.1016/j.ijheatmasstransfer.2024.125975",
+    "scopus_id": "85199144175",
+    "title": "Approaching the emissivity of CMAS at high temperatures by convenient thermocouple-based infrared thermography",
+    "authors": [
+      "Yiwen Lv",
+      "Junjun Wu",
+      "Wenze Yang",
+      "Yuhao Xiang",
+      "Hong Wang",
+      "Xun Zhu",
+      "Qiang Liao"
+    ],
+    "year": 2024,
+    "venue": "International Journal of Heat and Mass Transfer"
+  },
+  "instrument": {
+    "detection_method": [
+      "infrared camera",
+      "FLIR A6703sc"
+    ],
+    "spectral": null,
+    "spectral_range_um": null,
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "thermocouple",
+      "DHTT"
+    ],
+    "temperature_control_method": [
+      "thermocouple",
+      "DHTT"
+    ],
+    "temperature_range_K": [
+      1073.0,
+      1773.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "Chongqing University",
+        "country": "CN",
+        "city": "Chongqing",
+        "author_position": "first"
+      },
+      {
+        "name": "Chongqing University",
+        "country": "CN",
+        "city": "Chongqing",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Chongqing University",
+        "country": "CN",
+        "city": "Chongqing",
+        "author_position": "middle"
+      },
+      {
+        "name": "Chongqing University",
+        "country": "CN",
+        "city": "Chongqing",
+        "author_position": "middle"
+      },
+      {
+        "name": "Chongqing University",
+        "country": "CN",
+        "city": "Chongqing",
+        "author_position": "middle"
+      },
+      {
+        "name": "Chongqing University",
+        "country": "CN",
+        "city": "Chongqing",
+        "author_position": "middle"
+      },
+      {
+        "name": "Chongqing University",
+        "country": "CN",
+        "city": "Chongqing",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 9,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-015-1866-7"
+    ],
+    "cited_by": [
+      "10.1007/s10765-016-2142-1",
+      "10.1007/s10765-018-2472-2",
+      "10.1016/j.ijheatmasstransfer.2021.122092",
+      "10.1016/j.jqsrt.2020.107316"
+    ]
+  }
+}

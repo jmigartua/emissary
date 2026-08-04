@@ -1,0 +1,87 @@
+{
+  "id": "10.1364/AO.35.005683",
+  "bibliographic": {
+    "doi": "10.1364/AO.35.005683",
+    "scopus_id": "30270110",
+    "title": "Measurement of surface temperature and emissivity by a multitemperature method for Fourier-transform infrared spectrometers",
+    "authors": [
+      "Sønnik Clausen",
+      "Axel Morgenstjerne",
+      "Ole Rathmann"
+    ],
+    "year": 1996,
+    "venue": "Applied Optics"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "Bomem MB155"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      1.27,
+      20.0
+    ],
+    "direction": null,
+    "temperature_measurement_method": [
+      "calculated"
+    ],
+    "temperature_control_method": [],
+    "temperature_range_K": null
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "DK",
+    "affiliations": [
+      {
+        "name": "Technical University of Denmark",
+        "country": "DK",
+        "city": "Lyngby",
+        "author_position": "first"
+      },
+      {
+        "name": "Technical University of Denmark",
+        "country": "DK",
+        "city": "Lyngby",
+        "author_position": "middle"
+      },
+      {
+        "name": "Technical University of Denmark",
+        "country": "DK",
+        "city": "Lyngby",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 43,
+    "total_updated": "2026-08-02",
+    "cites": [],
+    "cited_by": []
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "id": "10.1007/s10765-018-2472-2",
+  "bibliographic": {
+    "doi": "10.1007/s10765-018-2472-2",
+    "scopus_id": "85057220164",
+    "title": "Measurement of Directional Spectral Emissivity at High Temperatures",
+    "authors": [
+      "Y. M. Guo",
+      "S. J. Pang",
+      "Z. J. Luo",
+      "Y. Shuai",
+      "H. P. Tan",
+      "H. Qi"
+    ],
+    "year": 2019,
+    "venue": "International Journal of Thermophysics"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "ThermoFisher Nicolet Is50"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      1.28,
+      28.6
+    ],
+    "direction": "directional",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      null,
+      1400.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "School of Energy Science and Engineering, Harbin Institute of Technology",
+        "country": "CN",
+        "city": "Harbin",
+        "author_position": "first"
+      },
+      {
+        "name": "School of Energy Science and Engineering, Harbin Institute of Technology",
+        "country": "CN",
+        "city": "Harbin",
+        "author_position": "middle"
+      },
+      {
+        "name": "School of Energy Science and Engineering, Harbin Institute of Technology",
+        "country": "CN",
+        "city": "Harbin",
+        "author_position": "middle"
+      },
+      {
+        "name": "School of Energy Science and Engineering, Harbin Institute of Technology",
+        "country": "CN",
+        "city": "Harbin",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "School of Energy Science and Engineering, Harbin Institute of Technology",
+        "country": "CN",
+        "city": "Harbin",
+        "author_position": "middle"
+      },
+      {
+        "name": "School of Energy Science and Engineering, Harbin Institute of Technology",
+        "country": "CN",
+        "city": "Harbin",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 73,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-007-0183-1",
+      "10.1007/s10765-014-1745-7",
+      "10.1007/s10765-021-02813-0",
+      "10.1007/s10765-024-03393-5",
+      "10.1016/j.applthermaleng.2019.114854",
+      "10.1016/j.expthermflusci.2021.110379",
+      "10.1016/j.ijheatmasstransfer.2024.125975",
+      "10.1016/j.ijthermalsci.2024.109454",
+      "10.1016/j.ijthermalsci.2025.109809",
+      "10.1016/j.infrared.2019.102974",
+      "10.1016/j.infrared.2020.103572",
+      "10.1016/j.infrared.2022.104515",
+      "10.1016/j.infrared.2023.105060",
+      "10.1016/j.jqsrt.2022.108277",
+      "10.1088/1681-7575/ab84ff",
+      "10.1109/TIM.2023.3268656",
+      "10.1109/TIM.2024.3457934"
+    ],
+    "cited_by": [
+      "10.1016/j.cap.2011.04.011",
+      "10.1016/j.ijthermalsci.2025.109740",
+      "10.1088/1674-1056/25/4/047801",
+      "10.1115/1.4006088"
+    ]
+  }
+}

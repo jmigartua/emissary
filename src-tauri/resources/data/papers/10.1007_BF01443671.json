@@ -1,0 +1,77 @@
+{
+  "id": "10.1007/BF01443671",
+  "bibliographic": {
+    "doi": "10.1007/BF01443671",
+    "scopus_id": "15204212",
+    "title": "Measurement of the total emittance of graphite, molybdenum, tantalum and tungsten in the temperature range from 1200 K to 2400 K Messung des Gresamtemissionsgrades von Graphit, Molybdän, Tantal und Wolfram bei Temperaturen zwischen 1200 K und 2400 K",
+    "authors": [
+      "G. Neuer"
+    ],
+    "year": 1971,
+    "venue": "Wärme- und Stoffübertragung"
+  },
+  "instrument": {
+    "detection_method": [
+      "pyrometer LP2"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      0.5,
+      8.3
+    ],
+    "direction": "directional",
+    "temperature_measurement_method": [
+      "pyrometer"
+    ],
+    "temperature_control_method": [
+      "Electron-beam heating"
+    ],
+    "temperature_range_K": [
+      1000.0,
+      3000.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "DE",
+    "affiliations": [
+      {
+        "name": "Universität Stuttgart",
+        "country": "DE",
+        "city": "Stuttgart",
+        "author_position": "corresponding"
+      }
+    ]
+  },
+  "citations": {
+    "total": 10,
+    "total_updated": "2026-08-02",
+    "cites": [],
+    "cited_by": []
+  }
+}

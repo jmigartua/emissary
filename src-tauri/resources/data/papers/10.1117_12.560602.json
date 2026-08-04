@@ -1,0 +1,92 @@
+{
+  "id": "10.1117/12.560602",
+  "bibliographic": {
+    "doi": "10.1117/12.560602",
+    "scopus_id": "15744375523",
+    "title": "Device for spectral emissivity measurements of ceramics using a FT-IR-spectrometer",
+    "authors": [
+      "Bauer, Wolfgang",
+      "Moldenhauer, Alexander"
+    ],
+    "year": 2004,
+    "venue": "Interferometry XII: Applications"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      0.8,
+      25.0
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "thermocouple",
+      "platinum resistance thermometer"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      373.0,
+      1473.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "DE",
+    "affiliations": [
+      {
+        "name": "Universität Duisburg-Essen",
+        "country": "DE",
+        "city": "Duisburg",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Universität Duisburg-Essen",
+        "country": "DE",
+        "city": "Duisburg",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 12,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-016-2058-9",
+      "10.1109/TIM.2023.3268656",
+      "10.3390/s21186252"
+    ],
+    "cited_by": [
+      "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "10.1016/j.infrared.2022.104515"
+    ]
+  }
+}

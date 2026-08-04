@@ -1,0 +1,127 @@
+{
+  "id": "10.1007/s10765-016-2058-9",
+  "bibliographic": {
+    "doi": "10.1007/s10765-016-2058-9",
+    "scopus_id": "84961806383",
+    "title": "Apparatus for Measuring Spectral Emissivity of Solid Materials at Elevated Temperatures",
+    "authors": [
+      "Dengfeng Ren",
+      "Hong Tan",
+      "Yimin Xuan",
+      "Yuge Han",
+      "Qiang Li"
+    ],
+    "year": 2016,
+    "venue": "International Journal of Thermophysics"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "Bruker Vertex 80v"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      2.0,
+      25.0
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "pyrometer"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      1073.0,
+      1873.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "Nanjing University of Science and Technology",
+        "country": "CN",
+        "city": "Nanjing",
+        "author_position": "first"
+      },
+      {
+        "name": "Nanjing University of Science and Technology",
+        "country": "CN",
+        "city": "Nanjing",
+        "author_position": "middle"
+      },
+      {
+        "name": "Nanjing University of Science and Technology",
+        "country": "CN",
+        "city": "Nanjing",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Nanjing University of Science and Technology",
+        "country": "CN",
+        "city": "Nanjing",
+        "author_position": "middle"
+      },
+      {
+        "name": "Nanjing University of Science and Technology",
+        "country": "CN",
+        "city": "Nanjing",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 47,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-022-03129-3",
+      "10.1007/s10765-024-03393-5",
+      "10.1016/j.ijheatmasstransfer.2021.122092",
+      "10.1016/j.infrared.2018.06.031",
+      "10.1016/j.jqsrt.2022.108277",
+      "10.1063/5.0073459",
+      "10.1109/TIM.2023.3268656",
+      "10.1109/TIM.2024.3457934"
+    ],
+    "cited_by": [
+      "10.1007/s10765-007-0183-1",
+      "10.1007/s10765-008-0442-9",
+      "10.1007/s10765-010-0847-0",
+      "10.1016/j.applthermaleng.2019.114854",
+      "10.1016/j.measurement.2007.10.007",
+      "10.1016/j.nme.2022.101182",
+      "10.1016/j.solener.2022.01.050",
+      "10.1117/12.542224",
+      "10.1117/12.560602",
+      "10.3390/ma12071141",
+      "10.3390/ma15010235"
+    ]
+  }
+}

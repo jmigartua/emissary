@@ -1,0 +1,125 @@
+{
+  "id": "10.1007/s10765-021-02813-0",
+  "bibliographic": {
+    "doi": "10.1007/s10765-021-02813-0",
+    "scopus_id": "85103860156",
+    "title": "An Apparatus for the Directional Spectral Emissivity Measurement in the Near Infrared Band",
+    "authors": [
+      "Kun Yu",
+      "Ruirui Tong",
+      "Kaihua Zhang",
+      "Yanlei Liu",
+      "Yufang Liu"
+    ],
+    "year": 2021,
+    "venue": "International Journal of Thermophysics"
+  },
+  "instrument": {
+    "detection_method": [
+      "optical fiber spectrometer",
+      "DWARF-Star NIR"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      0.87,
+      1.7
+    ],
+    "direction": "directional",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      823.0,
+      1073.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "first"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "middle"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "middle"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 15,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1063/1.2393157",
+      "10.1109/TIM.2024.3457934"
+    ],
+    "cited_by": [
+      "10.1007/s10765-008-0442-9",
+      "10.1007/s10765-013-1400-8",
+      "10.1007/s10765-014-1745-7",
+      "10.1007/s10765-016-2142-1",
+      "10.1007/s10765-018-2472-2",
+      "10.1007/s10765-024-03393-5",
+      "10.1016/j.applthermaleng.2016.11.022",
+      "10.1016/j.applthermaleng.2019.114854",
+      "10.1016/j.ijheatmasstransfer.2017.06.133",
+      "10.1016/j.ijthermalsci.2024.109454",
+      "10.1016/j.infrared.2015.10.001",
+      "10.1023/B:IJOT.0000028479.90667.8a",
+      "10.1063/1.5007225",
+      "10.1088/1674-1056/25/4/047801",
+      "10.3390/app142210369"
+    ]
+  }
+}

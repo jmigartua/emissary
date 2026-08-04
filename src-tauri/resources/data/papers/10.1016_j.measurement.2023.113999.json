@@ -1,0 +1,116 @@
+{
+  "id": "10.1016/j.measurement.2023.113999",
+  "bibliographic": {
+    "doi": "10.1016/j.measurement.2023.113999",
+    "scopus_id": "85180984602",
+    "title": "Directional spectral emissivity measurement approach in a broad-spectrum at low temperatures: Device and methodology study",
+    "authors": [
+      "Zeye Yuan",
+      "Longfei Li",
+      "Kun Yu",
+      "Kaihua Zhang",
+      "Yufang Liu"
+    ],
+    "year": 2024,
+    "venue": "Measurement: Journal of the International Measurement Confederation"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "Bruker Vertex 70v"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      5.0,
+      100.0
+    ],
+    "direction": "directional",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [],
+    "temperature_range_K": [
+      213.0,
+      423.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "first"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "middle"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "middle"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 7,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1063/1.2393157"
+    ],
+    "cited_by": [
+      "10.1007/s10765-007-0183-1",
+      "10.1007/s10765-014-1745-7",
+      "10.1016/j.applthermaleng.2019.114854",
+      "10.1016/j.ijheatmasstransfer.2017.06.133",
+      "10.1063/5.0073459",
+      "10.1088/0026-1394/47/2/S14",
+      "10.1088/1742-6596/13/1/015",
+      "10.1109/TIM.2023.3268656",
+      "10.3390/ma12071141"
+    ]
+  }
+}

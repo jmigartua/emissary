@@ -1,0 +1,82 @@
+{
+  "id": "10.1088/0957-0233/3/5/012",
+  "bibliographic": {
+    "doi": "10.1088/0957-0233/3/5/012",
+    "scopus_id": "26866373",
+    "title": "A radiometric method for measuring directional total emittance at ambient temperatures",
+    "authors": [
+      "B. W. Jones",
+      "A. Pantinakis"
+    ],
+    "year": 1992,
+    "venue": "Measurement Science and Technology"
+  },
+  "instrument": {
+    "detection_method": [
+      "Golay cell"
+    ],
+    "spectral": false,
+    "spectral_range_um": null,
+    "direction": "directional",
+    "temperature_measurement_method": [
+      "Thermocouple",
+      "calculated"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      null,
+      373.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "GB",
+    "affiliations": [
+      {
+        "name": "The Open University",
+        "country": "GB",
+        "city": "Milton Keynes",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "The Open University",
+        "country": "GB",
+        "city": "Milton Keynes",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 2,
+    "total_updated": "2026-08-02",
+    "cites": [],
+    "cited_by": []
+  }
+}

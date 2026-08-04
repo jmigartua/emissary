@@ -1,0 +1,44 @@
+{
+  "profile": "tabular-data-package",
+  "name": "radiometric-emissometers-db",
+  "title": "A database of radiometric emissometer instrument designs",
+  "licenses": [
+    { "name": "CC-BY-4.0", "path": "https://creativecommons.org/licenses/by/4.0/" }
+  ],
+  "resources": [
+    {
+      "name": "index",
+      "path": "index.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          { "name": "id", "type": "string", "description": "DOI; scopus_<id> fallback for no-DOI papers with a Scopus id; noid-<bibtex-key> for papers with neither" },
+          { "name": "doi", "type": "string" },
+          { "name": "scopus_id", "type": "string" },
+          { "name": "title", "type": "string" },
+          { "name": "authors", "type": "string", "description": "semicolon-separated" },
+          { "name": "year", "type": "integer" },
+          { "name": "venue", "type": "string" },
+          { "name": "corresponding_country", "type": "string", "description": "ISO 3166-1 alpha-2" },
+          { "name": "affiliations", "type": "string", "description": "semicolon-separated \"name (country, city)\" entries, ordered as authors appear" },
+          { "name": "detection_method", "type": "string", "description": "semicolon-separated" },
+          { "name": "spectral", "type": "boolean", "description": "true = wavelength-resolved measurement (see spectral_range_um_min/max); false = total/hemispherical-integrated measurement, no single range; blank = source doesn't say" },
+          { "name": "spectral_range_um_min", "type": "number" },
+          { "name": "spectral_range_um_max", "type": "number" },
+          { "name": "direction", "type": "string", "constraints": { "enum": ["directional", "normal", "hemispherical"] }, "description": "directional = angle-scanning; normal = single angle at 0°; hemispherical = integrated over the hemisphere" },
+          { "name": "temperature_measurement_method", "type": "string", "description": "semicolon-separated" },
+          { "name": "temperature_control_method", "type": "string", "description": "semicolon-separated" },
+          { "name": "temperature_range_K_min", "type": "number" },
+          { "name": "temperature_range_K_max", "type": "number" },
+          { "name": "citations_total", "type": "integer" },
+          { "name": "citations_total_updated", "type": "date" },
+          { "name": "cites", "type": "string", "description": "semicolon-separated ids" },
+          { "name": "cited_by", "type": "string", "description": "semicolon-separated ids" }
+        ],
+        "primaryKey": "id"
+      }
+    }
+  ]
+}

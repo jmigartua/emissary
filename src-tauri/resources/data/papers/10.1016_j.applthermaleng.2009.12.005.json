@@ -1,0 +1,85 @@
+{
+  "id": "10.1016/j.applthermaleng.2009.12.005",
+  "bibliographic": {
+    "doi": "10.1016/j.applthermaleng.2009.12.005",
+    "scopus_id": "76449115213",
+    "title": "Measurements of brake disc surface temperature and emissivity by two-color pyrometry",
+    "authors": [
+      "Jean Thevenet",
+      "Monica Siroux",
+      "Bernard Desmet"
+    ],
+    "year": 2010,
+    "venue": "Applied Thermal Engineering"
+  },
+  "instrument": {
+    "detection_method": [
+      "pyrometer two-color"
+    ],
+    "spectral": null,
+    "spectral_range_um": null,
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "pyrometer"
+    ],
+    "temperature_control_method": [],
+    "temperature_range_K": null
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "FR",
+    "affiliations": [
+      {
+        "name": "Université de Lille",
+        "country": "FR",
+        "city": "Lille",
+        "author_position": "first"
+      },
+      {
+        "name": "Université de Lille",
+        "country": "FR",
+        "city": "Lille",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Université de Lille",
+        "country": "FR",
+        "city": "Lille",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 94,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1088/1674-1056/25/4/047801"
+    ],
+    "cited_by": []
+  }
+}

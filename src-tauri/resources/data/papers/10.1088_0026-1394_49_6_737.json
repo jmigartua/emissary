@@ -1,0 +1,98 @@
+{
+  "id": "10.1088/0026-1394/49/6/737",
+  "bibliographic": {
+    "doi": "10.1088/0026-1394/49/6/737",
+    "scopus_id": "84870347096",
+    "title": "Broadband emissivity calibration of highly reflective samples at cryogenic temperatures",
+    "authors": [
+      "S. I. Woods",
+      "T. M. Jung",
+      "G. T. Ly",
+      "J. Yu"
+    ],
+    "year": 2012,
+    "venue": "Metrologia"
+  },
+  "instrument": {
+    "detection_method": [
+      "absolute cryogenic radiometer"
+    ],
+    "spectral": null,
+    "spectral_range_um": null,
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "silicon diode thermometer"
+    ],
+    "temperature_control_method": [
+      "cryocooler",
+      "electric heaters"
+    ],
+    "temperature_range_K": [
+      80.0,
+      300.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "US",
+    "affiliations": [
+      {
+        "name": "National Institute of Standards and Technology",
+        "country": "US",
+        "city": "Gaithersburg",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Jung Research and Development Corp.",
+        "country": "US",
+        "city": "Washington",
+        "author_position": "middle"
+      },
+      {
+        "name": "Jung Research and Development Corp.",
+        "country": "US",
+        "city": "Washington",
+        "author_position": "middle"
+      },
+      {
+        "name": "ITER",
+        "country": "FR",
+        "city": "Saint Paul lez Durance",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 8,
+    "total_updated": "2026-08-02",
+    "cites": [],
+    "cited_by": [
+      "10.1016/j.cryogenics.2023.103671"
+    ]
+  }
+}

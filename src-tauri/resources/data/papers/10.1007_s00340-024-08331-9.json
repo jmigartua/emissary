@@ -1,0 +1,114 @@
+{
+  "id": "10.1007/s00340-024-08331-9",
+  "bibliographic": {
+    "doi": "10.1007/s00340-024-08331-9",
+    "scopus_id": "85205980906",
+    "title": "Experimental setup for the determination of spectral normal emissivity of conductive materials in the 1–18 ?m wavelength range at 300–1700 °C in air",
+    "authors": [
+      "R. A. Mironov",
+      "A. E. Kryukov",
+      "A. O. Zabezhaylov",
+      "M. O. Zabezhaylov",
+      "M. Y. Rusin"
+    ],
+    "year": 2024,
+    "venue": "Applied Physics B: Lasers and Optics"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "Simex FT-805"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      1.0,
+      18.0
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "pyrometer",
+      "calculated",
+      "iterative method"
+    ],
+    "temperature_control_method": [
+      "induction heating"
+    ],
+    "temperature_range_K": [
+      573.0,
+      1973.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "RU",
+    "affiliations": [
+      {
+        "name": "ORPE “Technologiya” named after A.G. Romashin",
+        "country": "RU",
+        "city": "Obninsk",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "ORPE “Technologiya” named after A.G. Romashin",
+        "country": "RU",
+        "city": "Obninsk",
+        "author_position": "middle"
+      },
+      {
+        "name": "ORPE “Technologiya” named after A.G. Romashin",
+        "country": "RU",
+        "city": "Obninsk",
+        "author_position": "middle"
+      },
+      {
+        "name": "ORPE “Technologiya” named after A.G. Romashin",
+        "country": "RU",
+        "city": "Obninsk",
+        "author_position": "middle"
+      },
+      {
+        "name": "ORPE “Technologiya” named after A.G. Romashin",
+        "country": "RU",
+        "city": "Obninsk",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 1,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-007-0183-1",
+      "10.1088/1742-6596/395/1/012152",
+      "10.3390/s21186252"
+    ],
+    "cited_by": [
+      "10.1088/1742-6596/13/1/015"
+    ]
+  }
+}

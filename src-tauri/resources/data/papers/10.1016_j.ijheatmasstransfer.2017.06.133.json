@@ -1,0 +1,124 @@
+{
+  "id": "10.1016/j.ijheatmasstransfer.2017.06.133",
+  "bibliographic": {
+    "doi": "10.1016/j.ijheatmasstransfer.2017.06.133",
+    "scopus_id": "85021801640",
+    "title": "An improved algorithm for spectral emissivity measurements at low temperatures based on the multi-temperature calibration method",
+    "authors": [
+      "Kaihua Zhang",
+      "Kun Yu",
+      "Yufang Liu",
+      "Yuejin Zhao"
+    ],
+    "year": 2017,
+    "venue": "International Journal of Heat and Mass Transfer"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "Bruker Vertex 70v"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      5.0,
+      20.0
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "platinum resistance thermometer",
+      "calculated"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      323.0,
+      373.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "School of Optics and Photonics, Beijing Institute of Technology",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "first"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "School of Optics and Photonics, Beijing Institute of Technology",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "middle"
+      },
+      {
+        "name": "School of Optics and Photonics, Beijing Institute of Technology",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 53,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-021-02813-0",
+      "10.1007/s10765-022-03129-3",
+      "10.1007/s10765-024-03393-5",
+      "10.1016/j.ijthermalsci.2025.109809",
+      "10.1016/j.infrared.2018.06.031",
+      "10.1016/j.jqsrt.2022.108277",
+      "10.1016/j.measurement.2023.113999",
+      "10.1063/1.2393157",
+      "10.1088/0957-0233/25/9/095501",
+      "10.1088/1681-7575/ab84ff",
+      "10.1109/TIM.2023.3268656",
+      "10.1109/TIM.2024.3457934"
+    ],
+    "cited_by": [
+      "10.1007/s10765-007-0183-1",
+      "10.1007/s10765-008-0442-9",
+      "10.1007/s10765-010-0847-0",
+      "10.1016/j.applthermaleng.2019.114854",
+      "10.1016/j.expthermflusci.2021.110379",
+      "10.1016/j.infrared.2022.104515",
+      "10.1023/A:1012817726103",
+      "10.1023/B:IJOT.0000028479.90667.8a",
+      "10.1088/1742-6596/13/1/015",
+      "10.1117/12.542224"
+    ]
+  }
+}

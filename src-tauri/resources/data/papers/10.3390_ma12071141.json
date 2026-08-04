@@ -1,0 +1,123 @@
+{
+  "id": "10.3390/ma12071141",
+  "bibliographic": {
+    "doi": "10.3390/ma12071141",
+    "scopus_id": "85065676755",
+    "title": "An apparatus for spectral emissivity measurements of thermal control materials at low temperatures",
+    "authors": [
+      "Jiayu Ma",
+      "Yuzhi Zhang",
+      "Lingnan Wu",
+      "Haogeng Li",
+      "Lixin Song"
+    ],
+    "year": 2019,
+    "venue": "Materials"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "Bruker Vertex 70v"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      8.0,
+      14.0
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [],
+    "temperature_control_method": [
+      "refrigerator (ULCAC CRYOGENICS",
+      "Kanagawa",
+      "Japan)",
+      "a power adjustable heating resistor (SAKAGUCHI",
+      "Tokyo",
+      "Japan)"
+    ],
+    "temperature_range_K": [
+      173.0,
+      213.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "Shanghai Institute of Ceramics, Chinese Academy of Sciences",
+        "country": "CN",
+        "city": "Shanghai",
+        "author_position": "first"
+      },
+      {
+        "name": "Shanghai Institute of Ceramics, Chinese Academy of Sciences",
+        "country": "CN",
+        "city": "Shanghai",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Shanghai Institute of Ceramics, Chinese Academy of Sciences",
+        "country": "CN",
+        "city": "Shanghai",
+        "author_position": "middle"
+      },
+      {
+        "name": "Shanghai Institute of Ceramics, Chinese Academy of Sciences",
+        "country": "CN",
+        "city": "Shanghai",
+        "author_position": "middle"
+      },
+      {
+        "name": "Shanghai Institute of Ceramics, Chinese Academy of Sciences",
+        "country": "CN",
+        "city": "Shanghai",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 13,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-016-2058-9",
+      "10.1016/j.infrared.2015.10.001",
+      "10.1016/j.measurement.2023.113999",
+      "10.1088/0957-0233/25/9/095501",
+      "10.1109/TIM.2024.3457934"
+    ],
+    "cited_by": [
+      "10.1007/s10765-008-0442-9",
+      "10.1007/s10765-014-1745-7",
+      "10.1007/s10765-015-1866-7",
+      "10.1007/s11018-012-0103-z",
+      "10.1016/j.solener.2022.01.050",
+      "10.1088/1681-7575/ab84ff",
+      "10.1088/1742-6596/13/1/015"
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "id": "10.1088/1681-7575/ab84ff",
+  "bibliographic": {
+    "doi": "10.1088/1681-7575/ab84ff",
+    "scopus_id": "85094186581",
+    "title": "Updated measurement method and uncertainty budget for direct emissivity measurements at the University of the Basque Country",
+    "authors": [
+      "I. González De Arrieta",
+      "T. Echániz",
+      "R. Fuente",
+      "J. M. Campillo-Robles",
+      "J. M. Igartua",
+      "G. A. López"
+    ],
+    "year": 2020,
+    "venue": "Metrologia"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "Bruker IFS 66v/S"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      1.43,
+      25.0
+    ],
+    "direction": "directional",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "electic heater"
+    ],
+    "temperature_range_K": [
+      300.0,
+      1273.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "ES",
+    "affiliations": [
+      {
+        "name": "Universidad del Pais Vasco",
+        "country": "ES",
+        "city": "Leioa",
+        "author_position": "first"
+      },
+      {
+        "name": "Universidad del Pais Vasco",
+        "country": "ES",
+        "city": "Leioa",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Universidad del Pais Vasco",
+        "country": "ES",
+        "city": "Leioa",
+        "author_position": "middle"
+      },
+      {
+        "name": "Universidad del Pais Vasco",
+        "country": "ES",
+        "city": "Leioa",
+        "author_position": "middle"
+      },
+      {
+        "name": "Universidad del Pais Vasco",
+        "country": "ES",
+        "city": "Leioa",
+        "author_position": "middle"
+      },
+      {
+        "name": "Universidad del Pais Vasco",
+        "country": "ES",
+        "city": "Leioa",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 25,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-015-1866-7",
+      "10.1016/j.ijthermalsci.2024.109454",
+      "10.1016/j.infrared.2015.01.011",
+      "10.1016/j.infrared.2015.10.001",
+      "10.1016/j.infrared.2018.06.031",
+      "10.1063/1.2393157",
+      "10.1088/0026-1394/47/2/S14",
+      "10.1109/ACCESS.2021.3096599",
+      "10.3390/ma12071141",
+      "10.3390/s21186252"
+    ],
+    "cited_by": [
+      "10.1007/s10765-007-0183-1",
+      "10.1007/s10765-014-1745-7",
+      "10.1007/s10765-017-2339-y",
+      "10.1007/s10765-018-2472-2",
+      "10.1016/j.applthermaleng.2016.11.022",
+      "10.1016/j.ijheatmasstransfer.2017.06.133"
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "id": "10.1063/1.5116425",
+  "bibliographic": {
+    "doi": "10.1063/1.5116425",
+    "scopus_id": "85075611953",
+    "title": "A fast and versatile method for spectral emissivity measurement at high temperatures",
+    "authors": [
+      "Abdelmagid El Bakali",
+      "Rémi Gilblas",
+      "Thomas Pottier",
+      "Yannick Le Maoult"
+    ],
+    "year": 2019,
+    "venue": "Review of Scientific Instruments"
+  },
+  "instrument": {
+    "detection_method": [
+      "spectrometer (NIR",
+      "NeoSpectra 1",
+      "3",
+      "2",
+      "5 microns) two MIR cameras (FLIR SC7000",
+      "2",
+      "5-5",
+      "5; FLIR SC325",
+      "7",
+      "5-13)"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      1.3,
+      13.0
+    ],
+    "direction": null,
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "electic heater",
+      "lamp inside of ellipsoid mirror"
+    ],
+    "temperature_range_K": [
+      873.0,
+      1273.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "FR",
+    "affiliations": [
+      {
+        "name": "Institut Clément Ader",
+        "country": "FR",
+        "city": "Toulouse",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Institut Clément Ader",
+        "country": "FR",
+        "city": "Toulouse",
+        "author_position": "middle"
+      },
+      {
+        "name": "Institut Clément Ader",
+        "country": "FR",
+        "city": "Toulouse",
+        "author_position": "middle"
+      },
+      {
+        "name": "Institut Clément Ader",
+        "country": "FR",
+        "city": "Toulouse",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 5,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-013-1400-8",
+      "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "10.1016/j.infrared.2015.01.011",
+      "10.1016/j.infrared.2015.10.001",
+      "10.1023/A:1013103419949",
+      "10.1063/1.2393157"
+    ],
+    "cited_by": []
+  }
+}

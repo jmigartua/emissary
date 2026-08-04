@@ -1,0 +1,131 @@
+{
+  "id": "10.1007/s10765-007-0183-1",
+  "bibliographic": {
+    "doi": "10.1007/s10765-007-0183-1",
+    "scopus_id": "34250646992",
+    "title": "Temperature-resolved infrared spectral emissivity of SiC and Pt-10Rh for temperatures up to 900°C",
+    "authors": [
+      "Claus P. Cagran",
+      "Leonard M. Hanssen",
+      "Mart Noorma",
+      "Alex V. Gura",
+      "Sergey N. Mekhontsev"
+    ],
+    "year": 2007,
+    "venue": "International Journal of Thermophysics"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "Bomem DA3"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      2.0,
+      20.0
+    ],
+    "direction": "directional",
+    "temperature_measurement_method": [
+      "platinum resistance thermometer"
+    ],
+    "temperature_control_method": [
+      "Heat-pipe heaters"
+    ],
+    "temperature_range_K": [
+      793.0,
+      1943.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "US",
+    "affiliations": [
+      {
+        "name": "National Institute of Standards and Technology",
+        "country": "US",
+        "city": "Gaithersburg",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "National Institute of Standards and Technology",
+        "country": "US",
+        "city": "Gaithersburg",
+        "author_position": "middle"
+      },
+      {
+        "name": "National Institute of Standards and Technology",
+        "country": "US",
+        "city": "Gaithersburg",
+        "author_position": "middle"
+      },
+      {
+        "name": "National Institute of Standards and Technology",
+        "country": "US",
+        "city": "Gaithersburg",
+        "author_position": "middle"
+      },
+      {
+        "name": "National Institute of Standards and Technology",
+        "country": "US",
+        "city": "Gaithersburg",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 115,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-016-2058-9",
+      "10.1007/s10765-022-03129-3",
+      "10.1007/s10765-024-03393-5",
+      "10.1016/j.ijheatmasstransfer.2012.02.055",
+      "10.1016/j.ijheatmasstransfer.2017.06.133",
+      "10.1016/j.ijheatmasstransfer.2021.122092",
+      "10.1016/j.ijthermalsci.2025.109809",
+      "10.1016/j.infrared.2015.01.011",
+      "10.1016/j.infrared.2018.06.031",
+      "10.1016/j.infrared.2023.105060",
+      "10.1016/j.jqsrt.2022.108277",
+      "10.1016/j.measurement.2023.113999",
+      "10.1088/0026-1394/47/2/S14",
+      "10.1088/0957-0233/25/9/095501",
+      "10.1088/1681-7575/ab84ff"
+    ],
+    "cited_by": [
+      "10.1007/s00340-024-08331-9",
+      "10.1007/s10765-018-2472-2",
+      "10.1016/j.applthermaleng.2019.114854",
+      "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "10.1016/j.infrared.2022.104515",
+      "10.1016/s0031-8914(54)80182-0",
+      "10.1115/1.4006088",
+      "10.1117/12.542224"
+    ]
+  }
+}

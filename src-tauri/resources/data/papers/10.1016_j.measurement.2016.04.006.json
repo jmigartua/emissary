@@ -1,0 +1,108 @@
+{
+  "id": "10.1016/j.measurement.2016.04.006",
+  "bibliographic": {
+    "doi": "10.1016/j.measurement.2016.04.006",
+    "scopus_id": "84964335086",
+    "title": "Accurate methods for single-band apparent emissivity measurement of opaque materials",
+    "authors": [
+      "Olivier Riou",
+      "Vincent Guiheneuf",
+      "Fabien Delaleux",
+      "Pierre Olivier Logerais",
+      "Jean Félix Durastanti"
+    ],
+    "year": 2016,
+    "venue": "Measurement: Journal of the International Measurement Confederation"
+  },
+  "instrument": {
+    "detection_method": [
+      "infrared camera",
+      "Thermacam E300"
+    ],
+    "spectral": null,
+    "spectral_range_um": null,
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      293.0,
+      393.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "FR",
+    "affiliations": [
+      {
+        "name": "Paris-Est Sup",
+        "country": "FR",
+        "city": "Marne-la-Vallee",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Paris-Est Sup",
+        "country": "FR",
+        "city": "Marne-la-Vallee",
+        "author_position": "middle"
+      },
+      {
+        "name": "Paris-Est Sup",
+        "country": "FR",
+        "city": "Marne-la-Vallee",
+        "author_position": "middle"
+      },
+      {
+        "name": "Paris-Est Sup",
+        "country": "FR",
+        "city": "Marne-la-Vallee",
+        "author_position": "middle"
+      },
+      {
+        "name": "Paris-Est Sup",
+        "country": "FR",
+        "city": "Marne-la-Vallee",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 23,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1016/j.expthermflusci.2021.110379",
+      "10.1016/j.ijheatmasstransfer.2004.10.003",
+      "10.1088/1361-6501/ab5e9b",
+      "10.1109/TIM.2019.2944504"
+    ],
+    "cited_by": []
+  }
+}

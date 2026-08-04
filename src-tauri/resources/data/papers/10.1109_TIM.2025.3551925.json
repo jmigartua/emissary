@@ -1,0 +1,111 @@
+{
+  "id": "10.1109/TIM.2025.3551925",
+  "bibliographic": {
+    "doi": "10.1109/TIM.2025.3551925",
+    "scopus_id": "105002399139",
+    "title": "A Novel Measurement Method for Material Emissivity Under High Temperature",
+    "authors": [
+      "Jiu Zhang",
+      "Xu Lan",
+      "Runxun Ma",
+      "Feng Yue",
+      "Guohui Mei"
+    ],
+    "year": 2025,
+    "venue": "IEEE Transactions on Instrumentation and Measurement"
+  },
+  "instrument": {
+    "detection_method": [
+      "pyrometer"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      1.55,
+      1.55
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "calculated"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      893.0,
+      1093.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "College of Information Science and Engineering, Northeastern University",
+        "country": "CN",
+        "city": "Shenyang",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "College of Information Science and Engineering, Northeastern University",
+        "country": "CN",
+        "city": "Shenyang",
+        "author_position": "middle"
+      },
+      {
+        "name": "College of Information Science and Engineering, Northeastern University",
+        "country": "CN",
+        "city": "Shenyang",
+        "author_position": "middle"
+      },
+      {
+        "name": "College of Information Science and Engineering, Northeastern University",
+        "country": "CN",
+        "city": "Shenyang",
+        "author_position": "middle"
+      },
+      {
+        "name": "College of Information Science and Engineering, Northeastern University",
+        "country": "CN",
+        "city": "Shenyang",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 0,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-008-0442-9",
+      "10.1063/5.0073459",
+      "10.1088/0026-1394/47/2/S14"
+    ],
+    "cited_by": [
+      "10.1023/B:IJOT.0000028479.90667.8a"
+    ]
+  }
+}

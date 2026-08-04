@@ -1,0 +1,111 @@
+{
+  "id": "10.1016/j.infrared.2019.102974",
+  "bibliographic": {
+    "doi": "10.1016/j.infrared.2019.102974",
+    "scopus_id": "85070521593",
+    "title": "An in situ online methodology for emissivity measurement between 100?°C and 500?°C utilizing infrared sensor",
+    "authors": [
+      "Xi Chen",
+      "Lin Ye",
+      "Zhixing Zhu",
+      "Kang Gui",
+      "H. Zhang"
+    ],
+    "year": 2019,
+    "venue": "Infrared Physics and Technology"
+  },
+  "instrument": {
+    "detection_method": [
+      "thermoelectric",
+      "RM-6A"
+    ],
+    "spectral": false,
+    "spectral_range_um": null,
+    "direction": "hemispherical",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      373.0,
+      773.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "Huazhong University of Science and Technology",
+        "country": "CN",
+        "city": "Wuhan",
+        "author_position": "first"
+      },
+      {
+        "name": "Huazhong University of Science and Technology",
+        "country": "CN",
+        "city": "Wuhan",
+        "author_position": "middle"
+      },
+      {
+        "name": "Huazhong University of Science and Technology",
+        "country": "CN",
+        "city": "Wuhan",
+        "author_position": "middle"
+      },
+      {
+        "name": "Huazhong University of Science and Technology",
+        "country": "CN",
+        "city": "Wuhan",
+        "author_position": "middle"
+      },
+      {
+        "name": "Huazhong University of Science and Technology",
+        "country": "CN",
+        "city": "Wuhan",
+        "author_position": "corresponding"
+      }
+    ]
+  },
+  "citations": {
+    "total": 4,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1016/j.ijheatmasstransfer.2012.02.055",
+      "10.1063/1.2393157"
+    ],
+    "cited_by": [
+      "10.1007/s10765-010-0847-0",
+      "10.1007/s10765-011-0986-y",
+      "10.1007/s10765-018-2472-2",
+      "10.1016/j.measurement.2016.01.018"
+    ]
+  }
+}

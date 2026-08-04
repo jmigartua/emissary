@@ -1,0 +1,78 @@
+{
+  "id": "10.1016/S1350-4495(96)00017-5",
+  "bibliographic": {
+    "doi": "10.1016/S1350-4495(96)00017-5",
+    "scopus_id": "30311693",
+    "title": "Total emissivity measurements without use of an absolute reference",
+    "authors": [
+      "D. Especel",
+      "S. Matteï"
+    ],
+    "year": 1996,
+    "venue": "Infrared Physics and Technology"
+  },
+  "instrument": {
+    "detection_method": [
+      "pyroelectric detector"
+    ],
+    "spectral": false,
+    "spectral_range_um": null,
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": null
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "FR",
+    "affiliations": [
+      {
+        "name": "Université Paris-Est Créteil Val de Marne",
+        "country": "FR",
+        "city": "Creteil",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Université Paris-Est Créteil Val de Marne",
+        "country": "FR",
+        "city": "Creteil",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 35,
+    "total_updated": "2026-08-02",
+    "cites": [],
+    "cited_by": []
+  }
+}

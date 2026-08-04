@@ -1,0 +1,95 @@
+{
+  "id": "10.1007/s10765-010-0847-0",
+  "bibliographic": {
+    "doi": "10.1007/s10765-010-0847-0",
+    "scopus_id": "79960697670",
+    "title": "Simultaneous measurement method of normal spectral emissivity and optical constants of solids at high temperature in vacuum",
+    "authors": [
+      "K. Nakazawa",
+      "A. Ohnishi"
+    ],
+    "year": 2010,
+    "venue": "International Journal of Thermophysics"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "FTS-60A/596; Bio-Rad"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      1.6,
+      22.0
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "thermopile",
+      "calculated"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      373.0,
+      1673.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "JP",
+    "affiliations": [
+      {
+        "name": "Tokai University",
+        "country": "JP",
+        "city": "Tokyo",
+        "author_position": "first"
+      },
+      {
+        "name": "JAXA Institute of Space and Astronautical Science",
+        "country": "JP",
+        "city": "Sagamihara",
+        "author_position": "corresponding"
+      }
+    ]
+  },
+  "citations": {
+    "total": 19,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-016-2058-9",
+      "10.1007/s10765-022-03129-3",
+      "10.1016/j.applthermaleng.2019.114854",
+      "10.1016/j.ijheatmasstransfer.2017.06.133",
+      "10.1016/j.infrared.2018.06.031",
+      "10.1016/j.infrared.2019.102974",
+      "10.1016/j.jqsrt.2022.108277",
+      "10.1109/TIM.2023.3268656"
+    ],
+    "cited_by": []
+  }
+}

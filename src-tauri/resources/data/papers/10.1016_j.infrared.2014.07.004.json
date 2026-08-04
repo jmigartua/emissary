@@ -1,0 +1,115 @@
+{
+  "id": "10.1016/j.infrared.2014.07.004",
+  "bibliographic": {
+    "doi": "10.1016/j.infrared.2014.07.004",
+    "scopus_id": "84905240215",
+    "title": "Spectral emissivity modeling of steel 201 during the growth of oxidation film over the temperature range from 800 to 1100 K in air",
+    "authors": [
+      "Deheng Shi",
+      "Fenghui Zou",
+      "Shuai Wang",
+      "Zunlue Zhu",
+      "Jinfeng Sun",
+      "Baokui Wang"
+    ],
+    "year": 2014,
+    "venue": "Infrared Physics and Technology"
+  },
+  "instrument": {
+    "detection_method": [
+      "InGaAs photodiode"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      0.8,
+      1.1
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      null,
+      1200.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "middle"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "middle"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "middle"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "middle"
+      },
+      {
+        "name": "Ltd.",
+        "country": "CN",
+        "city": "Wuhan",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 14,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1016/j.measurement.2016.01.018",
+      "10.1063/1.2393157"
+    ],
+    "cited_by": []
+  }
+}

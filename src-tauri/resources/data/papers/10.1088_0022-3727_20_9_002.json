@@ -1,0 +1,82 @@
+{
+  "id": "10.1088/0022-3727/20/9/002",
+  "bibliographic": {
+    "doi": "10.1088/0022-3727/20/9/002",
+    "scopus_id": "23406469",
+    "title": "The directional-total emittance at 368 K of some metals, solar absorbers and dielectrics",
+    "authors": [
+      "A. A. De Silva",
+      "B. W. Jones"
+    ],
+    "year": 1987,
+    "venue": "Journal of Physics D: Applied Physics"
+  },
+  "instrument": {
+    "detection_method": [
+      "Golay cell"
+    ],
+    "spectral": false,
+    "spectral_range_um": null,
+    "direction": "directional",
+    "temperature_measurement_method": [
+      "Thermocouple",
+      "calculated"
+    ],
+    "temperature_control_method": [
+      "electic heater"
+    ],
+    "temperature_range_K": [
+      368.0,
+      368.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "GB",
+    "affiliations": [
+      {
+        "name": "The Open University",
+        "country": "GB",
+        "city": "Milton Keynes",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "The Open University",
+        "country": "GB",
+        "city": "Milton Keynes",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 5,
+    "total_updated": "2026-08-02",
+    "cites": [],
+    "cited_by": []
+  }
+}

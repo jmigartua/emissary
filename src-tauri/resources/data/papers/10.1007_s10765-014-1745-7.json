@@ -1,0 +1,126 @@
+{
+  "id": "10.1007/s10765-014-1745-7",
+  "bibliographic": {
+    "doi": "10.1007/s10765-014-1745-7",
+    "scopus_id": "84925482101",
+    "title": "Emissivity Measurement Under Vacuum from 4µm to 100µm and from ?40?C to 450?C at PTB",
+    "authors": [
+      "A. Adibekyan",
+      "C. Monte",
+      "M. Kehrt",
+      "B. Gutschwager",
+      "J. Hollandt"
+    ],
+    "year": 2015,
+    "venue": "International Journal of Thermophysics"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "Bruker Vertex"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      4.0,
+      100.0
+    ],
+    "direction": "directional",
+    "temperature_measurement_method": [
+      "platinum resistance thermometer",
+      "calculated"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      233.0,
+      723.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "DE",
+    "affiliations": [
+      {
+        "name": "Physikalisch-Technische Bundesanstalt",
+        "country": "DE",
+        "city": "Braunschweig",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Physikalisch-Technische Bundesanstalt",
+        "country": "DE",
+        "city": "Braunschweig",
+        "author_position": "middle"
+      },
+      {
+        "name": "Physikalisch-Technische Bundesanstalt",
+        "country": "DE",
+        "city": "Braunschweig",
+        "author_position": "middle"
+      },
+      {
+        "name": "Physikalisch-Technische Bundesanstalt",
+        "country": "DE",
+        "city": "Braunschweig",
+        "author_position": "middle"
+      },
+      {
+        "name": "Physikalisch-Technische Bundesanstalt",
+        "country": "DE",
+        "city": "Braunschweig",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 37,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-008-0442-9",
+      "10.1007/s10765-021-02813-0",
+      "10.1007/s10765-024-03393-5",
+      "10.1016/j.expthermflusci.2021.110379",
+      "10.1016/j.infrared.2023.105060",
+      "10.1016/j.measurement.2023.113999",
+      "10.1088/0026-1394/47/2/S14",
+      "10.1088/1681-7575/ab84ff",
+      "10.1109/TIM.2023.3268656",
+      "10.1117/12.2208334",
+      "10.3390/app142210369",
+      "10.3390/ma12071141"
+    ],
+    "cited_by": [
+      "10.1007/s10765-018-2472-2",
+      "10.1007/s11018-012-0103-z",
+      "10.1016/j.jqsrt.2020.107316",
+      "10.1364/AO.54.008700",
+      "scopus_77957053134"
+    ]
+  }
+}

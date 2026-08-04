@@ -1,0 +1,137 @@
+{
+  "id": "10.1007/s10765-013-1400-8",
+  "bibliographic": {
+    "doi": "10.1007/s10765-013-1400-8",
+    "scopus_id": "85028159647",
+    "title": "New facilities for the measurements of high-temperature thermophysical properties at LNE",
+    "authors": [
+      "Bruno Hay",
+      "Jacques Hameury",
+      "Nolwenn Fleurence",
+      "Pascal Lacipiere",
+      "Marc Grelard",
+      "Vincent Scoarnec",
+      "Guillaume Davee"
+    ],
+    "year": 2014,
+    "venue": "International Journal of Thermophysics"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "Bruker Vertex 70"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      0.8,
+      10.0
+    ],
+    "direction": "directional",
+    "temperature_measurement_method": [
+      "contact thermometry",
+      "bichromatic pyrometry or “pyroreflectometry”"
+    ],
+    "temperature_control_method": [
+      "halogen lamps"
+    ],
+    "temperature_range_K": [
+      null,
+      1723.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "FR",
+    "affiliations": [
+      {
+        "name": "Laboratoire National de Metrologie et d'Essais",
+        "country": "FR",
+        "city": "Paris",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Laboratoire National de Metrologie et d'Essais",
+        "country": "FR",
+        "city": "Paris",
+        "author_position": "middle"
+      },
+      {
+        "name": "Laboratoire National de Metrologie et d'Essais",
+        "country": "FR",
+        "city": "Paris",
+        "author_position": "middle"
+      },
+      {
+        "name": "Laboratoire National de Metrologie et d'Essais",
+        "country": "FR",
+        "city": "Paris",
+        "author_position": "middle"
+      },
+      {
+        "name": "Laboratoire National de Metrologie et d'Essais",
+        "country": "FR",
+        "city": "Paris",
+        "author_position": "middle"
+      },
+      {
+        "name": "Laboratoire National de Metrologie et d'Essais",
+        "country": "FR",
+        "city": "Paris",
+        "author_position": "middle"
+      },
+      {
+        "name": "Laboratoire National de Metrologie et d'Essais",
+        "country": "FR",
+        "city": "Paris",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 36,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-021-02813-0",
+      "10.1016/j.expthermflusci.2021.110379",
+      "10.1016/j.ijthermalsci.2025.110629",
+      "10.1016/j.infrared.2015.01.011",
+      "10.1016/j.infrared.2015.10.001",
+      "10.1016/j.tca.2017.03.004",
+      "10.1063/5.0073459",
+      "10.1088/0957-0233/25/9/095501",
+      "10.1088/1742-6596/13/1/015",
+      "10.1109/TIM.2023.3268656",
+      "10.1109/TIM.2024.3457934",
+      "10.3390/ma15010235",
+      "10.3390/s21186252"
+    ],
+    "cited_by": [
+      "10.1063/1.5116425"
+    ]
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "id": "10.3390/ma15010235",
+  "bibliographic": {
+    "doi": "10.3390/ma15010235",
+    "scopus_id": "85121968760",
+    "title": "Investigation of high-temperature normal infrared spectral emissivity of zro2 thermal barrier coating artefacts by the modified integrated blackbody method",
+    "authors": [
+      "Tong Zhang",
+      "Xuyao Song",
+      "Gongjin Qi",
+      "Baolin An",
+      "Wei Dong",
+      "Yan Zhao",
+      "Zhiyong Wang",
+      "Xiaosu Yi",
+      "Zundong Yuan",
+      "Yunlong Zhao",
+      "Luge Sun",
+      "Hongyu Mao"
+    ],
+    "year": 2022,
+    "venue": "Materials"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "Bruker Vertex 70"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      1.0,
+      14.0
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "thermocouple",
+      "calculated"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      1273.0,
+      1773.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "Beihang University",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "first"
+      },
+      {
+        "name": "AVIC Manufacturing Technology Institute",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "AVIC Manufacturing Technology Institute",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "middle"
+      },
+      {
+        "name": "National Institute of Metrology China",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "middle"
+      },
+      {
+        "name": "National Institute of Metrology China",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "middle"
+      },
+      {
+        "name": "Beihang University",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "middle"
+      },
+      {
+        "name": "Beijing Institute of Aeronautical Materials",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "middle"
+      },
+      {
+        "name": "Beijing Institute of Aeronautical Materials",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "middle"
+      },
+      {
+        "name": "National Institute of Metrology China",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "middle"
+      },
+      {
+        "name": "National Institute of Metrology China",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "middle"
+      },
+      {
+        "name": "National Institute of Metrology China",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "middle"
+      },
+      {
+        "name": "AVIC Manufacturing Technology Institute",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 7,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-015-1866-7",
+      "10.1007/s10765-016-2058-9"
+    ],
+    "cited_by": [
+      "10.1007/s10765-013-1400-8",
+      "10.1088/1742-6596/13/1/015",
+      "10.1117/12.542224"
+    ]
+  }
+}

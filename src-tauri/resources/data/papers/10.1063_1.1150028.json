@@ -1,0 +1,104 @@
+{
+  "id": "10.1063/1.1150028",
+  "bibliographic": {
+    "doi": "10.1063/1.1150028",
+    "scopus_id": "1152792",
+    "title": "A spectroscopic method to measure the spectral emissivity of semi-transparent materials up to high temperature",
+    "authors": [
+      "O. Rozenbaum",
+      "D. De Sousa Meneses",
+      "Y. Auger",
+      "S. Chermanne",
+      "P. Echegut"
+    ],
+    "year": 1999,
+    "venue": "Review of Scientific Instruments"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "Bruker IFS 113 V"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      0.83,
+      1000.0
+    ],
+    "direction": "directional",
+    "temperature_measurement_method": [],
+    "temperature_control_method": [
+      "laser"
+    ],
+    "temperature_range_K": [
+      600.0,
+      3000.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "FR",
+    "affiliations": [
+      {
+        "name": "CRMHT Centre de Recherches sur les Matériaux à Haute Température",
+        "country": "FR",
+        "city": "Orleans",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "CRMHT Centre de Recherches sur les Matériaux à Haute Température",
+        "country": "FR",
+        "city": "Orleans",
+        "author_position": "middle"
+      },
+      {
+        "name": "CRMHT Centre de Recherches sur les Matériaux à Haute Température",
+        "country": "FR",
+        "city": "Orleans",
+        "author_position": "middle"
+      },
+      {
+        "name": "CRMHT Centre de Recherches sur les Matériaux à Haute Température",
+        "country": "FR",
+        "city": "Orleans",
+        "author_position": "middle"
+      },
+      {
+        "name": "CRMHT Centre de Recherches sur les Matériaux à Haute Température",
+        "country": "FR",
+        "city": "Orleans",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 141,
+    "total_updated": "2026-08-02",
+    "cites": [],
+    "cited_by": []
+  }
+}

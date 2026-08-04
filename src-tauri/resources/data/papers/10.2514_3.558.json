@@ -1,0 +1,98 @@
+{
+  "id": "10.2514/3.558",
+  "bibliographic": {
+    "doi": "10.2514/3.558",
+    "scopus_id": "28466722",
+    "title": "High-temperature, normal spectral emittance of silicon carbide based materials",
+    "authors": [
+      "Michael A. Postlethwait",
+      "Kamal K. Sikka",
+      "Michael F. Modest",
+      "John R. Hellmann"
+    ],
+    "year": 1994,
+    "venue": "Journal of Thermophysics and Heat Transfer"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      1.0,
+      8.0
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      773.0,
+      1773.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "US",
+    "affiliations": [
+      {
+        "name": "Penn State College of Engineering",
+        "country": "US",
+        "city": "University Park",
+        "author_position": "first"
+      },
+      {
+        "name": "Penn State College of Engineering",
+        "country": "US",
+        "city": "University Park",
+        "author_position": "middle"
+      },
+      {
+        "name": "Penn State College of Engineering",
+        "country": "US",
+        "city": "University Park",
+        "author_position": "middle"
+      },
+      {
+        "name": "Penn State College of Engineering",
+        "country": "US",
+        "city": "University Park",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 23,
+    "total_updated": "2026-08-02",
+    "cites": [],
+    "cited_by": []
+  }
+}

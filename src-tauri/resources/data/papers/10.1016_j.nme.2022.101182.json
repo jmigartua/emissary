@@ -1,0 +1,118 @@
+{
+  "id": "10.1016/j.nme.2022.101182",
+  "bibliographic": {
+    "doi": "10.1016/j.nme.2022.101182",
+    "scopus_id": "85128365817",
+    "title": "Research on the normal emissivity of graphite between 150 and 500 °C by an infrared camera for nuclear fusion devices",
+    "authors": [
+      "Shuangbao Shu",
+      "Tianqi Wu",
+      "Ziyi Wang",
+      "Yuzhong Zhang",
+      "Ziqiang Yang",
+      "Huajun Liang"
+    ],
+    "year": 2022,
+    "venue": "Nuclear Materials and Energy"
+  },
+  "instrument": {
+    "detection_method": [
+      "Infrared camera",
+      "FLIR A40M"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      7.5,
+      13.0
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      423.0,
+      773.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "Hefei University of Technology",
+        "country": "CN",
+        "city": "Hefei",
+        "author_position": "first"
+      },
+      {
+        "name": "Hefei University of Technology",
+        "country": "CN",
+        "city": "Hefei",
+        "author_position": "middle"
+      },
+      {
+        "name": "Hefei University of Technology",
+        "country": "CN",
+        "city": "Hefei",
+        "author_position": "middle"
+      },
+      {
+        "name": "Hefei University of Technology",
+        "country": "CN",
+        "city": "Hefei",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Hefei University of Technology",
+        "country": "CN",
+        "city": "Hefei",
+        "author_position": "middle"
+      },
+      {
+        "name": "Hefei University of Technology",
+        "country": "CN",
+        "city": "Hefei",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 12,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-016-2058-9",
+      "10.1016/j.infrared.2015.10.001"
+    ],
+    "cited_by": [
+      "10.1016/j.ijthermalsci.2024.109454"
+    ]
+  }
+}

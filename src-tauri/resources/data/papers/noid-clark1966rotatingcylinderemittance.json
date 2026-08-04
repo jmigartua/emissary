@@ -1,0 +1,63 @@
+{
+  "id": "noid-clark1966rotatingcylinderemittance",
+  "bibliographic": {
+    "doi": null,
+    "scopus_id": null,
+    "title": "A Rotating Cylinder Method for Measuring Normal Spectral Emittance of Ceramic Oxide Specimens From 1200 to 1600 °K",
+    "authors": [
+      "Clark, Howard E.",
+      "Moore, Dwight G."
+    ],
+    "year": 1966,
+    "venue": "Journal of Research of the National Bureau of Standards (U.S.)"
+  },
+  "instrument": {
+    "detection_method": [
+      "Scanning spectrometer"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      1.0,
+      15.0
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "electic heater"
+    ],
+    "temperature_range_K": [
+      1200.0,
+      1600.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "citations": {
+    "total": null,
+    "total_updated": null,
+    "cites": [],
+    "cited_by": []
+  }
+}

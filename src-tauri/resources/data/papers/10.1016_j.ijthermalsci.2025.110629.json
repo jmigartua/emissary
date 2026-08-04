@@ -1,0 +1,115 @@
+{
+  "id": "10.1016/j.ijthermalsci.2025.110629",
+  "bibliographic": {
+    "doi": "10.1016/j.ijthermalsci.2025.110629",
+    "scopus_id": "105025974669",
+    "title": "Research on directional emissivity measurement system based on finite detection solid angle analysis method",
+    "authors": [
+      "Zhiying Chen",
+      "Yanlei Liu",
+      "Longfei Li",
+      "Zhihao Yuan",
+      "Kun Yu",
+      "Yufang Liu"
+    ],
+    "year": 2026,
+    "venue": "International Journal of Thermal Sciences"
+  },
+  "instrument": {
+    "detection_method": [
+      "spectrometer",
+      "Zolix Omin-3007i"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      0.8,
+      2.5
+    ],
+    "direction": "directional",
+    "temperature_measurement_method": [],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      673.0,
+      1073.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "first"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "middle"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "middle"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "middle"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "corresponding"
+      }
+    ]
+  },
+  "citations": {
+    "total": 2,
+    "total_updated": "2026-08-02",
+    "cites": [],
+    "cited_by": [
+      "10.1007/s10765-013-1400-8",
+      "10.1063/1.4819635",
+      "10.1088/1742-6596/13/1/015"
+    ]
+  }
+}

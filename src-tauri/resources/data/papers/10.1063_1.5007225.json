@@ -1,0 +1,112 @@
+{
+  "id": "10.1063/1.5007225",
+  "bibliographic": {
+    "doi": "10.1063/1.5007225",
+    "scopus_id": "85047409288",
+    "title": "A new experimental apparatus for emissivity measurements of steel and the application of multi-wavelength thermometry to continuous casting billets",
+    "authors": [
+      "Peng Wang",
+      "Zhenwei Hu",
+      "Zhi Xie",
+      "Ming Yan"
+    ],
+    "year": 2018,
+    "venue": "Review of Scientific Instruments"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR fiber-optic spectrometer",
+      "Arcoptix",
+      "model FT-MIR Rocket"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      2.0,
+      6.0
+    ],
+    "direction": "directional",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "induction heating"
+    ],
+    "temperature_range_K": [
+      1073.0,
+      1373.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "Shenyang University of Technology",
+        "country": "CN",
+        "city": "Shenyang",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "College of Information Science and Engineering, Northeastern University",
+        "country": "CN",
+        "city": "Shenyang",
+        "author_position": "middle"
+      },
+      {
+        "name": "College of Information Science and Engineering, Northeastern University",
+        "country": "CN",
+        "city": "Shenyang",
+        "author_position": "middle"
+      },
+      {
+        "name": "Shenyang University of Technology",
+        "country": "CN",
+        "city": "Shenyang",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 36,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-021-02813-0",
+      "10.1016/j.infrared.2020.103572",
+      "10.1063/1.2393157",
+      "10.1109/TIM.2024.3457934"
+    ],
+    "cited_by": [
+      "10.1016/j.applthermaleng.2025.127648",
+      "10.1016/j.expthermflusci.2019.110017",
+      "10.1016/j.expthermflusci.2021.110379",
+      "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "10.1088/1361-6501/ab5e9b",
+      "10.1109/TIM.2019.2944504"
+    ]
+  }
+}

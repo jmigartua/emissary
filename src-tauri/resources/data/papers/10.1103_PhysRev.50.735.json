@@ -1,0 +1,84 @@
+{
+  "id": "10.1103/PhysRev.50.735",
+  "bibliographic": {
+    "doi": "10.1103/PhysRev.50.735",
+    "scopus_id": "36149009947",
+    "title": "Positive and negative thermionic emission from tungsten",
+    "authors": [
+      "H. B. Wahlin",
+      "L. V. Whitney"
+    ],
+    "year": 1936,
+    "venue": "Physical Review"
+  },
+  "instrument": {
+    "detection_method": [
+      "pyrometer"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      0.669,
+      0.669
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "pyrometer"
+    ],
+    "temperature_control_method": [
+      "current through sample"
+    ],
+    "temperature_range_K": [
+      1200.0,
+      2100.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "US",
+    "affiliations": [
+      {
+        "name": "University of Wisconsin-Madison",
+        "country": "US",
+        "city": "Madison",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "University of Wisconsin-Madison",
+        "country": "US",
+        "city": "Madison",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 4,
+    "total_updated": "2026-08-02",
+    "cites": [],
+    "cited_by": []
+  }
+}

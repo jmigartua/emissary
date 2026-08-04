@@ -1,0 +1,131 @@
+{
+  "id": "10.1063/5.0073459",
+  "bibliographic": {
+    "doi": "10.1063/5.0073459",
+    "scopus_id": "85129144493",
+    "title": "New directional spectral emissivity measurement apparatus simultaneously collecting the blackbody and sample radiation",
+    "authors": [
+      "Zeye Yuan",
+      "Kun Yu",
+      "Longfei Li",
+      "Gangquan Wang",
+      "Kaihua Zhang",
+      "Yufang Liu"
+    ],
+    "year": 2022,
+    "venue": "Review of Scientific Instruments"
+  },
+  "instrument": {
+    "detection_method": [
+      "InGaAs detector with filters with locking anplifier"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      1.2,
+      1.6
+    ],
+    "direction": "directional",
+    "temperature_measurement_method": [
+      "thermocouple",
+      "calculated"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      573.0,
+      973.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "first"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "middle"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "middle"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "middle"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 9,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1016/j.measurement.2023.113999",
+      "10.1063/1.2393157"
+    ],
+    "cited_by": [
+      "10.1007/s10765-013-1400-8",
+      "10.1007/s10765-013-1531-y",
+      "10.1007/s10765-016-2058-9",
+      "10.1007/s10765-024-03393-5",
+      "10.1016/j.cap.2011.04.011",
+      "10.1016/j.expthermflusci.2021.110379",
+      "10.1016/j.infrared.2018.06.031",
+      "10.1016/j.infrared.2020.103572",
+      "10.1023/A:1012817726103",
+      "10.1088/0026-1394/47/2/S14",
+      "10.1088/0957-0233/25/9/095501",
+      "10.1109/TIM.2025.3551925",
+      "10.1117/12.542224",
+      "scopus_77957053134"
+    ]
+  }
+}

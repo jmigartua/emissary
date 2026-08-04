@@ -1,0 +1,83 @@
+{
+  "id": "10.1007/s00339-008-4601-4",
+  "bibliographic": {
+    "doi": "10.1007/s00339-008-4601-4",
+    "scopus_id": "49449086898",
+    "title": "Laser pulse transient method for measuring the normal spectral emissivity of samples with arbitrary surface quality",
+    "authors": [
+      "A. Jeromen",
+      "I. Grabec",
+      "E. Govekar"
+    ],
+    "year": 2008,
+    "venue": "Applied Physics A: Materials Science and Processing"
+  },
+  "instrument": {
+    "detection_method": [
+      "infrared camera"
+    ],
+    "spectral": null,
+    "spectral_range_um": null,
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "infrared camera"
+    ],
+    "temperature_control_method": [],
+    "temperature_range_K": null
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "SI",
+    "affiliations": [
+      {
+        "name": "Univerza v Ljubljani",
+        "country": "SI",
+        "city": "Ljubljana",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Univerza v Ljubljani",
+        "country": "SI",
+        "city": "Ljubljana",
+        "author_position": "middle"
+      },
+      {
+        "name": "Univerza v Ljubljani",
+        "country": "SI",
+        "city": "Ljubljana",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 3,
+    "total_updated": "2026-08-02",
+    "cites": [],
+    "cited_by": []
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "10.1023/B:IJOT.0000028479.90667.8a",
+  "bibliographic": {
+    "doi": "10.1023/B:IJOT.0000028479.90667.8a",
+    "scopus_id": "3543121870",
+    "title": "A transient method for total emissivity determination",
+    "authors": [
+      "B. Zhang",
+      "J. Redgrove",
+      "J. Clark"
+    ],
+    "year": 2004,
+    "venue": "International Journal of Thermophysics"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "Bruker Equinox 55"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      0.6,
+      9.6
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "Thermocouple",
+      "calculated"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": null
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "GB",
+    "affiliations": [
+      {
+        "name": "National Physical Laboratory",
+        "country": "GB",
+        "city": "Middlesex",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "National Physical Laboratory",
+        "country": "GB",
+        "city": "Middlesex",
+        "author_position": "middle"
+      },
+      {
+        "name": "National Physical Laboratory",
+        "country": "GB",
+        "city": "Middlesex",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 29,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-021-02813-0",
+      "10.1016/j.ijheatmasstransfer.2017.06.133",
+      "10.1016/j.infrared.2015.10.001",
+      "10.1016/j.infrared.2022.104515",
+      "10.1109/TIM.2025.3551925"
+    ],
+    "cited_by": []
+  }
+}

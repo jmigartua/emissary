@@ -1,0 +1,101 @@
+{
+  "id": "10.1364/AO.54.008700",
+  "bibliographic": {
+    "doi": "10.1364/AO.54.008700",
+    "scopus_id": "85011655527",
+    "title": "Facility for assessing spectral normal emittance of solid materials at high temperature",
+    "authors": [
+      "Luca Mercatelli",
+      "Marco Meucci",
+      "Elisa Sani"
+    ],
+    "year": 2015,
+    "venue": "Applied Optics"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "BioRad Excalibur"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      1.6,
+      25.0
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      null,
+      1273.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "IT",
+    "affiliations": [
+      {
+        "name": "CNR - Istituto Nazionale di Ottica",
+        "country": "IT",
+        "city": "Florence",
+        "author_position": "first"
+      },
+      {
+        "name": "CNR - Istituto Nazionale di Ottica",
+        "country": "IT",
+        "city": "Florence",
+        "author_position": "middle"
+      },
+      {
+        "name": "CNR - Istituto Nazionale di Ottica",
+        "country": "IT",
+        "city": "Florence",
+        "author_position": "corresponding"
+      }
+    ]
+  },
+  "citations": {
+    "total": 16,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-014-1745-7",
+      "10.1016/j.applthermaleng.2019.114854",
+      "10.1016/j.ijheatmasstransfer.2015.07.064",
+      "10.1063/1.2393157",
+      "10.1088/0026-1394/47/2/S14",
+      "10.1117/12.2208334"
+    ],
+    "cited_by": [
+      "10.1016/j.ijthermalsci.2025.109740"
+    ]
+  }
+}

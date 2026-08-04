@@ -1,0 +1,123 @@
+{
+  "id": "10.1109/TIM.2023.3268656",
+  "bibliographic": {
+    "doi": "10.1109/TIM.2023.3268656",
+    "scopus_id": "85159829889",
+    "title": "Fast Emissivity Measuring Apparatus With Adjustable Focusing and Field Calibration",
+    "authors": [
+      "Baolin Zhao",
+      "Kaihua Zhang",
+      "Kun Yu",
+      "Yufang Liu"
+    ],
+    "year": 2023,
+    "venue": "IEEE Transactions on Instrumentation and Measurement"
+  },
+  "instrument": {
+    "detection_method": [
+      "fiber optic spectrometer",
+      "IdeaOptics NIR25S"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      1.4,
+      2.5
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      873.0,
+      1173.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "first"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "middle"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "middle"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "corresponding"
+      }
+    ]
+  },
+  "citations": {
+    "total": 10,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1016/j.measurement.2023.113999",
+      "10.1063/1.2393157",
+      "10.1109/TIM.2024.3457934"
+    ],
+    "cited_by": [
+      "10.1007/s10765-008-0442-9",
+      "10.1007/s10765-010-0847-0",
+      "10.1007/s10765-013-1400-8",
+      "10.1007/s10765-014-1745-7",
+      "10.1007/s10765-016-2058-9",
+      "10.1007/s10765-016-2142-1",
+      "10.1007/s10765-018-2472-2",
+      "10.1016/j.applthermaleng.2016.11.022",
+      "10.1016/j.expthermflusci.2019.110017",
+      "10.1016/j.expthermflusci.2021.110379",
+      "10.1016/j.fuproc.2020.106423",
+      "10.1016/j.ijheatmasstransfer.2017.06.133",
+      "10.1016/j.infrared.2015.10.001",
+      "10.1016/j.infrared.2018.06.031",
+      "10.1016/j.proci.2010.07.042",
+      "10.1021/acs.energyfuels.9b03188",
+      "10.1088/0957-0233/25/9/095501",
+      "10.1109/ACCESS.2021.3096599",
+      "10.1117/12.560602"
+    ]
+  }
+}

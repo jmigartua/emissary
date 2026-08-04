@@ -1,0 +1,115 @@
+{
+  "id": "10.3390/s25020487",
+  "bibliographic": {
+    "doi": "10.3390/s25020487",
+    "scopus_id": "85215808700",
+    "title": "A Measurement Approach for Characterizing Temperature-Related Emissivity Variability in High-Emissivity Materials",
+    "authors": [
+      "Gloria Cosoli",
+      "Paolo Chiariotti",
+      "Beatriz García-Baños",
+      "Giuseppe Pandarese",
+      "Felipe L. Peñaranda-Foix",
+      "Gian Marco Revel"
+    ],
+    "year": 2025,
+    "venue": "Sensors"
+  },
+  "instrument": {
+    "detection_method": [
+      "pyrometer"
+    ],
+    "spectral": null,
+    "spectral_range_um": null,
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "pyrometer"
+    ],
+    "temperature_control_method": [
+      "Microwave"
+    ],
+    "temperature_range_K": [
+      null,
+      973.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "IT",
+    "affiliations": [
+      {
+        "name": "eCampus University",
+        "country": "IT",
+        "city": "Novedrate",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Politecnico di Milano",
+        "country": "IT",
+        "city": "Milan",
+        "author_position": "middle"
+      },
+      {
+        "name": "Universitat Politècnica de València",
+        "country": "ES",
+        "city": "Valencia",
+        "author_position": "middle"
+      },
+      {
+        "name": "Università Politecnica delle Marche",
+        "country": "IT",
+        "city": "Ancona",
+        "author_position": "middle"
+      },
+      {
+        "name": "Universitat Politècnica de València",
+        "country": "ES",
+        "city": "Valencia",
+        "author_position": "middle"
+      },
+      {
+        "name": "Università Politecnica delle Marche",
+        "country": "IT",
+        "city": "Ancona",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 4,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-018-2404-1",
+      "10.1088/1361-6501/ab5e9b",
+      "10.3390/s21186252"
+    ],
+    "cited_by": [
+      "10.1063/1.4949213"
+    ]
+  }
+}

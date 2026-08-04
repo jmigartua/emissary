@@ -1,0 +1,79 @@
+{
+  "id": "10.1016/j.ijthermalsci.2017.01.016",
+  "bibliographic": {
+    "doi": "10.1016/j.ijthermalsci.2017.01.016",
+    "scopus_id": "85010868657",
+    "title": "A refined methodology to determine the spatial and temporal variation in the emissivity of diffusion flames",
+    "authors": [
+      "Vinay C. Raj",
+      "S. V. Prabhu"
+    ],
+    "year": 2017,
+    "venue": "International Journal of Thermal Sciences"
+  },
+  "instrument": {
+    "detection_method": [
+      "infrared camera",
+      "VisIR 640"
+    ],
+    "spectral": null,
+    "spectral_range_um": null,
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "calculated"
+    ],
+    "temperature_control_method": [
+      "combustion furnace"
+    ],
+    "temperature_range_K": null
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "IN",
+    "affiliations": [
+      {
+        "name": "Indian Institute of Technology Bombay",
+        "country": "IN",
+        "city": "Mumbai",
+        "author_position": "first"
+      },
+      {
+        "name": "Indian Institute of Technology Bombay",
+        "country": "IN",
+        "city": "Mumbai",
+        "author_position": "corresponding"
+      }
+    ]
+  },
+  "citations": {
+    "total": 23,
+    "total_updated": "2026-08-02",
+    "cites": [],
+    "cited_by": []
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "id": "10.1088/1742-6596/395/1/012152",
+  "bibliographic": {
+    "doi": "10.1088/1742-6596/395/1/012152",
+    "scopus_id": "84875023729",
+    "title": "Newly designed apparatus for measuring the angular dependent surface emittance in a wide wavelength range and at elevated temperatures up to 1400°C",
+    "authors": [
+      "Rydzek, M",
+      "Stark, T",
+      "Arduini-Schuster, M",
+      "Manara, J"
+    ],
+    "year": 2012,
+    "venue": "Journal of Physics: Conference Series"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "Bruker Vertex 70v"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      2.0,
+      25.0
+    ],
+    "direction": "directional",
+    "temperature_measurement_method": [
+      "thermocouple",
+      "calculated"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      473.0,
+      1673.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "DE",
+    "affiliations": [
+      {
+        "name": "Das Bayerische Zentrum für Angewandte Energieforschung e.V.",
+        "country": "DE",
+        "city": "Wurzburg",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Das Bayerische Zentrum für Angewandte Energieforschung e.V.",
+        "country": "DE",
+        "city": "Wurzburg",
+        "author_position": "middle"
+      },
+      {
+        "name": "Das Bayerische Zentrum für Angewandte Energieforschung e.V.",
+        "country": "DE",
+        "city": "Wurzburg",
+        "author_position": "middle"
+      },
+      {
+        "name": "Das Bayerische Zentrum für Angewandte Energieforschung e.V.",
+        "country": "DE",
+        "city": "Wurzburg",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 12,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1063/1.2393157",
+      "10.3390/s21186252"
+    ],
+    "cited_by": [
+      "10.1007/s00340-024-08331-9",
+      "10.1016/j.infrared.2022.104515",
+      "10.1016/j.measurement.2007.10.007"
+    ]
+  }
+}

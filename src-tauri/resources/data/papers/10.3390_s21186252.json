@@ -1,0 +1,123 @@
+{
+  "id": "10.3390/s21186252",
+  "bibliographic": {
+    "doi": "10.3390/s21186252",
+    "scopus_id": "85115117487",
+    "title": "Development and evaluation of an improved apparatus for measuring the emissivity at high temperatures",
+    "authors": [
+      "Mariacarla Arduini",
+      "Jochen Manara",
+      "Thomas Stark",
+      "Hans Peter Ebert",
+      "Jürgen Hartmann"
+    ],
+    "year": 2021,
+    "venue": "Sensors"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "Bruker Vertex 70v"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      1.0,
+      20.0
+    ],
+    "direction": "directional",
+    "temperature_measurement_method": [
+      "thermocouple",
+      "radiation thermometer",
+      "calculated"
+    ],
+    "temperature_control_method": [
+      "induction heating"
+    ],
+    "temperature_range_K": [
+      373.0,
+      2400.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "DE",
+    "affiliations": [
+      {
+        "name": "Das Bayerische Zentrum für Angewandte Energieforschung e.V.",
+        "country": "DE",
+        "city": "Wurzburg",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Das Bayerische Zentrum für Angewandte Energieforschung e.V.",
+        "country": "DE",
+        "city": "Wurzburg",
+        "author_position": "middle"
+      },
+      {
+        "name": "Das Bayerische Zentrum für Angewandte Energieforschung e.V.",
+        "country": "DE",
+        "city": "Wurzburg",
+        "author_position": "middle"
+      },
+      {
+        "name": "Das Bayerische Zentrum für Angewandte Energieforschung e.V.",
+        "country": "DE",
+        "city": "Wurzburg",
+        "author_position": "middle"
+      },
+      {
+        "name": "Das Bayerische Zentrum für Angewandte Energieforschung e.V.",
+        "country": "DE",
+        "city": "Wurzburg",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 15,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1063/1.2393157",
+      "10.1109/TIM.2024.3457934"
+    ],
+    "cited_by": [
+      "10.1007/s00340-024-08331-9",
+      "10.1007/s10765-008-0442-9",
+      "10.1007/s10765-013-1400-8",
+      "10.1016/j.applthermaleng.2025.127648",
+      "10.1016/j.ijthermalsci.2025.109809",
+      "10.1088/0026-1394/47/2/S14",
+      "10.1088/1681-7575/ab84ff",
+      "10.1088/1742-6596/395/1/012152",
+      "10.1117/12.542224",
+      "10.1117/12.560602",
+      "10.3390/s25020487"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "10.1063/1.1752284",
+  "bibliographic": {
+    "doi": "10.1063/1.1752284",
+    "scopus_id": "36849135913",
+    "title": "An apparatus for the measurement of the total normal thermal emissivity of sheet materials in the temperature range 140 to 500°f",
+    "authors": [
+      "Paul F. McDermott"
+    ],
+    "year": 1937,
+    "venue": "Review of Scientific Instruments"
+  },
+  "instrument": {
+    "detection_method": [
+      "radiometer (custom)"
+    ],
+    "spectral": false,
+    "spectral_range_um": null,
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [],
+    "temperature_range_K": [
+      333.0,
+      533.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "US",
+    "affiliations": [
+      {
+        "name": "Johns-Manville Research Laboratories",
+        "country": "US",
+        "city": "Manville",
+        "author_position": "corresponding"
+      }
+    ]
+  },
+  "citations": {
+    "total": 3,
+    "total_updated": "2026-08-02",
+    "cites": [],
+    "cited_by": []
+  }
+}

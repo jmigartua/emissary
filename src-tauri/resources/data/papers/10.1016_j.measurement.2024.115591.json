@@ -1,0 +1,102 @@
+{
+  "id": "10.1016/j.measurement.2024.115591",
+  "bibliographic": {
+    "doi": "10.1016/j.measurement.2024.115591",
+    "scopus_id": "85202171597",
+    "title": "In-situ measurement method for surface temperature and normal spectral emissivity of TC-4 high-temperature alloy based on thin film interference mechanism model",
+    "authors": [
+      "Yang Wang",
+      "Jingmin Dai",
+      "Yufeng Zhang",
+      "Lei Zhang"
+    ],
+    "year": 2025,
+    "venue": "Measurement: Journal of the International Measurement Confederation"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "Nicolet iS-50"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      2.0,
+      14.0
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "thermocouple",
+      "calculated"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      473.0,
+      973.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "School of Instrumentation Science and Engineering, Harbin Institute of Technology",
+        "country": "CN",
+        "city": "Harbin",
+        "author_position": "first"
+      },
+      {
+        "name": "School of Instrumentation Science and Engineering, Harbin Institute of Technology",
+        "country": "CN",
+        "city": "Harbin",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Bohai University",
+        "country": "CN",
+        "city": "Jinzhou",
+        "author_position": "middle"
+      },
+      {
+        "name": "Shenyang Aircraft Corporation",
+        "country": "CN",
+        "city": "Shenyang",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 2,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-022-03129-3"
+    ],
+    "cited_by": []
+  }
+}

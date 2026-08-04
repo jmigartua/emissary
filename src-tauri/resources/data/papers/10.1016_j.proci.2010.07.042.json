@@ -1,0 +1,92 @@
+{
+  "id": "10.1016/j.proci.2010.07.042",
+  "bibliographic": {
+    "doi": "10.1016/j.proci.2010.07.042",
+    "scopus_id": "78650920426",
+    "title": "A simple judgment method of gray property of flames based on spectral analysis and the two-color method for measurements of temperatures and emissivity",
+    "authors": [
+      "Yipeng Sun",
+      "Chun Lou",
+      "Huaichun Zhou"
+    ],
+    "year": 2011,
+    "venue": "Proceedings of the Combustion Institute"
+  },
+  "instrument": {
+    "detection_method": [
+      "fiber optic spectrometer",
+      "Avantes AvaSpec-2048"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      0.2,
+      1.1
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [],
+    "temperature_control_method": [
+      "combustion furnace"
+    ],
+    "temperature_range_K": null
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "Huazhong University of Science and Technology",
+        "country": "CN",
+        "city": "Wuhan",
+        "author_position": "first"
+      },
+      {
+        "name": "Huazhong University of Science and Technology",
+        "country": "CN",
+        "city": "Wuhan",
+        "author_position": "middle"
+      },
+      {
+        "name": "Huazhong University of Science and Technology",
+        "country": "CN",
+        "city": "Wuhan",
+        "author_position": "corresponding"
+      }
+    ]
+  },
+  "citations": {
+    "total": 100,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1016/j.expthermflusci.2019.110017",
+      "10.1109/TIM.2023.3268656"
+    ],
+    "cited_by": [
+      "10.1021/acs.energyfuels.9b03188"
+    ]
+  }
+}

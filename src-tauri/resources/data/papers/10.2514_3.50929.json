@@ -1,0 +1,86 @@
+{
+  "id": "10.2514/3.50929",
+  "bibliographic": {
+    "doi": "10.2514/3.50929",
+    "scopus_id": "19384760",
+    "title": "Method for measuring high temperature spectral emissivity of nonconducting materials",
+    "authors": [
+      "P. E. Johnson",
+      "D. P. De Witt",
+      "R. E. Taylor"
+    ],
+    "year": 1981,
+    "venue": "AIAA Journal"
+  },
+  "instrument": {
+    "detection_method": [
+      "Hg-Cd-Te detector with monochromator"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      1.5,
+      15.0
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "pyrometer"
+    ],
+    "temperature_control_method": [],
+    "temperature_range_K": null
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "US",
+    "affiliations": [
+      {
+        "name": "Purdue University",
+        "country": "US",
+        "city": "West Lafayette",
+        "author_position": "first"
+      },
+      {
+        "name": "College of Engineering",
+        "country": "US",
+        "city": "West Lafayette",
+        "author_position": "middle"
+      },
+      {
+        "name": "College of Engineering",
+        "country": "US",
+        "city": "West Lafayette",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 13,
+    "total_updated": "2026-08-02",
+    "cites": [],
+    "cited_by": []
+  }
+}

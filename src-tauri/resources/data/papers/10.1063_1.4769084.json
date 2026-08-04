@@ -1,0 +1,111 @@
+{
+  "id": "10.1063/1.4769084",
+  "bibliographic": {
+    "doi": "10.1063/1.4769084",
+    "scopus_id": "84869448906",
+    "title": "A new experimental setup for making thermal emission measurements in a simulated lunar environment",
+    "authors": [
+      "I. R. Thomas",
+      "B. T. Greenhagen",
+      "N. E. Bowles",
+      "K. L. Donaldson Hanna",
+      "J. Temple",
+      "S. B. Calcutt"
+    ],
+    "year": 2012,
+    "venue": "Review of Scientific Instruments"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "Bruker IFS-66v/S"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      3.3,
+      29.0
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      360.0,
+      500.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "GB",
+    "affiliations": [
+      {
+        "name": "University of Oxford",
+        "country": "GB",
+        "city": "Oxford",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Jet Propulsion Laboratory",
+        "country": "US",
+        "city": "Pasadena",
+        "author_position": "middle"
+      },
+      {
+        "name": "University of Oxford",
+        "country": "GB",
+        "city": "Oxford",
+        "author_position": "middle"
+      },
+      {
+        "name": "Brown University",
+        "country": "US",
+        "city": "Providence",
+        "author_position": "middle"
+      },
+      {
+        "name": "University of Oxford",
+        "country": "GB",
+        "city": "Oxford",
+        "author_position": "middle"
+      },
+      {
+        "name": "University of Oxford",
+        "country": "GB",
+        "city": "Oxford",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 35,
+    "total_updated": "2026-08-02",
+    "cites": [],
+    "cited_by": []
+  }
+}

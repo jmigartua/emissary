@@ -1,0 +1,126 @@
+{
+  "id": "10.1007/s10765-024-03393-5",
+  "bibliographic": {
+    "doi": "10.1007/s10765-024-03393-5",
+    "scopus_id": "85196488168",
+    "title": "Development of An Apparatus for the Directional Spectral Emissivity Measurement from 50 ? to 1000 ?",
+    "authors": [
+      "Z. Y. Liu",
+      "J. Song",
+      "K. Yu",
+      "J. J. Zhou",
+      "G. R. Guo",
+      "X. P. Hao"
+    ],
+    "year": 2024,
+    "venue": "International Journal of Thermophysics"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "Bruker Invenio R"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      3.0,
+      14.0
+    ],
+    "direction": "directional",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      323.0,
+      1273.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "first"
+      },
+      {
+        "name": "National Institute of Metrology China",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "middle"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "middle"
+      },
+      {
+        "name": "National Institute of Metrology China",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "middle"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "middle"
+      },
+      {
+        "name": "National Institute of Metrology China",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "corresponding"
+      }
+    ]
+  },
+  "citations": {
+    "total": 7,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-021-02813-0",
+      "10.1016/j.infrared.2020.103572",
+      "10.1063/5.0073459"
+    ],
+    "cited_by": [
+      "10.1007/s10765-007-0183-1",
+      "10.1007/s10765-013-1531-y",
+      "10.1007/s10765-014-1745-7",
+      "10.1007/s10765-015-1969-1",
+      "10.1007/s10765-016-2058-9",
+      "10.1007/s10765-018-2472-2",
+      "10.1016/j.ijheatmasstransfer.2017.06.133",
+      "10.3390/app142210369"
+    ]
+  }
+}

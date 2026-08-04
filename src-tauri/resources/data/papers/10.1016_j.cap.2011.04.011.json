@@ -1,0 +1,130 @@
+{
+  "id": "10.1016/j.cap.2011.04.011",
+  "bibliographic": {
+    "doi": "10.1016/j.cap.2011.04.011",
+    "scopus_id": "80052264533",
+    "title": "Microstructure and infrared emissivity property of coating containing TiO2 formed on titanium alloy by microarc oxidation",
+    "authors": [
+      "Z. W. Wang",
+      "Y. M. Wang",
+      "Y. Liu",
+      "J. L. Xu",
+      "L. X. Guo",
+      "Y. Zhou",
+      "J. H. Ouyang",
+      "J. M. Dai"
+    ],
+    "year": 2011,
+    "venue": "Current Applied Physics"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "JASCO FT/IR-6100"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      3.0,
+      20.0
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "pyrometer"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      null,
+      973.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "Harbin Institute of Technology",
+        "country": "CN",
+        "city": "Harbin",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Harbin Institute of Technology",
+        "country": "CN",
+        "city": "Harbin",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Jilin University",
+        "country": "CN",
+        "city": "Changchun",
+        "author_position": "middle"
+      },
+      {
+        "name": "Shanghai Spaceflight Precision Machinery Institute",
+        "country": "CN",
+        "city": "Shanghai",
+        "author_position": "middle"
+      },
+      {
+        "name": "Harbin Institute of Technology",
+        "country": "CN",
+        "city": "Harbin",
+        "author_position": "middle"
+      },
+      {
+        "name": "Harbin Institute of Technology",
+        "country": "CN",
+        "city": "Harbin",
+        "author_position": "middle"
+      },
+      {
+        "name": "Harbin Institute of Technology",
+        "country": "CN",
+        "city": "Harbin",
+        "author_position": "middle"
+      },
+      {
+        "name": "Harbin Institute of Technology",
+        "country": "CN",
+        "city": "Harbin",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 80,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-018-2472-2",
+      "10.1063/5.0073459"
+    ],
+    "cited_by": []
+  }
+}

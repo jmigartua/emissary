@@ -1,0 +1,99 @@
+{
+  "id": "10.1007/s10765-016-2142-1",
+  "bibliographic": {
+    "doi": "10.1007/s10765-016-2142-1",
+    "scopus_id": "84993978542",
+    "title": "Study on the Multi-wavelength Emissivity of GCr15 Steel and its Application on Temperature Measurement for Continuous Casting Billets",
+    "authors": [
+      "Peng Wang",
+      "Zhi Xie",
+      "Zhenwei Hu"
+    ],
+    "year": 2016,
+    "venue": "International Journal of Thermophysics"
+  },
+  "instrument": {
+    "detection_method": [
+      "fiber optic spectrometer",
+      "Ideaoptics FX4000"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      0.7,
+      0.9
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "electric furnace"
+    ],
+    "temperature_range_K": [
+      1273.0,
+      1373.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "College of Information Science and Engineering, Northeastern University",
+        "country": "CN",
+        "city": "Shenyang",
+        "author_position": "first"
+      },
+      {
+        "name": "College of Information Science and Engineering, Northeastern University",
+        "country": "CN",
+        "city": "Shenyang",
+        "author_position": "middle"
+      },
+      {
+        "name": "College of Information Science and Engineering, Northeastern University",
+        "country": "CN",
+        "city": "Shenyang",
+        "author_position": "corresponding"
+      }
+    ]
+  },
+  "citations": {
+    "total": 23,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1007/s10765-021-02813-0",
+      "10.1016/j.ijheatmasstransfer.2012.02.055",
+      "10.1016/j.ijheatmasstransfer.2024.125975",
+      "10.1063/1.2393157",
+      "10.1109/TIM.2023.3268656",
+      "10.3390/app142210369"
+    ],
+    "cited_by": []
+  }
+}

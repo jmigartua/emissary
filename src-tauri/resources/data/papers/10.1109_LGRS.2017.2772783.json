@@ -1,0 +1,82 @@
+{
+  "id": "10.1109/LGRS.2017.2772783",
+  "bibliographic": {
+    "doi": "10.1109/LGRS.2017.2772783",
+    "scopus_id": "85037568549",
+    "title": "A measurement technique for infrared emissivity of epoxy-based microwave absorbing materials",
+    "authors": [
+      "Derek A. Houtz",
+      "Dazhen Gu"
+    ],
+    "year": 2018,
+    "venue": "IEEE Geoscience and Remote Sensing Letters"
+  },
+  "instrument": {
+    "detection_method": [
+      "infrared camera",
+      "FLIR"
+    ],
+    "spectral": null,
+    "spectral_range_um": null,
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "platinum resistance thermometer"
+    ],
+    "temperature_control_method": [
+      "circulating water"
+    ],
+    "temperature_range_K": [
+      292.0,
+      318.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "US",
+    "affiliations": [
+      {
+        "name": "National Institute of Standards and Technology",
+        "country": "US",
+        "city": "Gaithersburg",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "National Institute of Standards and Technology",
+        "country": "US",
+        "city": "Gaithersburg",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 10,
+    "total_updated": "2026-08-02",
+    "cites": [],
+    "cited_by": []
+  }
+}

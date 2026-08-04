@@ -1,0 +1,107 @@
+{
+  "id": "10.1109/ACCESS.2021.3096599",
+  "bibliographic": {
+    "doi": "10.1109/ACCESS.2021.3096599",
+    "scopus_id": "85110803263",
+    "title": "A probabilistic model and capturing device for remote simultaneous estimation of spectral emissivity and temperature of hot emissive materials",
+    "authors": [
+      "Artzai Picon",
+      "Aitor Alvarez-Gila",
+      "Jose Antonio Arteche",
+      "Gabriel A. Lopez",
+      "Asier Vicente"
+    ],
+    "year": 2021,
+    "venue": "IEEE Access"
+  },
+  "instrument": {
+    "detection_method": [
+      "FTIR",
+      "ArcOptics; fiber optic spectrometer",
+      "Ocean Optics HR2000"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      0.2,
+      12.0
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "no",
+      "calculated"
+    ],
+    "temperature_control_method": [],
+    "temperature_range_K": null
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "ES",
+    "affiliations": [
+      {
+        "name": "TECNALIA",
+        "country": "ES",
+        "city": "Donostia-San Sebastian",
+        "author_position": "first"
+      },
+      {
+        "name": "TECNALIA",
+        "country": "ES",
+        "city": "Donostia-San Sebastian",
+        "author_position": "middle"
+      },
+      {
+        "name": "TECNALIA",
+        "country": "ES",
+        "city": "Donostia-San Sebastian",
+        "author_position": "middle"
+      },
+      {
+        "name": "Universidad del Pais Vasco",
+        "country": "ES",
+        "city": "Leioa",
+        "author_position": "middle"
+      },
+      {
+        "name": "Arcelor Mittal Research Centre",
+        "country": "ES",
+        "city": "Sestao",
+        "author_position": "corresponding"
+      }
+    ]
+  },
+  "citations": {
+    "total": 8,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1109/TIM.2023.3268656"
+    ],
+    "cited_by": [
+      "10.1088/1681-7575/ab84ff"
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "10.1023/A:1013103419949",
+  "bibliographic": {
+    "doi": "10.1023/A:1013103419949",
+    "scopus_id": "10844253966",
+    "title": "A simple high-sensitivity radiometer in the infrared for measurements of the directional total emissivity of opaque materials at near-ambient temperatures",
+    "authors": [
+      "A. Pantinakis",
+      "N. Kortsalioudakis"
+    ],
+    "year": 2001,
+    "venue": "International Journal of Thermophysics"
+  },
+  "instrument": {
+    "detection_method": [
+      "thermopile",
+      "EG&G Heimann Opto-\nElectronics Type TPS434"
+    ],
+    "spectral": false,
+    "spectral_range_um": null,
+    "direction": "directional",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": null
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "GR",
+    "affiliations": [
+      {
+        "name": "Technical University of Crete",
+        "country": "GR",
+        "city": "Chania",
+        "author_position": "first"
+      },
+      {
+        "name": "Technical University of Crete",
+        "country": "GR",
+        "city": "Chania",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 12,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1016/j.ijheatmasstransfer.2012.02.055",
+      "10.1063/1.2393157"
+    ],
+    "cited_by": [
+      "10.1063/1.5116425"
+    ]
+  }
+}

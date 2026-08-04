@@ -1,0 +1,157 @@
+{
+  "id": "10.1016/j.cryogenics.2023.103671",
+  "bibliographic": {
+    "doi": "10.1016/j.cryogenics.2023.103671",
+    "scopus_id": "85151346308",
+    "title": "Preliminary development of emissivity measurement system at low temperature based on radiometric method",
+    "authors": [
+      "Yuchen Zhao",
+      "Xu Li",
+      "Hengcheng Zhang",
+      "Fuzhi Shen",
+      "Chuanjun Huang",
+      "Huiming Liu",
+      "Haoying Qi",
+      "Zichun Huang",
+      "Zhen Geng",
+      "Jijun Xin",
+      "Wei Wang",
+      "Laifeng Li"
+    ],
+    "year": 2023,
+    "venue": "Cryogenics"
+  },
+  "instrument": {
+    "detection_method": [
+      "MCT detector",
+      "VIGO PVM-10.6"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      2.0,
+      12.0
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "resistance thermometer"
+    ],
+    "temperature_control_method": [
+      "cryocooler"
+    ],
+    "temperature_range_K": [
+      240.0,
+      300.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "Technical Institute of Physics and Chemistry Chinese Academy of Sciences",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "first"
+      },
+      {
+        "name": "National University of Defense Technology China",
+        "country": "CN",
+        "city": "Changsha",
+        "author_position": "middle"
+      },
+      {
+        "name": "Technical Institute of Physics and Chemistry Chinese Academy of Sciences",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Technical Institute of Physics and Chemistry Chinese Academy of Sciences",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "middle"
+      },
+      {
+        "name": "Technical Institute of Physics and Chemistry Chinese Academy of Sciences",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "middle"
+      },
+      {
+        "name": "Technical Institute of Physics and Chemistry Chinese Academy of Sciences",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "middle"
+      },
+      {
+        "name": "Technical Institute of Physics and Chemistry Chinese Academy of Sciences",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "middle"
+      },
+      {
+        "name": "Technical Institute of Physics and Chemistry Chinese Academy of Sciences",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "middle"
+      },
+      {
+        "name": "Technical Institute of Physics and Chemistry Chinese Academy of Sciences",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "middle"
+      },
+      {
+        "name": "Songshan Lake Materials Laboratory",
+        "country": "CN",
+        "city": "Dongguan",
+        "author_position": "middle"
+      },
+      {
+        "name": "Songshan Lake Materials Laboratory",
+        "country": "CN",
+        "city": "Dongguan",
+        "author_position": "middle"
+      },
+      {
+        "name": "Technical Institute of Physics and Chemistry Chinese Academy of Sciences",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 7,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1088/0026-1394/49/6/737"
+    ],
+    "cited_by": []
+  }
+}

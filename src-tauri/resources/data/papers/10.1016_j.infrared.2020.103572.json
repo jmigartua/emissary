@@ -1,0 +1,116 @@
+{
+  "id": "10.1016/j.infrared.2020.103572",
+  "bibliographic": {
+    "doi": "10.1016/j.infrared.2020.103572",
+    "scopus_id": "85096482827",
+    "title": "A new experimental apparatus for polarized spectral emissivity measurement in a controlled environment",
+    "authors": [
+      "Kun Yu",
+      "Gangquan Wang",
+      "Longfei Li",
+      "Kaihua Zhang",
+      "Yufang Liu"
+    ],
+    "year": 2020,
+    "venue": "Infrared Physics and Technology"
+  },
+  "instrument": {
+    "detection_method": [
+      "InGaAs detector",
+      "filter spectrometer"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      1.2,
+      1.6
+    ],
+    "direction": "directional",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      null,
+      1073.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "first"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "middle"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "middle"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "middle"
+      },
+      {
+        "name": "Henan Normal University",
+        "country": "CN",
+        "city": "Xinxiang",
+        "author_position": "corresponding"
+      }
+    ]
+  },
+  "citations": {
+    "total": 10,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1063/1.2393157",
+      "10.1063/5.0073459"
+    ],
+    "cited_by": [
+      "10.1007/s10765-018-2472-2",
+      "10.1007/s10765-024-03393-5",
+      "10.1016/j.applthermaleng.2016.11.022",
+      "10.1016/j.ijheatmasstransfer.2021.122092",
+      "10.1063/1.5007225",
+      "10.1088/0026-1394/47/2/S14"
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "id": "10.1109/TIM.2019.2944504",
+  "bibliographic": {
+    "doi": "10.1109/TIM.2019.2944504",
+    "scopus_id": "85086311597",
+    "title": "An accurate device for apparent emissivity characterization in controlled atmospheric conditions up to 1423 K",
+    "authors": [
+      "Chengxi Zhu",
+      "Matthew J. Hobbs",
+      "Robert C. Masters",
+      "Cornelia Rodenburg",
+      "Jon R. Willmott"
+    ],
+    "year": 2020,
+    "venue": "IEEE Transactions on Instrumentation and Measurement"
+  },
+  "instrument": {
+    "detection_method": [
+      "custom radiometer",
+      "photodiode"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      0.85,
+      1.1
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "thermocouple",
+      "calculated",
+      "pyrometry on a cavity"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": [
+      973.0,
+      1423.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "GB",
+    "affiliations": [
+      {
+        "name": "The University of Sheffield",
+        "country": "GB",
+        "city": "Sheffield",
+        "author_position": "first"
+      },
+      {
+        "name": "The University of Sheffield",
+        "country": "GB",
+        "city": "Sheffield",
+        "author_position": "middle"
+      },
+      {
+        "name": "The University of Sheffield",
+        "country": "GB",
+        "city": "Sheffield",
+        "author_position": "middle"
+      },
+      {
+        "name": "The University of Sheffield",
+        "country": "GB",
+        "city": "Sheffield",
+        "author_position": "middle"
+      },
+      {
+        "name": "The University of Sheffield",
+        "country": "GB",
+        "city": "Sheffield",
+        "author_position": "corresponding"
+      }
+    ]
+  },
+  "citations": {
+    "total": 12,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1063/1.5007225",
+      "10.1109/TIM.2024.3457934",
+      "10.3390/app142210369"
+    ],
+    "cited_by": [
+      "10.1007/s10765-015-1866-7",
+      "10.1016/j.applthermaleng.2025.127648",
+      "10.1016/j.ijheatmasstransfer.2004.10.003",
+      "10.1016/j.measurement.2007.10.007",
+      "10.1016/j.measurement.2016.04.006"
+    ]
+  }
+}

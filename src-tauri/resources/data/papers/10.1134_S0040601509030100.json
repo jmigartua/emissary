@@ -1,0 +1,87 @@
+{
+  "id": "10.1134/S0040601509030100",
+  "bibliographic": {
+    "doi": "10.1134/S0040601509030100",
+    "scopus_id": "62449204433",
+    "title": "Measurement of spectral directional emissivity of materials and coatings in the infrared region of spectrum",
+    "authors": [
+      "V. V. Vitkovskii",
+      "V. G. Gorshenev",
+      "Yu F. Potapov"
+    ],
+    "year": 2009,
+    "venue": "Thermal Engineering"
+  },
+  "instrument": {
+    "detection_method": [
+      "optoacoustic radiation detector",
+      "OAP-7-1",
+      "with monochromator"
+    ],
+    "spectral": null,
+    "spectral_range_um": null,
+    "direction": "directional",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "electric heater"
+    ],
+    "temperature_range_K": null
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "RU",
+    "affiliations": [
+      {
+        "name": "Central Aerohydrodynamic Institute (TsAGI)",
+        "country": "RU",
+        "city": "Zhukovskiy",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "Central Aerohydrodynamic Institute (TsAGI)",
+        "country": "RU",
+        "city": "Zhukovskiy",
+        "author_position": "middle"
+      },
+      {
+        "name": "Central Aerohydrodynamic Institute (TsAGI)",
+        "country": "RU",
+        "city": "Zhukovskiy",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 5,
+    "total_updated": "2026-08-02",
+    "cites": [],
+    "cited_by": []
+  }
+}

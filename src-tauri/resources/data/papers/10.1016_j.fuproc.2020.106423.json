@@ -1,0 +1,121 @@
+{
+  "id": "10.1016/j.fuproc.2020.106423",
+  "bibliographic": {
+    "doi": "10.1016/j.fuproc.2020.106423",
+    "scopus_id": "85082417368",
+    "title": "Temperature and emissivity measurements from combustion of pine wood, rice husk and fir wood using flame emission spectrum",
+    "authors": [
+      "Shu Zheng",
+      "Yu Yang",
+      "Xinyu Li",
+      "Huawei Liu",
+      "Weijie Yan",
+      "Ran Sui",
+      "Qiang Lu"
+    ],
+    "year": 2020,
+    "venue": "Fuel Processing Technology"
+  },
+  "instrument": {
+    "detection_method": [
+      "fiber optic spectrometer",
+      "Avantes AvaSpec-Mini2048CL"
+    ],
+    "spectral": true,
+    "spectral_range_um": [
+      0.36,
+      1.1
+    ],
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "thermocouple",
+      "calculated"
+    ],
+    "temperature_control_method": [
+      "combustion furnace"
+    ],
+    "temperature_range_K": null
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "CN",
+    "affiliations": [
+      {
+        "name": "North China Electric Power University",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "first"
+      },
+      {
+        "name": "North China Electric Power University",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "middle"
+      },
+      {
+        "name": "North China Electric Power University",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "middle"
+      },
+      {
+        "name": "North China Electric Power University",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "middle"
+      },
+      {
+        "name": "China University of Mining and Technology",
+        "country": "CN",
+        "city": "Xuzhou",
+        "author_position": "middle"
+      },
+      {
+        "name": "School of Engineering and Applied Science",
+        "country": "US",
+        "city": "Princeton",
+        "author_position": "middle"
+      },
+      {
+        "name": "North China Electric Power University",
+        "country": "CN",
+        "city": "Beijing",
+        "author_position": "corresponding"
+      }
+    ]
+  },
+  "citations": {
+    "total": 70,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.1016/j.ijthermalsci.2024.109454",
+      "10.1109/TIM.2023.3268656"
+    ],
+    "cited_by": []
+  }
+}

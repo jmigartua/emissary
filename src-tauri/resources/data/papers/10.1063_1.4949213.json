@@ -1,0 +1,113 @@
+{
+  "id": "10.1063/1.4949213",
+  "bibliographic": {
+    "doi": "10.1063/1.4949213",
+    "scopus_id": "84984562905",
+    "title": "Pyrometric method for measuring emittances at high temperatures",
+    "authors": [
+      "Ballestr{\\'\\i"
+    ],
+    "year": 2016,
+    "venue": "AIP Conference Proceedings"
+  },
+  "instrument": {
+    "detection_method": [
+      "pyrometer",
+      "infrared camera"
+    ],
+    "spectral": null,
+    "spectral_range_um": null,
+    "direction": "normal",
+    "temperature_measurement_method": [
+      "thermocouple"
+    ],
+    "temperature_control_method": [
+      "solar furnace"
+    ],
+    "temperature_range_K": [
+      737.0,
+      1373.0
+    ]
+  },
+  "meta": {
+    "created": "2026-08-02",
+    "updated": "2026-08-02",
+    "changelog": [
+      {
+        "date": "2026-08-02",
+        "change": "initial import from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "location resolved via Scopus AbstractRetrieval"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "citations resolved via papers-2.db + Scopus citedby_count"
+      },
+      {
+        "date": "2026-08-02",
+        "change": "re-imported from all-corrected.csv"
+      }
+    ]
+  },
+  "location": {
+    "corresponding_country": "ES",
+    "affiliations": [
+      {
+        "name": "CIEMAT-Plataforma Solar de Almería",
+        "country": "ES",
+        "city": "Almeria",
+        "author_position": "corresponding"
+      },
+      {
+        "name": "CIEMAT-Plataforma Solar de Almería",
+        "country": "ES",
+        "city": "Almeria",
+        "author_position": "middle"
+      },
+      {
+        "name": "CIEMAT-Plataforma Solar de Almería",
+        "country": "ES",
+        "city": "Almeria",
+        "author_position": "middle"
+      },
+      {
+        "name": "CIEMAT-Plataforma Solar de Almería",
+        "country": "ES",
+        "city": "Almeria",
+        "author_position": "middle"
+      },
+      {
+        "name": "CIEMAT-Plataforma Solar de Almería",
+        "country": "ES",
+        "city": "Almeria",
+        "author_position": "middle"
+      },
+      {
+        "name": "Universidad de Almería",
+        "country": "ES",
+        "city": "Almeria",
+        "author_position": "middle"
+      },
+      {
+        "name": "Universidad de Antofagasta",
+        "country": "CL",
+        "city": "Antofagasta",
+        "author_position": "last"
+      }
+    ]
+  },
+  "citations": {
+    "total": 4,
+    "total_updated": "2026-08-02",
+    "cites": [
+      "10.3390/s25020487"
+    ],
+    "cited_by": []
+  }
+}
