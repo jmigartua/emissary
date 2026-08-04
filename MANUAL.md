@@ -1,6 +1,6 @@
 # Emissary — User Manual
 
-*Version 0.1.0 · also available inside the app under **Help***
+*Version 0.2.0 · also available inside the app under **Help***
 
 Emissary is a macOS-native reader and curation instrument for the
 [radiometric-emissometers-db](https://github.com/jongablop/radiometric-emissometers-db)
@@ -57,8 +57,11 @@ inspect it; toggle classes in the legend.
 
 ## Timeline · Atlas
 
-One column per year stacked by geometry (hover for the year's records), and
-records per corresponding country.
+One column per year stacked by geometry (hover for the year's records). The
+Atlas is a world map — countries shaded by records per corresponding country
+(√ scale), bundled Natural Earth outlines, no network needed. Hover a country
+for its instrument-family breakdown; click it to open its records in the
+Library. The exact count bars sit below the map.
 
 ## Health
 
@@ -80,7 +83,23 @@ that Phase 2's mapping workbench will consume.
 |---|---|
 | ⌘K | Command palette — jump to any record or view |
 | ⌘1 … ⌘6 | Library · Plane · Timeline · Atlas · Health · Vocabulary |
+| ⌘, | Settings |
 | ↑ ↓ ⏎ / Esc | Navigate / close the palette |
+
+## Settings (⌘,)
+
+Theme (system / light / dark), temperature unit (Kelvin / Celsius — applied to
+tooltips and fingerprint axes alike), wavenumbers (show spectral ranges also in
+cm⁻¹), the Wien-peak check, tooltip verbosity, the fingerprint corpus-shadow,
+and the view that opens on launch. Stored locally; applied immediately.
+
+## Tooltip physics
+
+Hover tooltips name the covered IR bands (NIR 0.7–1.4 µm, SWIR 1.4–3 µm, MWIR
+3–8 µm, LWIR 8–15 µm, FIR beyond), and state the blackbody emission peak for
+the instrument's temperature range via Wien's displacement law
+(λ_max = 2898 µm·K / T) together with whether that peak falls inside the
+instrument's spectral band — a one-glance sanity check of the design.
 
 ## Data semantics worth knowing
 

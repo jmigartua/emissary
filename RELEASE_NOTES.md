@@ -1,5 +1,31 @@
 # Release Notes
 
+## 0.2.0 — 2026-08-04
+
+### Added
+
+- **Atlas world map** — choropleth of records per corresponding country
+  (Natural Earth 110m outlines bundled, no network; √ scale; violet sequential
+  ramp kept deliberately outside the categorical geometry palette). Hover a
+  country for its instrument families; click to open its records in the
+  Library. Count bars remain below the map.
+- **Technical tooltips** — hover tooltips now carry the physics: IR band names
+  (NIR / SWIR / MWIR / LWIR / FIR), the Wien-displacement peak for the
+  instrument's temperature range (λ_max = 2898 µm·K / T) with an *in band ✓ /
+  outside band ✗* verdict against its spectral range, optional wavenumbers
+  (cm⁻¹, FTIR convention), detection methods and temperature metrology.
+- **Settings** (⌘,) — theme override (system/light/dark), temperature unit
+  (K/°C, applied everywhere including fingerprint axes), wavenumbers, Wien
+  check, tooltip verbosity, fingerprint corpus-shadow, and view-on-launch.
+  Stored locally, applied immediately.
+
+### Verified
+
+- 14-assertion in-DOM self-test: map rendering, country click-through to
+  Library, tooltip physics content, Celsius relabeling, settings persistence,
+  theme stamping, wavenumber toggle.
+
+
 ## 0.1.0 — 2026-08-04
 
 First release: the read-only reader (Phase 1 of the design in
