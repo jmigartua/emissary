@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Emissary",
+  "version": "0.1.0",
+  "identifier": "eus.ehu.emissary",
+  "build": {
+    "frontendDist": "../src"
+  },
+  "app": {
+    "withGlobalTauri": true,
+    "windows": [
+      {
+        "title": "Emissary",
+        "width": 1280,
+        "height": 820,
+        "minWidth": 980,
+        "minHeight": 620
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["app", "dmg"],
+    "category": "Utility",
+    "icon": ["icons/icon.icns", "icons/icon.png"],
+    "resources": ["resources/data"]
+  }
+}
