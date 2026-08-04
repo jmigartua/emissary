@@ -1,6 +1,6 @@
 # Emissary — User Manual
 
-*Version 0.2.0 · also available inside the app under **Help***
+*Version 0.3.0 · also available inside the app under **Help***
 
 Emissary is a macOS-native reader and curation instrument for the
 [radiometric-emissometers-db](https://github.com/jongablop/radiometric-emissometers-db)
@@ -59,9 +59,13 @@ inspect it; toggle classes in the legend.
 
 One column per year stacked by geometry (hover for the year's records). The
 Atlas is a world map — countries shaded by records per corresponding country
-(√ scale), bundled Natural Earth outlines, no network needed. Hover a country
-for its instrument-family breakdown; click it to open its records in the
-Library. The exact count bars sit below the map.
+(√ scale), bundled Natural Earth outlines, no network needed. The 66
+instrument locations (corresponding-author affiliation cities, geocoded once
+and bundled) are plotted as dots sized by record count: hover a dot for the
+instruments there, click it to open them in the Library. Scroll to zoom toward
+the cursor, drag to pan, double-click (or the ⤢ button) to reset. Hover a
+country for its instrument-family breakdown; click it to open its records.
+The exact count bars sit below the map.
 
 ## Health
 
@@ -84,7 +88,15 @@ that Phase 2's mapping workbench will consume.
 | ⌘K | Command palette — jump to any record or view |
 | ⌘1 … ⌘6 | Library · Plane · Timeline · Atlas · Health · Vocabulary |
 | ⌘, | Settings |
+| ⌘[ / ⌘] | Back / forward through navigation history |
 | ↑ ↓ ⏎ / Esc | Navigate / close the palette |
+
+## Navigation history
+
+Everywhere you go — a view, a record, a filtered Health drill-down — is a
+place. The ‹ › toolbar buttons (or ⌘[ / ⌘]) walk back and forward through
+those places, exactly like a browser: going somewhere new clears the forward
+stack.
 
 ## Settings (⌘,)
 

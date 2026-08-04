@@ -1,5 +1,27 @@
 # Release Notes
 
+## 0.3.0 — 2026-08-04
+
+### Added
+
+- **Zoomable Atlas with instrument locations** — country outlines now clearly
+  visible; scroll-to-zoom toward the cursor, drag-to-pan, double-click or ⤢ to
+  reset (+/− buttons too). The 66 instrument locations (corresponding-author
+  affiliation cities, geocoded once via OpenStreetMap Nominatim and bundled —
+  no network at runtime) are plotted as dots sized by record count; hover for
+  the instruments there, click to open them in the Library with the city
+  pre-filled in search.
+- **Navigation history** — ‹ › toolbar buttons and ⌘[ / ⌘] walk back/forward
+  through every place you've been (view + selected record + active filter),
+  browser-style: new navigation clears the forward stack.
+- Search now also matches affiliation cities.
+
+### Verified
+
+- 12-assertion in-DOM self-test: dot count and click-through with search
+  prefill, zoom in/reset via buttons, back/forward via buttons and keyboard.
+
+
 ## 0.2.0 — 2026-08-04
 
 ### Added

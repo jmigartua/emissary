@@ -142,9 +142,17 @@ svg{display:block;max-width:100%}
 .palrow.hot,.palrow:hover{background:var(--sel)}
 
 /* atlas map */
-#worldmap{max-width:960px}
-#worldmap path.country{stroke:var(--panel);stroke-width:.6;cursor:default}
-#worldmap path.country.hit{cursor:pointer}
+.mapwrap{position:relative;max-width:960px}
+#worldmap{max-width:960px;touch-action:none;cursor:grab}
+#worldmap.panning{cursor:grabbing}
+#worldmap path.country{stroke:var(--ink3);stroke-opacity:.45;stroke-width:.7;vector-effect:non-scaling-stroke;cursor:default}
+#worldmap path.country.hit{cursor:pointer;stroke-opacity:.8}
+#worldmap circle.place{fill:var(--ink);stroke:var(--panel);cursor:pointer}
+.mapzoom{position:absolute;top:8px;right:8px;display:flex;flex-direction:column;gap:4px}
+.mapzoom .tbtn{margin:0;width:28px;font-size:14px;text-align:center;padding:2px 0}
+.navhist{display:flex;gap:4px}
+.nb{font-size:16px;line-height:1;padding:3px 10px}
+.nb:disabled{opacity:.35;cursor:default}
 .maplegend{display:flex;align-items:center;gap:8px;font-size:11px;color:var(--ink3);font-family:var(--mono);max-width:960px;padding:4px 2px}
 .maplegend .ramp{height:10px;width:160px;border-radius:5px}
 

@@ -36,9 +36,13 @@ function compact(rec) {
   const au = b.authors || [];
   const first = au[0] ? au[0].trim().split(/\s+/).pop() : "?";
   const sr = i.spectral_range_um || [null, null], tr = i.temperature_range_K || [null, null];
+  const affs = loc.affiliations || [];
+  let city = null;
+  for (const af of affs) if (af.author_position === "corresponding" && af.city) { city = af.city; break; }
+  if (!city && affs[0]) city = affs[0].city || null;
   return {
     id: rec.id, doi: b.doi || null, t: b.title || "(untitled)", y: b.year ?? null, v: b.venue || "",
-    a: au, lbl: `${first} ${b.year ?? ""}`.trim(), cc: loc.corresponding_country || null,
+    a: au, lbl: `${first} ${b.year ?? ""}`.trim(), cc: loc.corresponding_country || null, city,
     d: i.direction ?? null, sp: i.spectral ?? null,
     l0: sr[0] ?? null, l1: sr[1] ?? null, t0: tr[0] ?? null, t1: tr[1] ?? null,
     det: i.detection_method || [], fam: famOf(i.detection_method || []),
@@ -125,7 +129,7 @@ function matches(p) {
   if (state.special === "incomplete" && p.l0 != null && p.t0 != null) return false;
   if (state.special === "mojibake" && !p.a.some(a => /\S\?|\?\S/.test(a))) return false;
   if (state.q) {
-    const h = (p.t + " " + p.lbl + " " + p.v + " " + p.a.join(" ") + " " + p.det.join(" ") + " " + (p.cc || "")).toLowerCase();
+    const h = (p.t + " " + p.lbl + " " + p.v + " " + p.a.join(" ") + " " + p.det.join(" ") + " " + (p.cc || "") + " " + (p.city || "")).toLowerCase();
     if (!h.includes(state.q)) return false;
   }
   return true;
@@ -218,7 +222,7 @@ function renderChips() {
     const names = { nogeom: "missing geometry", incomplete: "incomplete ranges", mojibake: "encoding damage" };
     const b = chipEl(`✕ ${names[state.special]}`, null, "true");
     b.classList.add("dismiss");
-    b.onclick = () => { state.special = null; renderAll(); };
+    b.onclick = () => { recordNav(); state.special = null; renderAll(); };
     sc.appendChild(b);
   }
 }
@@ -248,7 +252,7 @@ function renderList() {
       <span class="rlbl">${esc(p.lbl)} <span class="rv">· ${esc(p.v)}</span></span>
       ${sparkPair(p)}
       <span class="rttl">${esc(p.t)}</span>`;
-    r.onclick = () => { state.sel = p; renderAll(); };
+    r.onclick = () => goSelect(p);
     frag.appendChild(r);
   });
   rows.appendChild(frag);
@@ -293,7 +297,7 @@ function renderInspector() {
     <ul class="changelog">${p.chg.map(c => `<li><b>${esc(c.date || "")}</b> ${esc(c.change || "")}</li>`).join("") || "<li>no changelog</li>"}</ul>`;
   el.querySelectorAll("[data-goto]").forEach(b => b.onclick = () => {
     const q = byId.get(b.dataset.goto);
-    if (q) { state.sel = q; renderAll(); }
+    if (q) goSelect(q);
   });
   const ob = $("openDoi");
   if (ob) ob.onclick = () => T?.opener?.openUrl?.("https://doi.org/" + p.doi);
@@ -353,7 +357,7 @@ function renderPlane() {
     const p = P[+el.dataset.i];
     el.addEventListener("mousemove", e => showTipAt(e, paperTip(p)));
     el.addEventListener("mouseleave", hideTip);
-    el.addEventListener("click", () => { state.sel = p; renderAll(); });
+    el.addEventListener("click", () => goSelect(p));
   });
   const lg = $("planeLegend"); lg.innerHTML = "";
   DIRS.forEach(d => {
@@ -400,7 +404,7 @@ function renderTimeline() {
     const yy = +el.dataset.y, list = by[yy];
     el.addEventListener("mousemove", e => showTipAt(e, `<b>${yy} — ${list.length} instrument${list.length > 1 ? "s" : ""}</b>` + list.map(p => esc(p.lbl)).join(" · ")));
     el.addEventListener("mouseleave", hideTip);
-    el.addEventListener("click", () => { state.sel = list[0]; renderAll(); });
+    el.addEventListener("click", () => goSelect(list[0]));
   });
   const lg = $("timeLegend"); lg.innerHTML = "";
   DIRS.forEach(d => { const b = chipEl(d.lbl, css(d.v), "true"); b.style.cursor = "default"; lg.appendChild(b); });
@@ -416,7 +420,74 @@ function rampColor(t) {
   const [a, b] = RAMP[isDark() ? "dark" : "light"];
   return `rgb(${a.map((v, i) => Math.round(v + (b[i] - v) * t)).join(",")})`;
 }
+// map zoom/pan state — viewBox in map coordinates
+const MZ = { k: 1, x: 0, y: 0 };
+function mapApplyView() {
+  $("worldmap").setAttribute("viewBox", `${MZ.x.toFixed(1)} ${MZ.y.toFixed(1)} ${(MAPW / MZ.k).toFixed(1)} ${(MAPH / MZ.k).toFixed(1)}`);
+  // keep dot size constant on screen
+  const maxPn = Math.max(...(window.PLACES || []).map(pl => pl.n), 1);
+  $("worldmap").querySelectorAll("circle.place").forEach(el => {
+    const pl = window.PLACES[+el.dataset.pi];
+    el.setAttribute("r", ((2.2 + 3.2 * Math.sqrt(pl.n / maxPn)) / MZ.k).toFixed(2));
+    el.setAttribute("stroke-width", (1.2 / MZ.k).toFixed(2));
+  });
+}
+function mapZoom(factor, cx, cy) {
+  // cx,cy = zoom center in map coords; defaults to current view center
+  const w = MAPW / MZ.k, h = MAPH / MZ.k;
+  cx = cx ?? MZ.x + w / 2; cy = cy ?? MZ.y + h / 2;
+  const k2 = Math.min(14, Math.max(1, MZ.k * factor));
+  const w2 = MAPW / k2, h2 = MAPH / k2;
+  MZ.x = cx - (cx - MZ.x) * (w2 / w);
+  MZ.y = cy - (cy - MZ.y) * (h2 / h);
+  MZ.k = k2;
+  if (MZ.k === 1) { MZ.x = 0; MZ.y = 0; }
+  MZ.x = Math.max(0, Math.min(MAPW - MAPW / MZ.k, MZ.x));
+  MZ.y = Math.max(0, Math.min(MAPH - MAPH / MZ.k, MZ.y));
+  mapApplyView();
+}
+function mapPoint(e) {
+  const svg = $("worldmap"), rect = svg.getBoundingClientRect();
+  return [MZ.x + (e.clientX - rect.left) / rect.width * MAPW / MZ.k,
+          MZ.y + (e.clientY - rect.top) / rect.height * MAPH / MZ.k];
+}
+let mapWired = false, mapDidPan = false;
+function wireMap() {
+  if (mapWired) return; mapWired = true;
+  const svg = $("worldmap");
+  svg.addEventListener("wheel", e => {
+    e.preventDefault();
+    const [cx, cy] = mapPoint(e);
+    mapZoom(e.deltaY < 0 ? 1.25 : 0.8, cx, cy);
+  }, { passive: false });
+  svg.addEventListener("dblclick", () => { MZ.k = 1; MZ.x = 0; MZ.y = 0; mapApplyView(); });
+  let drag = null;
+  svg.addEventListener("click", e => { if (mapDidPan) { e.stopPropagation(); mapDidPan = false; } }, true);
+  svg.addEventListener("pointerdown", e => {
+    mapDidPan = false;
+    drag = { x: e.clientX, y: e.clientY, vx: MZ.x, vy: MZ.y };
+    svg.classList.add("panning"); svg.setPointerCapture(e.pointerId);
+  });
+  svg.addEventListener("pointermove", e => {
+    if (!drag) return;
+    if (Math.abs(e.clientX - drag.x) + Math.abs(e.clientY - drag.y) > 4) mapDidPan = true;
+    const rect = svg.getBoundingClientRect();
+    MZ.x = drag.vx - (e.clientX - drag.x) / rect.width * MAPW / MZ.k;
+    MZ.y = drag.vy - (e.clientY - drag.y) / rect.height * MAPH / MZ.k;
+    MZ.x = Math.max(0, Math.min(MAPW - MAPW / MZ.k, MZ.x));
+    MZ.y = Math.max(0, Math.min(MAPH - MAPH / MZ.k, MZ.y));
+    mapApplyView();
+  });
+  const endDrag = () => { drag = null; svg.classList.remove("panning"); };
+  svg.addEventListener("pointerup", endDrag);
+  svg.addEventListener("pointercancel", endDrag);
+  $("zin").onclick = () => mapZoom(1.5);
+  $("zout").onclick = () => mapZoom(1 / 1.5);
+  $("zreset").onclick = () => { MZ.k = 1; MZ.x = 0; MZ.y = 0; mapApplyView(); };
+}
+
 function renderAtlas() {
+  wireMap();
   const cc = {}; let unresolved = 0;
   P.forEach(p => { if (p.cc) cc[p.cc] = (cc[p.cc] || 0) + 1; else unresolved++; });
   const all = Object.entries(cc).sort((a, b) => b[1] - a[1]);
@@ -433,7 +504,29 @@ function renderAtlas() {
     const fill = n ? rampColor(0.15 + 0.85 * t) : "var(--panel2)";
     return `<path class="country${n ? " hit" : ""}" data-ci="${ci}" d="${d}" fill="${fill}"/>`;
   }).join("");
-  $("worldmap").innerHTML = paths;
+  // instrument locations — one dot per affiliation city, sized by record count
+  const maxPn = Math.max(...(window.PLACES || []).map(pl => pl.n), 1);
+  const dots = (window.PLACES || []).map((pl, pi) => {
+    const [x, y] = prj(pl.lo, pl.la);
+    const r = (2.2 + 3.2 * Math.sqrt(pl.n / maxPn)) / MZ.k;
+    return `<circle class="place" data-pi="${pi}" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${r.toFixed(2)}" stroke-width="${(1.2 / MZ.k).toFixed(2)}"/>`;
+  }).join("");
+  $("worldmap").innerHTML = paths + dots;
+  mapApplyView();
+  $("worldmap").querySelectorAll("circle.place").forEach(el => {
+    const pl = window.PLACES[+el.dataset.pi];
+    el.addEventListener("mousemove", e => showTipAt(e,
+      `<b>${esc(pl.c)}, ${esc(pl.i)} — ${pl.n} instrument${pl.n > 1 ? "s" : ""}</b>` +
+      `<span class="tmono">${pl.ids.slice(0, 5).map(id => esc(byId.get(id)?.lbl || id)).join(" · ")}${pl.ids.length > 5 ? " · +" + (pl.ids.length - 5) : ""}<br>click to open</span>`));
+    el.addEventListener("mouseleave", hideTip);
+    el.addEventListener("click", e => {
+      e.stopPropagation();
+      const first = pl.ids.map(id => byId.get(id)).filter(Boolean)[0];
+      if (pl.n > 1) { state.q = pl.c.toLowerCase(); $("q").value = pl.c; }
+      if (first) goSelect(first, "library"); else goView("library");
+      renderAll();
+    });
+  });
   $("worldmap").querySelectorAll("path.country").forEach(el => {
     const cty = window.WORLD[+el.dataset.ci];
     const n = cc[cty.i] || 0;
@@ -447,7 +540,7 @@ function renderAtlas() {
       switchView("library"); renderAll();
     });
   });
-  $("mapLegend").innerHTML = `<span>1</span><div class="ramp" style="background:linear-gradient(90deg,${rampColor(0.15)},${rampColor(1)})"></div><span>${max}</span><span style="margin-left:12px">records per corresponding country · √ scale · ${unresolved} unresolved</span>`;
+  $("mapLegend").innerHTML = `<span>1</span><div class="ramp" style="background:linear-gradient(90deg,${rampColor(0.15)},${rampColor(1)})"></div><span>${max}</span><span style="margin-left:12px">records per corresponding country · √ scale · ● instrument locations (affiliation cities) · scroll to zoom, drag to pan · ${unresolved} unresolved</span>`;
   // bars (kept below the map)
   $("countries").innerHTML = all.map(([k, n]) =>
     `<div class="countrybar"><span style="font-family:var(--mono);color:var(--ink2)">${esc(k)}</span><div class="cb" style="width:${(n / max * 100).toFixed(0)}%"></div><span style="text-align:right;color:var(--ink2)">${n}</span></div>`).join("");
@@ -464,7 +557,7 @@ function renderHealth() {
   const tiles = [
     { n: P.length, l: `records · ${Math.min(...years)}–${Math.max(...years)}`, cls: "good" },
     { n: edges, l: "citation edges in corpus", cls: "good" },
-    { n: rawStrings.size, l: "raw detection strings to normalize", cls: "warn", go: () => switchView("vocab") },
+    { n: rawStrings.size, l: "raw detection strings to normalize", cls: "warn", go: () => goView("vocab") },
     { n: incomplete, l: "records missing λ- or T-range", cls: "warn", special: "incomplete" },
     { n: nogeom, l: "records without geometry", cls: "warn", special: "nogeom" },
     { n: mojibake, l: "author names with encoding damage", cls: mojibake ? "crit" : "good", special: "mojibake" },
@@ -474,7 +567,7 @@ function renderHealth() {
     const el = document.createElement(t.special || t.go ? "button" : "div");
     el.className = `tile ${t.cls}` + (t.special || t.go ? " click" : "");
     el.innerHTML = `<div class="n">${t.n}</div><div class="l">${esc(t.l)}</div>`;
-    if (t.special) el.onclick = () => { state.special = t.special; switchView("library"); renderAll(); };
+    if (t.special) el.onclick = () => { recordNav(); state.special = t.special; switchView("library"); renderAll(); };
     else if (t.go) el.onclick = t.go;
     host.appendChild(el);
   });
@@ -569,6 +662,55 @@ function switchView(v) {
   hideTip();
 }
 
+// ---------------- navigation history ----------------
+// "Go back to the previous place" — a snapshot is (view, selected record, special filter).
+const HIST = { back: [], fwd: [] };
+let navLock = false;
+const snap = () => ({ view: state.view, sel: state.sel ? state.sel.id : null, special: state.special });
+const sameSnap = (a, b) => a.view === b.view && a.sel === b.sel && a.special === b.special;
+function updateNavBtns() {
+  $("navBack").disabled = !HIST.back.length;
+  $("navFwd").disabled = !HIST.fwd.length;
+}
+// Call BEFORE mutating navigation state; clears the forward stack like a browser.
+function recordNav() {
+  if (navLock) return;
+  const s = snap();
+  const last = HIST.back[HIST.back.length - 1];
+  if (last && sameSnap(last, s)) return;
+  HIST.back.push(s);
+  if (HIST.back.length > 200) HIST.back.shift();
+  HIST.fwd.length = 0;
+  updateNavBtns();
+}
+function restoreSnap(s) {
+  navLock = true;
+  if (s.sel && byId.has(s.sel)) state.sel = byId.get(s.sel);
+  state.special = s.special ?? null;
+  switchView(s.view);
+  renderAll();
+  navLock = false;
+  updateNavBtns();
+}
+function navBack() {
+  if (!HIST.back.length) return;
+  HIST.fwd.push(snap());
+  restoreSnap(HIST.back.pop());
+}
+function navFwd() {
+  if (!HIST.fwd.length) return;
+  HIST.back.push(snap());
+  restoreSnap(HIST.fwd.pop());
+}
+// The two navigation verbs the whole app routes through:
+function goView(v) { if (v !== state.view) recordNav(); switchView(v); }
+function goSelect(p, view) {
+  recordNav();
+  state.sel = p;
+  if (view && view !== state.view) switchView(view);
+  renderAll();
+}
+
 // ---------------- command palette ----------------
 let palHot = 0;
 function palItems(q) {
@@ -590,8 +732,8 @@ function renderPalette() {
 }
 function palGo(items) {
   const it = items[palHot]; if (!it) return;
-  if (it.kind === "view") switchView(it.v);
-  else { state.sel = it.p; switchView("library"); renderAll(); }
+  if (it.kind === "view") goView(it.v);
+  else goSelect(it.p, "library");
   $("palette").hidden = true;
 }
 
@@ -630,20 +772,24 @@ async function loadData(path) {
 
 $("q").addEventListener("input", e => { state.q = e.target.value.toLowerCase(); renderList(); });
 $("sortSel").addEventListener("change", e => { state.sort = e.target.value; renderList(); });
-document.querySelectorAll(".navitem[data-view]").forEach(b => b.onclick = () => switchView(b.dataset.view));
+document.querySelectorAll(".navitem[data-view]").forEach(b => b.onclick = () => goView(b.dataset.view));
 $("openDs").onclick = async () => {
   const dir = await T?.dialog?.open?.({ directory: true, title: "Pick the radiometric-emissometers-db folder" });
   if (dir) loadData(dir);
 };
+$("navBack").onclick = navBack;
+$("navFwd").onclick = navFwd;
 const VIEW_KEYS = ["library", "plane", "timeline", "atlas", "health", "vocab"];
 window.addEventListener("keydown", e => {
   const pal = $("palette");
   if ((e.metaKey || e.ctrlKey) && e.key >= "1" && e.key <= "6") {
-    e.preventDefault(); switchView(VIEW_KEYS[+e.key - 1]); return;
+    e.preventDefault(); goView(VIEW_KEYS[+e.key - 1]); return;
   }
   if ((e.metaKey || e.ctrlKey) && e.key === ",") {
-    e.preventDefault(); switchView("settings"); return;
+    e.preventDefault(); goView("settings"); return;
   }
+  if ((e.metaKey || e.ctrlKey) && e.key === "[") { e.preventDefault(); navBack(); return; }
+  if ((e.metaKey || e.ctrlKey) && e.key === "]") { e.preventDefault(); navFwd(); return; }
   if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k") {
     e.preventDefault(); pal.hidden = false; $("palq").value = ""; palHot = 0; renderPalette(); $("palq").focus();
   } else if (!pal.hidden) {
