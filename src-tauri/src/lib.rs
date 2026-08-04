@@ -2,7 +2,7 @@ use std::fs;
 use std::path::{Path, PathBuf};
 use tauri::Manager;
 
-#[derive(serde::Serialize)]
+#[derive(serde::Serialize, Debug)]
 struct Dataset {
     path: String,
     bundled: bool,
@@ -95,6 +95,49 @@ fn load_dataset(app: tauri::AppHandle, path: Option<String>) -> Result<Dataset, 
                 .map_err(|e| format!("Bundled dataset not found: {e}"))?;
             read_dataset(&resource, true)
         }
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    // The bundled copy is a verbatim checkout of radiometric-emissometers-db/data.
+    fn data_dir() -> PathBuf {
+        PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("resources/data")
+    }
+
+    #[test]
+    fn loads_from_data_dir() {
+        let ds = read_dataset(&data_dir(), false).expect("data/ dir should load");
+        assert_eq!(ds.papers.len(), 139);
+        assert!(ds.graph.is_some(), "graph.json should load next to papers/");
+    }
+
+    #[test]
+    fn loads_from_papers_dir() {
+        let ds = read_dataset(&data_dir().join("papers"), false).expect("papers/ dir should load");
+        assert_eq!(ds.papers.len(), 139);
+    }
+
+    #[test]
+    fn loads_from_repo_root_shape() {
+        // A dir that *contains* data/papers — the repo-root shape.
+        let root = data_dir().parent().unwrap().to_path_buf(); // resources/, which has data/papers
+        let ds = read_dataset(&root, false).expect("repo-root shape should load");
+        assert_eq!(ds.papers.len(), 139);
+    }
+
+    #[test]
+    fn stale_path_errors_cleanly() {
+        let err = read_dataset(Path::new("/nonexistent/emissary-test"), false).unwrap_err();
+        assert!(err.contains("No papers"), "got: {err}");
+    }
+
+    #[test]
+    fn records_have_ids() {
+        let ds = read_dataset(&data_dir(), false).unwrap();
+        assert!(ds.papers.iter().all(|p| p.get("id").is_some()));
     }
 }
 
