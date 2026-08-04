@@ -60,6 +60,64 @@ const state = {
   planeDirs: new Set(DIRS.map(d => d.k)),
 };
 
+// ---------------- settings ----------------
+const DEFAULTS = {
+  theme: "system",        // system | light | dark
+  tempUnit: "K",          // K | C
+  wavenumber: false,      // show cm⁻¹ alongside µm
+  wien: true,             // Wien displacement check in tooltips
+  shadow: true,           // corpus-coverage shadow in fingerprints
+  verboseTips: true,      // technical detail in tooltips
+  defaultView: "library",
+};
+const SETTINGS = { ...DEFAULTS, ...JSON.parse(localStorage.getItem("emissary.settings") || "{}") };
+function saveSettings() { localStorage.setItem("emissary.settings", JSON.stringify(SETTINGS)); }
+function applyTheme() {
+  const r = document.documentElement;
+  if (SETTINGS.theme === "system") r.removeAttribute("data-theme");
+  else r.setAttribute("data-theme", SETTINGS.theme);
+}
+const isDark = () =>
+  (document.documentElement.getAttribute("data-theme") || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")) === "dark";
+
+// ---------------- physics helpers ----------------
+const IR_BANDS = [[0.001, 0.38, "UV"], [0.38, 0.7, "VIS"], [0.7, 1.4, "NIR"], [1.4, 3, "SWIR"], [3, 8, "MWIR"], [8, 15, "LWIR"], [15, 1001, "FIR"]];
+function bandName(l0, l1) {
+  const hit = IR_BANDS.filter(([a, b]) => l1 > a && l0 < b).map(([, , n]) => n);
+  return hit.length ? (hit.length > 1 ? hit[0] + "–" + hit[hit.length - 1] : hit[0]) : "";
+}
+const kToC = k => k - 273.15;
+function fmtT1(k) {
+  return SETTINGS.tempUnit === "C" ? `${Math.round(kToC(k))} °C` : `${k} K`;
+}
+function fmtTRange(t0, t1) {
+  return SETTINGS.tempUnit === "C"
+    ? `${Math.round(kToC(t0))}–${Math.round(kToC(t1))} °C`
+    : `${t0}–${t1} K`;
+}
+const wienPeak = tK => 2897.77 / tK; // µm — Wien displacement law λ_max = b/T
+function wienNote(p) {
+  if (p.t0 == null || p.t1 == null) return "";
+  const pk1 = wienPeak(p.t1), pk2 = wienPeak(p.t0); // hotter → shorter λ
+  const s = `Wien peak ${pk1.toFixed(1)}–${pk2.toFixed(1)} µm`;
+  if (p.l0 == null || p.l1 == null) return s;
+  const inBand = pk1 <= p.l1 && pk2 >= p.l0;
+  return s + (inBand ? " · in band ✓" : " · outside band ✗");
+}
+const wn = um => Math.round(10000 / um); // wavenumber cm⁻¹
+function fmtLambda(p) {
+  if (p.l0 == null || p.l1 == null) return p.sp === false ? "total (non-spectral)" : "λ not reported";
+  let s = `λ ${p.l0}–${p.l1} µm`;
+  const b = bandName(p.l0, p.l1);
+  if (b) s += ` (${b})`;
+  if (SETTINGS.wavenumber) s += ` · ${wn(p.l1)}–${wn(p.l0)} cm⁻¹`;
+  return s;
+}
+function fmtTemp(p) {
+  if (p.t0 == null || p.t1 == null) return "T not reported";
+  return `T ${fmtTRange(p.t0, p.t1)}`;
+}
+
 function matches(p) {
   if (!state.dirs.has(p.d)) return false;
   if (!state.fams.has(p.fam)) return false;
@@ -103,7 +161,7 @@ function dirGlyph(d, x, y, s, c) {
 
 function fingerprintSVG(p, W) {
   const AX = W - 140, X0 = 96, rowL = 34, rowT = 78, H = 112;
-  const den = (bins, y) => bins.map((n, i) => {
+  const den = (bins, y) => !SETTINGS.shadow ? "" : bins.map((n, i) => {
     const x0 = i / bins.length * AX, x1 = (i + 1) / bins.length * AX;
     return `<rect class="ctx" x="${(X0 + x0).toFixed(1)}" y="${y - 9}" width="${Math.max(x1 - x0, .5).toFixed(1)}" height="18" opacity="${(.05 + .25 * n / DEN.max).toFixed(2)}"/>`;
   }).join("");
@@ -117,13 +175,14 @@ function fingerprintSVG(p, W) {
     s += `<rect x="${a.toFixed(1)}" y="${rowL - 7}" width="${Math.max(b - a, 3).toFixed(1)}" height="14" rx="4" fill="${c}" opacity=".85"/>`;
     s += `<text x="${a.toFixed(1)}" y="${rowL - 12}" text-anchor="middle" style="fill:${c};font-weight:600">${p.l0}</text><text x="${b.toFixed(1)}" y="${rowL - 12}" text-anchor="middle" style="fill:${c};font-weight:600">${p.l1}</text>`;
   } else s += `<text x="${X0 + 4}" y="${rowL + 3}" style="font-style:italic">not reported${p.sp === false ? " — total (non-spectral)" : ""}</text>`;
-  s += `<text x="0" y="${rowT + 3}">T  K</text>` + den(DEN.tb, rowT);
+  const tval = k => SETTINGS.tempUnit === "C" ? Math.round(kToC(k)) : k;
+  s += `<text x="0" y="${rowT + 3}">T  ${SETTINGS.tempUnit === "C" ? "°C" : "K"}</text>` + den(DEN.tb, rowT);
   s += `<line class="axline" x1="${X0}" y1="${rowT + 11}" x2="${X0 + AX}" y2="${rowT + 11}"/>`;
-  [300, 1000, 2000, 3000].forEach(v => { const x = X0 + (v - TMIN) / (TMAX - TMIN) * AX; s += `<line class="axline" x1="${x.toFixed(1)}" y1="${rowT + 11}" x2="${x.toFixed(1)}" y2="${rowT + 14}"/><text x="${x.toFixed(1)}" y="${rowT + 25}" text-anchor="middle">${v}</text>`; });
+  [300, 1000, 2000, 3000].forEach(v => { const x = X0 + (v - TMIN) / (TMAX - TMIN) * AX; s += `<line class="axline" x1="${x.toFixed(1)}" y1="${rowT + 11}" x2="${x.toFixed(1)}" y2="${rowT + 14}"/><text x="${x.toFixed(1)}" y="${rowT + 25}" text-anchor="middle">${tval(v)}</text>`; });
   if (p.t0 != null && p.t1 != null) {
     const a = X0 + (p.t0 - TMIN) / (TMAX - TMIN) * AX, b = X0 + (p.t1 - TMIN) / (TMAX - TMIN) * AX;
     s += `<rect x="${a.toFixed(1)}" y="${rowT - 7}" width="${Math.max(b - a, 3).toFixed(1)}" height="14" rx="4" fill="${c}" opacity=".55"/>`;
-    s += `<text x="${a.toFixed(1)}" y="${rowT - 12}" text-anchor="middle" style="fill:${c};font-weight:600">${p.t0}</text><text x="${b.toFixed(1)}" y="${rowT - 12}" text-anchor="middle" style="fill:${c};font-weight:600">${p.t1}</text>`;
+    s += `<text x="${a.toFixed(1)}" y="${rowT - 12}" text-anchor="middle" style="fill:${c};font-weight:600">${tval(p.t0)}</text><text x="${b.toFixed(1)}" y="${rowT - 12}" text-anchor="middle" style="fill:${c};font-weight:600">${tval(p.t1)}</text>`;
   } else s += `<text x="${X0 + 4}" y="${rowT + 3}" style="font-style:italic">not reported</text>`;
   s += dirGlyph(p.d, W - 42, 24, 18, c);
   s += `<text x="${W - 42}" y="72" text-anchor="middle" style="fill:${c};font-weight:600">${p.d || "unspec."}</text>`;
@@ -183,7 +242,8 @@ function renderList() {
     r.className = "row" + (state.sel && state.sel.id === p.id ? " sel" : "");
     r.setAttribute("role", "option"); r.setAttribute("aria-selected", !!(state.sel && state.sel.id === p.id));
     const unc = p.d == null;
-    r.title = `${p.t}\nλ ${p.l0 != null ? p.l0 + "–" + p.l1 + " µm" : "not reported"} · T ${p.t0 != null ? p.t0 + "–" + p.t1 + " K" : "not reported"} · ${p.d || "geometry unspecified"}`;
+    r.title = `${p.t}\n${fmtLambda(p)} · ${fmtTemp(p)} · ${p.d || "geometry unspecified"}` +
+      (SETTINGS.wien && SETTINGS.verboseTips ? `\n${wienNote(p)}` : "");
     r.innerHTML = `<span class="gdot${unc ? " uns" : ""}" style="${unc ? "" : `background:${dirColor(p.d)}`}"></span>
       <span class="rlbl">${esc(p.lbl)} <span class="rv">· ${esc(p.v)}</span></span>
       ${sparkPair(p)}
@@ -247,8 +307,18 @@ function showTipAt(e, html) {
   t.style.top = Math.min(e.clientY + 14, innerHeight - 96) + "px";
 }
 const hideTip = () => { tip().style.display = "none"; };
-const paperTip = p => `<b>${esc(p.lbl)} — ${esc(p.d || "unspecified")}</b>${esc(p.t)}<br>
-  <span class="tmono">λ ${p.l0 != null ? p.l0 + "–" + p.l1 + " µm" : "n/r"} · T ${p.t0 != null ? p.t0 + "–" + p.t1 + " K" : "n/r"} · ${p.cit ?? 0} citations</span>`;
+function paperTip(p) {
+  let tech = `${fmtLambda(p)} · ${fmtTemp(p)}`;
+  if (SETTINGS.verboseTips) {
+    const bits = [];
+    if (SETTINGS.wien) { const w = wienNote(p); if (w) bits.push(w); }
+    if (p.det.length) bits.push(esc(p.det.join(", ")));
+    if (p.tm.length || p.tc.length) bits.push(`T-metrology: ${esc([...p.tm, ...p.tc].join(", "))}`);
+    tech += bits.length ? "<br>" + bits.join("<br>") : "";
+  }
+  return `<b>${esc(p.lbl)} — ${esc(p.d || "geometry unspecified")}, ${esc(p.fam)}</b>${esc(p.t)}<br>
+    <span class="tmono">${tech}<br>${p.cit ?? 0} citations · ${esc(p.cc || "country n/r")}</span>`;
+}
 
 // ---------------- capability plane ----------------
 function renderPlane() {
@@ -337,14 +407,50 @@ function renderTimeline() {
 }
 
 // ---------------- atlas ----------------
+// Equirectangular projection, Antarctica dropped: lon −180…180 → x, lat 84…−60 → y.
+const MAPW = 1000, MAPH = 480;
+const prj = (lon, lat) => [(lon + 180) / 360 * MAPW, (84 - lat) / 144 * MAPH];
+// Sequential ramp (violet — deliberately outside the categorical geometry trio).
+const RAMP = { light: [[237, 233, 246], [74, 46, 134]], dark: [[46, 38, 64], [185, 165, 232]] };
+function rampColor(t) {
+  const [a, b] = RAMP[isDark() ? "dark" : "light"];
+  return `rgb(${a.map((v, i) => Math.round(v + (b[i] - v) * t)).join(",")})`;
+}
 function renderAtlas() {
   const cc = {}; let unresolved = 0;
   P.forEach(p => { if (p.cc) cc[p.cc] = (cc[p.cc] || 0) + 1; else unresolved++; });
   const all = Object.entries(cc).sort((a, b) => b[1] - a[1]);
   const max = all.length ? all[0][1] : 1;
+  // map
+  const famsIn = iso => {
+    const f = {}; P.filter(p => p.cc === iso).forEach(p => f[p.fam] = (f[p.fam] || 0) + 1);
+    return Object.entries(f).sort((a, b) => b[1] - a[1]).map(([k, n]) => `${k} ${n}`).join(" · ");
+  };
+  const paths = (window.WORLD || []).map((cty, ci) => {
+    const n = cc[cty.i] || 0;
+    const t = n ? Math.sqrt(n / max) : 0; // sqrt scale — CN would otherwise crush Europe
+    const d = cty.r.map(ring => "M" + ring.map(([lo, la]) => prj(lo, la).map(v => v.toFixed(1)).join(",")).join("L") + "Z").join("");
+    const fill = n ? rampColor(0.15 + 0.85 * t) : "var(--panel2)";
+    return `<path class="country${n ? " hit" : ""}" data-ci="${ci}" d="${d}" fill="${fill}"/>`;
+  }).join("");
+  $("worldmap").innerHTML = paths;
+  $("worldmap").querySelectorAll("path.country").forEach(el => {
+    const cty = window.WORLD[+el.dataset.ci];
+    const n = cc[cty.i] || 0;
+    el.addEventListener("mousemove", e => showTipAt(e,
+      `<b>${esc(cty.n)}${n ? ` — ${n} instrument${n > 1 ? "s" : ""}` : ""}</b>` +
+      (n ? `<span class="tmono">${esc(famsIn(cty.i))}</span>` : `<span class="tmono">no instruments in corpus</span>`)));
+    el.addEventListener("mouseleave", hideTip);
+    if (n) el.addEventListener("click", () => {
+      state.q = ""; $("q").value = "";
+      state.sel = sorted(P.filter(p => p.cc === cty.i))[0];
+      switchView("library"); renderAll();
+    });
+  });
+  $("mapLegend").innerHTML = `<span>1</span><div class="ramp" style="background:linear-gradient(90deg,${rampColor(0.15)},${rampColor(1)})"></div><span>${max}</span><span style="margin-left:12px">records per corresponding country · √ scale · ${unresolved} unresolved</span>`;
+  // bars (kept below the map)
   $("countries").innerHTML = all.map(([k, n]) =>
-    `<div class="countrybar"><span style="font-family:var(--mono);color:var(--ink2)">${esc(k)}</span><div class="cb" style="width:${(n / max * 100).toFixed(0)}%"></div><span style="text-align:right;color:var(--ink2)">${n}</span></div>`).join("") +
-    `<div class="countrybar" style="color:var(--ink3)"><span></span><span style="font-size:11px">${unresolved} records with unresolved country</span><span></span></div>`;
+    `<div class="countrybar"><span style="font-family:var(--mono);color:var(--ink2)">${esc(k)}</span><div class="cb" style="width:${(n / max * 100).toFixed(0)}%"></div><span style="text-align:right;color:var(--ink2)">${n}</span></div>`).join("");
 }
 
 // ---------------- health ----------------
@@ -396,6 +502,63 @@ function renderVocab() {
     return `<div class="vocabrow"><span class="field">${g.name}</span><span class="raws">${vs}</span><span class="ct">${total}</span></div>`;
   }).join("");
   $("cntVocab").textContent = String(groups.length);
+}
+
+// ---------------- settings ----------------
+const SETTING_DEFS = [
+  { grp: "Appearance" },
+  { key: "theme", label: "Theme", desc: "Follow macOS, or force light / dark", type: "seg", options: ["system", "light", "dark"] },
+  { grp: "Units & physics" },
+  { key: "tempUnit", label: "Temperature unit", desc: "Kelvin or Celsius, everywhere temperatures appear", type: "seg", options: ["K", "C"] },
+  { key: "wavenumber", label: "Wavenumbers", desc: "Show spectral ranges also as cm⁻¹ (FTIR convention)", type: "bool" },
+  { key: "wien", label: "Wien-peak check", desc: "Tooltips state whether the blackbody emission peak (λ = 2898 µm·K / T) falls inside the instrument's spectral band", type: "bool" },
+  { grp: "Tooltips & plots" },
+  { key: "verboseTips", label: "Technical tooltips", desc: "Include methods, metrology and physics in hover tooltips", type: "bool" },
+  { key: "shadow", label: "Corpus-coverage shadow", desc: "Gray density strip behind fingerprint spans", type: "bool" },
+  { grp: "Behavior" },
+  { key: "defaultView", label: "View on launch", desc: "Which view opens when the app starts", type: "select", options: ["library", "plane", "timeline", "atlas", "health", "vocab"] },
+];
+function settingsChanged() {
+  saveSettings(); applyTheme();
+  renderAll(); renderTimeline(); renderAtlas(); renderSettings();
+}
+function renderSettings() {
+  const host = $("settingsHost");
+  host.innerHTML = `<h2>Settings</h2><div class="shint">Stored locally; applied immediately.</div>`;
+  SETTING_DEFS.forEach(def => {
+    if (def.grp) {
+      const g = document.createElement("div"); g.className = "setgrp"; g.textContent = def.grp;
+      host.appendChild(g); return;
+    }
+    const row = document.createElement("div"); row.className = "setrow";
+    row.innerHTML = `<div><div class="sl">${esc(def.label)}</div><div class="sd">${esc(def.desc)}</div></div>`;
+    let ctl;
+    if (def.type === "bool") {
+      ctl = document.createElement("button");
+      ctl.className = "switch"; ctl.setAttribute("role", "switch");
+      ctl.setAttribute("aria-checked", SETTINGS[def.key]);
+      ctl.title = def.label;
+      ctl.onclick = () => { SETTINGS[def.key] = !SETTINGS[def.key]; settingsChanged(); };
+    } else if (def.type === "seg") {
+      ctl = document.createElement("div"); ctl.className = "seg";
+      def.options.forEach(o => {
+        const b = document.createElement("button");
+        b.textContent = o === "C" ? "°C" : o;
+        b.setAttribute("aria-pressed", SETTINGS[def.key] === o);
+        b.onclick = () => { SETTINGS[def.key] = o; settingsChanged(); };
+        ctl.appendChild(b);
+      });
+    } else {
+      ctl = document.createElement("select");
+      def.options.forEach(o => {
+        const op = document.createElement("option"); op.value = o; op.textContent = o;
+        if (SETTINGS[def.key] === o) op.selected = true;
+        ctl.appendChild(op);
+      });
+      ctl.onchange = () => { SETTINGS[def.key] = ctl.value; settingsChanged(); };
+    }
+    row.appendChild(ctl); host.appendChild(row);
+  });
 }
 
 // ---------------- views ----------------
@@ -453,7 +616,7 @@ async function loadData(path) {
     $("dsPath").textContent = ds.bundled ? "bundled copy (read-only)" : ds.path;
     $("dsPath").title = ds.path;
     if (path) localStorage.setItem("emissary.dataset", path);
-    renderAll(); renderTimeline(); renderAtlas(); renderHealth(); renderVocab();
+    renderAll(); renderTimeline(); renderAtlas(); renderHealth(); renderVocab(); renderSettings();
     boot.style.display = "none";
   } catch (e) {
     if (path) { // stored path went stale — fall back to the bundled copy
@@ -478,6 +641,9 @@ window.addEventListener("keydown", e => {
   if ((e.metaKey || e.ctrlKey) && e.key >= "1" && e.key <= "6") {
     e.preventDefault(); switchView(VIEW_KEYS[+e.key - 1]); return;
   }
+  if ((e.metaKey || e.ctrlKey) && e.key === ",") {
+    e.preventDefault(); switchView("settings"); return;
+  }
   if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k") {
     e.preventDefault(); pal.hidden = false; $("palq").value = ""; palHot = 0; renderPalette(); $("palq").focus();
   } else if (!pal.hidden) {
@@ -489,7 +655,8 @@ window.addEventListener("keydown", e => {
 });
 $("palq").addEventListener("input", () => { palHot = 0; renderPalette(); });
 $("palette").addEventListener("click", e => { if (e.target === $("palette")) $("palette").hidden = true; });
-window.matchMedia?.("(prefers-color-scheme: dark)").addEventListener?.("change", () => { renderAll(); renderTimeline(); });
+window.matchMedia?.("(prefers-color-scheme: dark)").addEventListener?.("change", () => { renderAll(); renderTimeline(); renderAtlas(); });
 
-switchView("library");
+applyTheme();
+switchView(SETTINGS.defaultView);
 loadData(localStorage.getItem("emissary.dataset") || null);

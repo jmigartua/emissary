@@ -13,11 +13,12 @@
     <button class="navitem" data-view="library" id="nav-library" title="All records as a searchable, filterable list (⌘1)">Library<span class="cnt" id="cntLibrary">—</span></button>
     <button class="navitem" data-view="plane" title="Every instrument as a rectangle in wavelength × temperature space (⌘2)">Capability plane</button>
     <button class="navitem" data-view="timeline" title="Instruments per year, stacked by measurement geometry (⌘3)">Timeline</button>
-    <button class="navitem" data-view="atlas" title="Records per corresponding country (⌘4)">Atlas</button>
+    <button class="navitem" data-view="atlas" title="World map of records per corresponding country (⌘4)">Atlas</button>
     <div class="navgrp">Curation</div>
     <button class="navitem" data-view="health" title="Live data-quality dashboard — click a tile to see the offending records (⌘5)">Health<span class="cnt" id="cntHealth">—</span></button>
     <button class="navitem" data-view="vocab" title="Raw method strings grouped so typos and case variants surface together (⌘6)">Vocabulary<span class="cnt" id="cntVocab">—</span></button>
-    <button class="navitem" data-view="help" title="Manual, keyboard shortcuts and release notes (⌘?)">Help</button>
+    <button class="navitem" data-view="settings" title="Configure units, theme, tooltips and defaults (⌘,)">Settings</button>
+    <button class="navitem" data-view="help" title="Manual, keyboard shortcuts and release notes">Help</button>
     <div class="facets">
       <div class="navgrp">Geometry</div>
       <div class="chiprow" id="dirChips" role="group" aria-label="Filter by measurement geometry"></div>
@@ -58,7 +59,12 @@
         <p class="fignote">One column per year, stacked by geometry class. Hover a year for its records.</p>
       </div>
       <div class="view figview" id="view-atlas" hidden>
-        <div id="countries"></div>
+        <svg id="worldmap" viewBox="0 0 1000 480" role="img" aria-label="World map of records per corresponding country"></svg>
+        <div class="maplegend" id="mapLegend"></div>
+        <div id="countries" style="margin-top:14px"></div>
+      </div>
+      <div class="view figview" id="view-settings" hidden>
+        <div class="settings" id="settingsHost"></div>
       </div>
       <div class="view figview" id="view-health" hidden>
         <div class="tiles" id="healthTiles"></div>
@@ -78,19 +84,20 @@
             <li><b>Inspector</b> (right panel) — the record, whole: the <i>fingerprint</i> plot (both capability spans over the corpus-coverage shadow in gray), bibliography, citation total with a freshness tag (<i>stale</i> means the Scopus count is older than the record's last edit), raw method strings (dashed chips, exactly as published) beside the normalized family (solid chip), in-corpus cites / cited-by as clickable chips, and the append-only changelog.</li>
             <li><b>Capability plane</b> — the whole field in one plot: wavelength × temperature rectangles, colored by geometry. Records missing one range appear as strips along the matching axis; the top-right caption counts every group. Click a rectangle to inspect it.</li>
             <li><b>Timeline</b> — one column per year, stacked by geometry. Hover for the year's records; click to open the first.</li>
-            <li><b>Atlas</b> — records per corresponding country (ISO codes, from the dataset's <code>location</code> block).</li>
+            <li><b>Atlas</b> — a world map: countries shaded by records per corresponding country (√ scale so China doesn't crush Europe), with the count bars below. Hover a country for its instrument families; click to open its records in the Library.</li>
             <li><b>Health</b> — live data-quality tiles computed from the loaded dataset. Amber and red tiles are clickable and open the offending records as a filtered Library view (dismiss the filter with the ✕ chip in the sidebar).</li>
             <li><b>Vocabulary</b> — all raw detection / temperature-method strings grouped by collapsed key, so "electic heater" sits beside "electric heater". This is the normalization queue for Phase 2.</li>
           </ul>
           <h3>Keyboard</h3>
           <ul>
             <li><kbd>⌘K</kbd> — command palette: type to jump to any record or view; ↑↓ to move, ⏎ to open, Esc to close.</li>
-            <li><kbd>⌘1</kbd>…<kbd>⌘6</kbd> — switch views.</li>
+            <li><kbd>⌘1</kbd>…<kbd>⌘6</kbd> — switch views; <kbd>⌘,</kbd> — Settings.</li>
             <li><kbd>Esc</kbd> — close the palette.</li>
           </ul>
           <h3>Filters</h3>
           <p>Geometry and family chips are additive toggles — pressed chips are included. The search box matches title, authors, venue, methods and country. Sorting: year, citations, or author. Filters never recolor marks: color always follows the geometry class.</p>
           <h3 id="relnotes">Release notes</h3>
+          <p><b>0.2.0</b> — Atlas world map (choropleth of records per corresponding country, √ scale; click a country to open its records). Technical tooltips: IR band names (NIR/SWIR/MWIR/LWIR/FIR), Wien-displacement peak with in-band check (λ = 2898 µm·K / T), optional wavenumbers (cm⁻¹), methods and temperature metrology on hover. Settings view (⌘,): theme override, Kelvin/Celsius, wavenumbers, Wien check, tooltip verbosity, fingerprint shadow, view on launch — stored locally, applied immediately.</p>
           <p><b>0.1.0</b> — first release. Read-only reader over the canonical dataset: Library + inspector with instrument fingerprint, capability plane, timeline, atlas, health dashboard, vocabulary queue, ⌘K palette, bundled dataset with live-checkout override, DOI opening. Editing, git integration and vocabulary mapping land in Phase 2; FER-format measurement spectra (SiC, EKHI) in Phase 3.</p>
         </div>
       </div>
@@ -111,6 +118,7 @@
 
 <div class="boot" id="boot">Loading dataset…</div>
 
+<script src="world.js"></script>
 <script src="main.js" type="module"></script>
 </body>
 </html>
