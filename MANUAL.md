@@ -1,6 +1,6 @@
 # Emissary — User Manual
 
-*Version 0.5.0 · also available inside the app under **Help***
+*Version 0.6.0 · also available inside the app under **Help***
 
 Emissary is a macOS-native reader and curation instrument for the
 [radiometric-emissometers-db](https://github.com/jongablop/radiometric-emissometers-db)

@@ -1,5 +1,22 @@
 # Release Notes
 
+## 0.6.0 — 2026-08-05
+
+### Added
+
+- **Precision atlas** — Natural Earth 10m map units, Douglas-Peucker
+  simplified (~1 km tolerance, 200k vertices, 3.3 MB bundled): coastlines and
+  borders remain true at the new 120× zoom, down to city scale.
+- **Label hygiene** — city labels cull collisions greedily (largest count
+  first) and flip anchor at the map edge; no more labels drifting over the
+  wrong country.
+- **Interactive country bars** — hover any bar for the full list
+  (instruments · records · groups, ↩ marking updates of an earlier record);
+  click to open those records in the Library under a dismissable country
+  filter, integrated with back/forward history. From each record, Open
+  paper ↗ reaches the DOI.
+
+
 ## 0.5.0 — 2026-08-05
 
 ### Changed — counts mean instruments now

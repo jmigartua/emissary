@@ -72,7 +72,7 @@ let byId = new Map();
 let GRAPH = null;
 let DEN = null;        // corpus density bins
 const state = {
-  q: "", sort: "year-desc", view: "library", sel: null, special: null,
+  q: "", sort: "year-desc", view: "library", sel: null, special: null, ccFilter: null,
   dirs: new Set(DIRS.map(d => d.k)), fams: new Set(FAMS),
   planeDirs: new Set(DIRS.map(d => d.k)),
 };
@@ -145,6 +145,7 @@ function matches(p) {
   if (state.special === "incomplete" && p.l0 != null && p.t0 != null) return false;
   if (state.special === "mojibake" && !p.dmg) return false;
   if (state.special === "update" && !((p.upd || []).length || (p.updBy || []).length)) return false;
+  if (state.ccFilter && p.cc !== state.ccFilter) return false;
   if (state.q) {
     const h = (p.t + " " + p.lbl + " " + p.v + " " + p.a.join(" ") + " " + p.det.join(" ") + " " + (p.cc || "") + " " + (p.city || "")).toLowerCase();
     if (!h.includes(state.q)) return false;
@@ -279,6 +280,12 @@ function renderChips() {
     fc.appendChild(b);
   });
   const sc = $("specialChip"); sc.innerHTML = "";
+  if (state.ccFilter) {
+    const b = chipEl(`✕ country: ${state.ccFilter}`, null, "true");
+    b.classList.add("dismiss");
+    b.onclick = () => { recordNav(); state.ccFilter = null; renderAll(); };
+    sc.appendChild(b);
+  }
   if (state.special) {
     const names = { nogeom: "missing geometry", incomplete: "incomplete ranges", mojibake: "encoding damage", update: "likely instrument updates" };
     const b = chipEl(`✕ ${names[state.special]}`, null, "true");
@@ -497,17 +504,34 @@ function mapApplyView() {
     el.setAttribute("r", ((2.2 + 3.2 * Math.sqrt(pl.n / maxPn)) / MZ.k).toFixed(2));
     el.setAttribute("stroke-width", (1.2 / MZ.k).toFixed(2));
   });
-  // city labels appear once zoomed in enough to read the geography
-  $("worldmap").querySelectorAll("text.placelbl").forEach(el => {
-    el.style.display = MZ.k >= 5 ? "block" : "none";
-    el.setAttribute("font-size", (11 / MZ.k).toFixed(2));
-  });
+  // city labels appear once zoomed in; greedy collision culling, biggest first
+  const labels = [...$("worldmap").querySelectorAll("text.placelbl")];
+  if (MZ.k < 5) { labels.forEach(el => el.style.display = "none"); return; }
+  const fs = 11 / MZ.k, vw = MAPW / MZ.k, vh = MAPH / MZ.k;
+  const kept = [];
+  labels
+    .map(el => ({ el, pl: window.PLACES[+el.dataset.pi] }))
+    .sort((a, b) => b.pl.n - a.pl.n)
+    .forEach(({ el, pl }) => {
+      const [x, y] = prj(pl.lo, pl.la);
+      if (x < MZ.x || x > MZ.x + vw || y < MZ.y || y > MZ.y + vh) { el.style.display = "none"; return; }
+      const text = el.textContent, w = text.length * fs * 0.62, h = fs * 1.2;
+      // flip anchor when the label would run off the right edge
+      const flip = x + w > MZ.x + vw * 0.98;
+      el.setAttribute("text-anchor", flip ? "end" : "start");
+      el.setAttribute("x", (flip ? x - 3 / MZ.k : x + 3 / MZ.k).toFixed(2));
+      const box = { x0: flip ? x - w : x, x1: flip ? x : x + w, y0: y - h / 2, y1: y + h / 2 };
+      const hit = kept.some(b => box.x0 < b.x1 && box.x1 > b.x0 && box.y0 < b.y1 && box.y1 > b.y0);
+      el.style.display = hit ? "none" : "block";
+      el.setAttribute("font-size", fs.toFixed(2));
+      if (!hit) kept.push(box);
+    });
 }
 function mapZoom(factor, cx, cy) {
   // cx,cy = zoom center in map coords; defaults to current view center
   const w = MAPW / MZ.k, h = MAPH / MZ.k;
   cx = cx ?? MZ.x + w / 2; cy = cy ?? MZ.y + h / 2;
-  const k2 = Math.min(40, Math.max(1, MZ.k * factor));
+  const k2 = Math.min(120, Math.max(1, MZ.k * factor));
   const w2 = MAPW / k2, h2 = MAPH / k2;
   MZ.x = cx - (cx - MZ.x) * (w2 / w);
   MZ.y = cy - (cy - MZ.y) * (h2 / h);
@@ -625,8 +649,21 @@ function renderAtlas() {
   $("mapLegend").innerHTML = `<span>1</span><div class="ramp" style="background:linear-gradient(90deg,${rampColor(0.15)},${rampColor(1)})"></div><span>${max}</span><span style="margin-left:12px">instruments per corresponding country (lineage-collapsed) · √ scale · ● locations (affiliation cities) · scroll to zoom, drag to pan · ${unresolved} unresolved</span>`;
   // bars (kept below the map)
   $("countries").innerHTML = all.map(([k, n]) =>
-    `<div class="countrybar"><span style="font-family:var(--mono);color:var(--ink2)">${esc(k)}</span><div class="cb" style="width:${(n / max * 100).toFixed(0)}%"></div><span style="text-align:right;color:var(--ink2);white-space:nowrap">${n} <span style="color:var(--ink3)">/ ${byCC[k].length}</span></span></div>`).join("") +
-    `<div class="countrybar" style="color:var(--ink3)"><span></span><span style="font-size:11px">instruments / records — records collapsed when a later same-city paper cites the earlier one (e.g. the HAIRL in Leioa: 2 records, 1 instrument)</span><span></span></div>`;
+    `<button class="countrybar cbrow" data-cc="${esc(k)}"><span style="font-family:var(--mono);color:var(--ink2)">${esc(k)}</span><div class="cb" style="width:${(n / max * 100).toFixed(0)}%"></div><span style="text-align:right;color:var(--ink2);white-space:nowrap">${n} <span style="color:var(--ink3)">/ ${byCC[k].length}</span></span></button>`).join("") +
+    `<div class="countrybar" style="color:var(--ink3)"><span></span><span style="font-size:11px">instruments / records — hover for the list, click to open them in the Library · records collapse when a later same-city paper cites the earlier one (the HAIRL in Leioa: 2 records, 1 instrument)</span><span></span></div>`;
+  $("countries").querySelectorAll(".cbrow").forEach(el => {
+    const iso = el.dataset.cc, rs = sorted(P.filter(p => p.cc === iso));
+    el.addEventListener("mousemove", e => showTipAt(e,
+      `<b>${esc(iso)} — ${nInstruments(rs)} instruments · ${rs.length} records · ${nGroups(rs)} groups</b>` +
+      `<span class="tmono">${rs.slice(0, 12).map(p => esc(p.lbl) + (p.upd.length ? "↩" : "")).join(" · ")}${rs.length > 12 ? " · +" + (rs.length - 12) : ""}<br>↩ = update of an earlier record · click to open in Library</span>`));
+    el.addEventListener("mouseleave", hideTip);
+    el.addEventListener("click", () => {
+      recordNav();
+      state.ccFilter = iso; state.q = ""; $("q").value = "";
+      state.sel = rs[0] || state.sel;
+      switchView("library"); renderAll(); hideTip();
+    });
+  });
 }
 
 // ---------------- health ----------------
@@ -752,8 +789,8 @@ function switchView(v) {
 // "Go back to the previous place" — a snapshot is (view, selected record, special filter).
 const HIST = { back: [], fwd: [] };
 let navLock = false;
-const snap = () => ({ view: state.view, sel: state.sel ? state.sel.id : null, special: state.special });
-const sameSnap = (a, b) => a.view === b.view && a.sel === b.sel && a.special === b.special;
+const snap = () => ({ view: state.view, sel: state.sel ? state.sel.id : null, special: state.special, cc: state.ccFilter });
+const sameSnap = (a, b) => a.view === b.view && a.sel === b.sel && a.special === b.special && a.cc === b.cc;
 function updateNavBtns() {
   $("navBack").disabled = !HIST.back.length;
   $("navFwd").disabled = !HIST.fwd.length;
@@ -773,6 +810,7 @@ function restoreSnap(s) {
   navLock = true;
   if (s.sel && byId.has(s.sel)) state.sel = byId.get(s.sel);
   state.special = s.special ?? null;
+  state.ccFilter = s.cc ?? null;
   switchView(s.view);
   renderAll();
   navLock = false;

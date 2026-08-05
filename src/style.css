@@ -200,3 +200,6 @@ svg{display:block;max-width:100%}
 .sidebar.m-icons .navitem{justify-content:center;padding:7px 0}
 .sidebar.m-icons .navgrp{text-align:center}
 .sidebar.m-labels .navitem svg{display:none}
+
+.cbrow{border:0;background:none;cursor:pointer;font-family:var(--sys);font-size:12.5px;padding:3px 0;width:100%}
+.cbrow:hover .cb{opacity:1;background:var(--ink)}
