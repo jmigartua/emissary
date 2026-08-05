@@ -1,6 +1,6 @@
 # Emissary — User Manual
 
-*Version 0.4.0 · also available inside the app under **Help***
+*Version 0.5.0 · also available inside the app under **Help***
 
 Emissary is a macOS-native reader and curation instrument for the
 [radiometric-emissometers-db](https://github.com/jongablop/radiometric-emissometers-db)
@@ -121,7 +121,10 @@ several records (the HAIRL at UPV/EHU Leioa: 2006 instrument paper + 2020
 uncertainty-budget update). The inspector's **Instrument lineage** section
 flags likely update relationships (same affiliation city + in-corpus
 citation), and Health shows the resulting distinct-instrument upper bound
-(≤128 of 139). Establishing true instrument identity is Phase 2 curation.
+(≤128 of 139), plus the research-group tier (same city + shared authors):
+99 clusters. The true count of distinct emissometers lies between those two
+bounds. Atlas counts are lineage-collapsed instruments; tooltips show all
+three tiers. Establishing true instrument identity is Phase 2 curation.
 
 ## Data semantics worth knowing
 

@@ -193,3 +193,10 @@ svg{display:block;max-width:100%}
 }
 
 #worldmap text.placelbl{fill:var(--ink);paint-order:stroke;stroke:var(--panel);stroke-width:.12em;font-family:var(--mono);display:none;pointer-events:none}
+
+/* sidebar display modes */
+.navitem svg{flex:0 0 auto;opacity:.75}
+.sidebar.m-icons .navitem .lbl,.sidebar.m-icons .navitem .cnt{display:none}
+.sidebar.m-icons .navitem{justify-content:center;padding:7px 0}
+.sidebar.m-icons .navgrp{text-align:center}
+.sidebar.m-labels .navitem svg{display:none}

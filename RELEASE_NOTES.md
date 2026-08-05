@@ -1,5 +1,29 @@
 # Release Notes
 
+## 0.5.0 — 2026-08-05
+
+### Changed — counts mean instruments now
+
+- **Atlas counts instruments, not records.** Country shading, bars
+  (instruments / records), and location-dot labels collapse lineage-linked
+  records: Spain 5 records → **4 instruments** (the HAIRL counted once),
+  China 53 → 48. Tooltips carry all three honest tiers:
+  **instruments · records · research groups**.
+- **Research-group tier** (same city + ≥2 shared author surnames): globally
+  139 records → ≤128 lineage instruments → **99 group clusters**. China: 23
+  groups for 53 records — Xinxiang's 18 records all belong to one group.
+  The true instrument count lies between the two bounds; resolving it is
+  curation (the planned instrument_key). Health shows both numbers.
+
+### Added
+
+- **High-resolution map** — Natural Earth 50m map units (2-decimal
+  precision): coastlines and borders remain true at 40× zoom, so the
+  location dots sit on recognizable geography.
+- **Sidebar icons** (as in the original design), with a Settings option:
+  icons · labels · both.
+
+
 ## 0.4.0 — 2026-08-05
 
 ### Changed — records vs instruments, made explicit

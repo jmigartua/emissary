@@ -85,6 +85,7 @@ const DEFAULTS = {
   wien: true,             // Wien displacement check in tooltips
   shadow: true,           // corpus-coverage shadow in fingerprints
   verboseTips: true,      // technical detail in tooltips
+  sidebarMode: "both",    // both | icons | labels
   defaultView: "library",
 };
 const SETTINGS = { ...DEFAULTS, ...JSON.parse(localStorage.getItem("emissary.settings") || "{}") };
@@ -93,6 +94,8 @@ function applyTheme() {
   const r = document.documentElement;
   if (SETTINGS.theme === "system") r.removeAttribute("data-theme");
   else r.setAttribute("data-theme", SETTINGS.theme);
+  const sb = document.querySelector(".sidebar");
+  if (sb) sb.className = "sidebar" + (SETTINGS.sidebarMode === "icons" ? " m-icons" : SETTINGS.sidebarMode === "labels" ? " m-labels" : "");
 }
 const isDark = () =>
   (document.documentElement.getAttribute("data-theme") || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")) === "dark";
@@ -158,9 +161,13 @@ const sorted = list => list.slice().sort((a, b) =>
 // Records are PUBLICATIONS, not instruments (per the dataset README: new
 // instruments OR substantial modifications). Conservative same-instrument
 // signal: cites an earlier in-corpus record from the same affiliation city.
-let LINEAGE = { clusters: 0, members: 0 };
+let LINEAGE = { clusters: 0, members: 0, instruments: 0, groups: 0 };
+function ufFind(par, x) { while (par.get(x) !== x) { par.set(x, par.get(par.get(x))); x = par.get(x); } return x; }
 function computeLineage() {
-  P.forEach(p => { p.upd = []; p.updBy = []; });
+  P.forEach(p => {
+    p.upd = []; p.updBy = [];
+    p.sn = new Set(p.a.map(a => a.trim().split(/\s+/).pop().toLowerCase()).filter(Boolean));
+  });
   P.forEach(p => {
     if (!p.city || !p.y) return;
     p.cin.forEach(id => {
@@ -168,14 +175,31 @@ function computeLineage() {
       if (q && q.city === p.city && q.y && q.y < p.y) { p.upd.push(id); q.updBy.push(p.id); }
     });
   });
-  // union-find over lineage edges → cluster count and membership
-  const parent = new Map();
-  const find = x => { while (parent.get(x) !== x) { parent.set(x, parent.get(parent.get(x))); x = parent.get(x); } return x; };
-  P.forEach(p => parent.set(p.id, p.id));
-  P.forEach(p => p.upd.forEach(id => { parent.set(find(p.id), find(id)); }));
+  // Tier 1 — confirmed lineage: same city + in-corpus citation (collapse to instruments)
+  const parL = new Map(); P.forEach(p => parL.set(p.id, p.id));
+  P.forEach(p => p.upd.forEach(id => parL.set(ufFind(parL, p.id), ufFind(parL, id))));
+  // Tier 2 — research group: lineage edges + same city with ≥2 shared author surnames
+  const parG = new Map(); P.forEach(p => parG.set(p.id, p.id));
+  P.forEach(p => p.upd.forEach(id => parG.set(ufFind(parG, p.id), ufFind(parG, id))));
+  const byCity = new Map();
+  P.forEach(p => { if (p.city) { if (!byCity.has(p.city)) byCity.set(p.city, []); byCity.get(p.city).push(p); } });
+  byCity.forEach(list => {
+    for (let i = 0; i < list.length; i++) for (let j = i + 1; j < list.length; j++) {
+      let shared = 0;
+      list[i].sn.forEach(n => { if (list[j].sn.has(n)) shared++; });
+      if (shared >= 2) parG.set(ufFind(parG, list[i].id), ufFind(parG, list[j].id));
+    }
+  });
+  P.forEach(p => { p.lin = ufFind(parL, p.id); p.grp = ufFind(parG, p.id); });
   const members = P.filter(p => p.upd.length || p.updBy.length);
-  LINEAGE = { clusters: new Set(members.map(p => find(p.id))).size, members: members.length };
+  LINEAGE = {
+    clusters: new Set(members.map(p => p.lin)).size, members: members.length,
+    instruments: new Set(P.map(p => p.lin)).size,
+    groups: new Set(P.map(p => p.grp)).size,
+  };
 }
+const nInstruments = list => new Set(list.map(p => p.lin)).size;
+const nGroups = list => new Set(list.map(p => p.grp)).size;
 
 // ---------------- densities / fingerprint ----------------
 function computeDensities() {
@@ -535,8 +559,9 @@ function wireMap() {
 
 function renderAtlas() {
   wireMap();
-  const cc = {}; let unresolved = 0;
-  P.forEach(p => { if (p.cc) cc[p.cc] = (cc[p.cc] || 0) + 1; else unresolved++; });
+  const byCC = {}; let unresolved = 0;
+  P.forEach(p => { if (p.cc) (byCC[p.cc] = byCC[p.cc] || []).push(p); else unresolved++; });
+  const cc = {}; Object.entries(byCC).forEach(([k, v]) => cc[k] = nInstruments(v));
   const all = Object.entries(cc).sort((a, b) => b[1] - a[1]);
   const max = all.length ? all[0][1] : 1;
   // map
@@ -557,15 +582,19 @@ function renderAtlas() {
     const [x, y] = prj(pl.lo, pl.la);
     const r = (2.2 + 3.2 * Math.sqrt(pl.n / maxPn)) / MZ.k;
     return `<circle class="place" data-pi="${pi}" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${r.toFixed(2)}" stroke-width="${(1.2 / MZ.k).toFixed(2)}"/>` +
-      `<text class="placelbl" data-pi="${pi}" x="${(x + r + 2 / MZ.k).toFixed(1)}" y="${(y + 1).toFixed(1)}">${esc(pl.c)} · ${pl.n}</text>`;
+      `<text class="placelbl" data-pi="${pi}" x="${(x + r + 2 / MZ.k).toFixed(1)}" y="${(y + 1).toFixed(1)}">${esc(pl.c)} · ${nInstruments(pl.ids.map(id => byId.get(id)).filter(Boolean))}</text>`;
   }).join("");
   $("worldmap").innerHTML = paths + dots;
   mapApplyView();
   $("worldmap").querySelectorAll("circle.place").forEach(el => {
     const pl = window.PLACES[+el.dataset.pi];
-    el.addEventListener("mousemove", e => showTipAt(e,
-      `<b>${esc(pl.c)}, ${esc(pl.i)} — ${pl.n} record${pl.n > 1 ? "s" : ""}</b>` +
-      `<span class="tmono">${pl.ids.slice(0, 5).map(id => esc(byId.get(id)?.lbl || id)).join(" · ")}${pl.ids.length > 5 ? " · +" + (pl.ids.length - 5) : ""}<br>click to open</span>`));
+    el.addEventListener("mousemove", e => {
+      const rs = pl.ids.map(id => byId.get(id)).filter(Boolean);
+      const ni = nInstruments(rs), ng = nGroups(rs);
+      showTipAt(e,
+        `<b>${esc(pl.c)}, ${esc(pl.i)} — ${ni} instrument${ni > 1 ? "s" : ""}</b>` +
+        `<span class="tmono">${pl.n} record${pl.n > 1 ? "s" : ""} · ${ng} research group${ng > 1 ? "s" : ""}<br>${rs.slice(0, 5).map(p => esc(p.lbl)).join(" · ")}${rs.length > 5 ? " · +" + (rs.length - 5) : ""}<br>click to open</span>`);
+    });
     el.addEventListener("mouseleave", hideTip);
     el.addEventListener("click", e => {
       e.stopPropagation();
@@ -580,9 +609,10 @@ function renderAtlas() {
     const n = cc[cty.i] || 0;
     el.addEventListener("mousemove", e => {
       const rs = sorted(P.filter(p => p.cc === cty.i));
+      const nr = rs.length, ng = nGroups(rs);
       showTipAt(e,
-        `<b>${esc(cty.n)}${n ? ` — ${n} record${n > 1 ? "s" : ""}` : ""}</b>` +
-        (n ? `<span class="tmono">${esc(famsIn(cty.i))}<br>${rs.slice(0, 8).map(p => esc(p.lbl)).join(" · ")}${rs.length > 8 ? " · +" + (rs.length - 8) : ""}</span>`
+        `<b>${esc(cty.n)}${n ? ` — ${n} instrument${n > 1 ? "s" : ""}` : ""}</b>` +
+        (n ? `<span class="tmono">${nr} record${nr > 1 ? "s" : ""} · ${ng} research group${ng > 1 ? "s" : ""}<br>${esc(famsIn(cty.i))}<br>${rs.slice(0, 8).map(p => esc(p.lbl)).join(" · ")}${nr > 8 ? " · +" + (nr - 8) : ""}</span>`
            : `<span class="tmono">no records in corpus</span>`));
     });
     el.addEventListener("mouseleave", hideTip);
@@ -592,10 +622,11 @@ function renderAtlas() {
       switchView("library"); renderAll();
     });
   });
-  $("mapLegend").innerHTML = `<span>1</span><div class="ramp" style="background:linear-gradient(90deg,${rampColor(0.15)},${rampColor(1)})"></div><span>${max}</span><span style="margin-left:12px">records per corresponding country · √ scale · ● instrument locations (affiliation cities) · scroll to zoom, drag to pan · ${unresolved} unresolved</span>`;
+  $("mapLegend").innerHTML = `<span>1</span><div class="ramp" style="background:linear-gradient(90deg,${rampColor(0.15)},${rampColor(1)})"></div><span>${max}</span><span style="margin-left:12px">instruments per corresponding country (lineage-collapsed) · √ scale · ● locations (affiliation cities) · scroll to zoom, drag to pan · ${unresolved} unresolved</span>`;
   // bars (kept below the map)
   $("countries").innerHTML = all.map(([k, n]) =>
-    `<div class="countrybar"><span style="font-family:var(--mono);color:var(--ink2)">${esc(k)}</span><div class="cb" style="width:${(n / max * 100).toFixed(0)}%"></div><span style="text-align:right;color:var(--ink2)">${n}</span></div>`).join("");
+    `<div class="countrybar"><span style="font-family:var(--mono);color:var(--ink2)">${esc(k)}</span><div class="cb" style="width:${(n / max * 100).toFixed(0)}%"></div><span style="text-align:right;color:var(--ink2);white-space:nowrap">${n} <span style="color:var(--ink3)">/ ${byCC[k].length}</span></span></div>`).join("") +
+    `<div class="countrybar" style="color:var(--ink3)"><span></span><span style="font-size:11px">instruments / records — records collapsed when a later same-city paper cites the earlier one (e.g. the HAIRL in Leioa: 2 records, 1 instrument)</span><span></span></div>`;
 }
 
 // ---------------- health ----------------
@@ -613,7 +644,8 @@ function renderHealth() {
     { n: incomplete, l: "records missing λ- or T-range", cls: "warn", special: "incomplete" },
     { n: nogeom, l: "records without geometry", cls: "warn", special: "nogeom" },
     { n: dmgN, l: "author names with encoding or TeX damage", cls: dmgN ? "crit" : "good", special: "mojibake" },
-    { n: "≤" + (P.length - LINEAGE.members + LINEAGE.clusters), l: `distinct instruments — ${LINEAGE.clusters} same-city citation lineages cover ${LINEAGE.members} records (e.g. one emissometer, several papers)`, cls: "warn", special: "update" },
+    { n: "≤" + LINEAGE.instruments, l: `distinct instruments — ${LINEAGE.clusters} same-city citation lineages cover ${LINEAGE.members} records (e.g. one emissometer, several papers)`, cls: "warn", special: "update" },
+    { n: LINEAGE.groups, l: "research-group clusters (same city + shared authors) — the true instrument count lies between these two numbers; resolving it is curation work", cls: "warn" },
   ];
   const host = $("healthTiles"); host.innerHTML = "";
   tiles.forEach(t => {
@@ -654,6 +686,7 @@ function renderVocab() {
 const SETTING_DEFS = [
   { grp: "Appearance" },
   { key: "theme", label: "Theme", desc: "Follow macOS, or force light / dark", type: "seg", options: ["system", "light", "dark"] },
+  { key: "sidebarMode", label: "Sidebar", desc: "Icons and labels, icons only, or labels only", type: "seg", options: ["both", "icons", "labels"] },
   { grp: "Units & physics" },
   { key: "tempUnit", label: "Temperature unit", desc: "Kelvin or Celsius, everywhere temperatures appear", type: "seg", options: ["K", "C"] },
   { key: "wavenumber", label: "Wavenumbers", desc: "Show spectral ranges also as cm⁻¹ (FTIR convention)", type: "bool" },
