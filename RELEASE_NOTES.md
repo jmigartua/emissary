@@ -1,5 +1,16 @@
 # Release Notes
 
+## 0.3.1 — 2026-08-05
+
+### Fixed
+
+- **French Guiana no longer shaded as France.** The map now uses Natural Earth
+  110m *map units* instead of admin-0 countries, which separates overseas
+  territories from their metropole — a choropleth must not paint a territory
+  with data that belongs 7000 km away. France keeps only the metropole and
+  Corsica; French Guiana renders as its own (data-less) unit.
+
+
 ## 0.3.0 — 2026-08-04
 
 ### Added
