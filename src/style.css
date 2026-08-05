@@ -191,3 +191,5 @@ svg{display:block;max-width:100%}
 @media (prefers-reduced-motion:no-preference){
   .row,.chip,.tile{transition:background .12s ease,border-color .12s ease}
 }
+
+#worldmap text.placelbl{fill:var(--ink);paint-order:stroke;stroke:var(--panel);stroke-width:.12em;font-family:var(--mono);display:none;pointer-events:none}

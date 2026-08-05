@@ -1,5 +1,34 @@
 # Release Notes
 
+## 0.4.0 — 2026-08-05
+
+### Changed — records vs instruments, made explicit
+
+The dataset counts *publications* (new instruments **or substantial
+modifications** — its own scope statement), not distinct emissometers. The
+canonical example: the HAIRL at UPV/EHU Leioa is one emissometer with two
+records (its 2006 instrument paper and its 2020 uncertainty-budget update).
+The app now says so:
+
+- Map and dot tooltips say **records**, and country tooltips list them.
+- **Instrument lineage** in the inspector: a record citing an earlier
+  in-corpus record from the same affiliation city is flagged as a likely
+  update ("Updates / Updated by" chips, both directions).
+- **Health** estimates distinct instruments: **≤128 of 139** — 6 same-city
+  citation lineages cover 17 records (Braunschweig/PTB ×5 and ×2, Xinxiang ×4,
+  Harbin ×2, Nanjing ×2, Leioa ×2). Clicking the tile opens all 17 for review.
+  A conservative upper bound: true instrument identity needs curation
+  (the planned Phase 2 instrument_key).
+
+### Added
+
+- Map zoom extended to 40×; city · record-count labels appear beyond 5×,
+  showing the actual instrument locations when zoomed in.
+- BibTeX escapes in names/titles now render as unicode ("Ballestr{\'\i}n" →
+  Ballestrín). Note: one source record truncates that very name mid-escape —
+  now caught by the Health name-damage scanner (extended to TeX remnants).
+
+
 ## 0.3.1 — 2026-08-05
 
 ### Fixed

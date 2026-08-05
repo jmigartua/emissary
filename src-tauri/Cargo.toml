@@ -1,6 +1,6 @@
 [package]
 name = "emissary"
-version = "0.3.1"
+version = "0.4.0"
 description = "Emissary — a macOS-native browser and curation instrument for the radiometric emissometers database"
 authors = ["Josu M. Igartua", "UPV/EHU"]
 edition = "2021"

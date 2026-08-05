@@ -1,6 +1,6 @@
 # Emissary — User Manual
 
-*Version 0.3.0 · also available inside the app under **Help***
+*Version 0.4.0 · also available inside the app under **Help***
 
 Emissary is a macOS-native reader and curation instrument for the
 [radiometric-emissometers-db](https://github.com/jongablop/radiometric-emissometers-db)
@@ -112,6 +112,16 @@ Hover tooltips name the covered IR bands (NIR 0.7–1.4 µm, SWIR 1.4–3 µm, M
 the instrument's temperature range via Wien's displacement law
 (λ_max = 2898 µm·K / T) together with whether that peak falls inside the
 instrument's spectral band — a one-glance sanity check of the design.
+
+## Records are not instruments
+
+The dataset's unit is the *publication* — a new instrument **or a substantial
+modification of an existing one**. One emissometer can therefore appear as
+several records (the HAIRL at UPV/EHU Leioa: 2006 instrument paper + 2020
+uncertainty-budget update). The inspector's **Instrument lineage** section
+flags likely update relationships (same affiliation city + in-corpus
+citation), and Health shows the resulting distinct-instrument upper bound
+(≤128 of 139). Establishing true instrument identity is Phase 2 curation.
 
 ## Data semantics worth knowing
 

@@ -31,9 +31,21 @@ function famOf(det) {
   return "Other";
 }
 
+// BibTeX escapes leak into some source strings ("Ballestr{\\'\\i}n") — normalize to unicode.
+const TEX_ACC = { "'": "\u0301", "`": "\u0300", '"': "\u0308", "^": "\u0302", "~": "\u0303", "v": "\u030C", "c": "\u0327", "=": "\u0304", ".": "\u0307", "u": "\u0306", "H": "\u030B" };
+function deTex(s) {
+  if (s == null || !/[\\{}]/.test(s)) return s;
+  s = String(s)
+    .replace(/\\([`'^"~=.uvHc])\s*\{?\\?([a-zA-Z])\}?/g, (m, acc, ch) => (ch + (TEX_ACC[acc] || "")).normalize("NFC"))
+    .replace(/\\i\b/g, "i").replace(/\\ss\b/g, "ß").replace(/\\ae\b/g, "æ").replace(/\\o\b/g, "ø").replace(/\\l\b/g, "ł");
+  return s.replace(/[{}]/g, "");
+}
+
 function compact(rec) {
   const b = rec.bibliographic || {}, i = rec.instrument || {}, c = rec.citations || {}, loc = rec.location || {};
-  const au = b.authors || [];
+  const auRaw = b.authors || [];
+  const nameDamage = auRaw.some(a => /\S\?|\?\S/.test(a) || /\{\\/.test(a) || /\\$/.test(a));
+  const au = auRaw.map(deTex);
   const first = au[0] ? au[0].trim().split(/\s+/).pop() : "?";
   const sr = i.spectral_range_um || [null, null], tr = i.temperature_range_K || [null, null];
   const affs = loc.affiliations || [];
@@ -41,7 +53,7 @@ function compact(rec) {
   for (const af of affs) if (af.author_position === "corresponding" && af.city) { city = af.city; break; }
   if (!city && affs[0]) city = affs[0].city || null;
   return {
-    id: rec.id, doi: b.doi || null, t: b.title || "(untitled)", y: b.year ?? null, v: b.venue || "",
+    id: rec.id, doi: b.doi || null, t: deTex(b.title) || "(untitled)", y: b.year ?? null, v: deTex(b.venue) || "",
     a: au, lbl: `${first} ${b.year ?? ""}`.trim(), cc: loc.corresponding_country || null, city,
     d: i.direction ?? null, sp: i.spectral ?? null,
     l0: sr[0] ?? null, l1: sr[1] ?? null, t0: tr[0] ?? null, t1: tr[1] ?? null,
@@ -50,6 +62,7 @@ function compact(rec) {
     cit: c.total ?? null, citU: c.total_updated || null,
     cin: c.cites || [], cout: c.cited_by || [],
     chg: rec.meta?.changelog || [], metaU: rec.meta?.updated || null,
+    dmg: nameDamage,
   };
 }
 
@@ -127,7 +140,8 @@ function matches(p) {
   if (!state.fams.has(p.fam)) return false;
   if (state.special === "nogeom" && p.d !== null) return false;
   if (state.special === "incomplete" && p.l0 != null && p.t0 != null) return false;
-  if (state.special === "mojibake" && !p.a.some(a => /\S\?|\?\S/.test(a))) return false;
+  if (state.special === "mojibake" && !p.dmg) return false;
+  if (state.special === "update" && !((p.upd || []).length || (p.updBy || []).length)) return false;
   if (state.q) {
     const h = (p.t + " " + p.lbl + " " + p.v + " " + p.a.join(" ") + " " + p.det.join(" ") + " " + (p.cc || "") + " " + (p.city || "")).toLowerCase();
     if (!h.includes(state.q)) return false;
@@ -139,6 +153,29 @@ const sorted = list => list.slice().sort((a, b) =>
   state.sort === "year-asc"  ? (a.y || 0) - (b.y || 0) :
   state.sort === "cit-desc"  ? (b.cit || 0) - (a.cit || 0) :
   a.lbl.localeCompare(b.lbl));
+
+// ---------------- instrument lineage ----------------
+// Records are PUBLICATIONS, not instruments (per the dataset README: new
+// instruments OR substantial modifications). Conservative same-instrument
+// signal: cites an earlier in-corpus record from the same affiliation city.
+let LINEAGE = { clusters: 0, members: 0 };
+function computeLineage() {
+  P.forEach(p => { p.upd = []; p.updBy = []; });
+  P.forEach(p => {
+    if (!p.city || !p.y) return;
+    p.cin.forEach(id => {
+      const q = byId.get(id);
+      if (q && q.city === p.city && q.y && q.y < p.y) { p.upd.push(id); q.updBy.push(p.id); }
+    });
+  });
+  // union-find over lineage edges → cluster count and membership
+  const parent = new Map();
+  const find = x => { while (parent.get(x) !== x) { parent.set(x, parent.get(parent.get(x))); x = parent.get(x); } return x; };
+  P.forEach(p => parent.set(p.id, p.id));
+  P.forEach(p => p.upd.forEach(id => { parent.set(find(p.id), find(id)); }));
+  const members = P.filter(p => p.upd.length || p.updBy.length);
+  LINEAGE = { clusters: new Set(members.map(p => find(p.id))).size, members: members.length };
+}
 
 // ---------------- densities / fingerprint ----------------
 function computeDensities() {
@@ -219,7 +256,7 @@ function renderChips() {
   });
   const sc = $("specialChip"); sc.innerHTML = "";
   if (state.special) {
-    const names = { nogeom: "missing geometry", incomplete: "incomplete ranges", mojibake: "encoding damage" };
+    const names = { nogeom: "missing geometry", incomplete: "incomplete ranges", mojibake: "encoding damage", update: "likely instrument updates" };
     const b = chipEl(`✕ ${names[state.special]}`, null, "true");
     b.classList.add("dismiss");
     b.onclick = () => { recordNav(); state.special = null; renderAll(); };
@@ -292,6 +329,11 @@ function renderInspector() {
     <div class="tagrow">${linkTags(p.cin)}</div>
     <div class="ins-kv"><dt>Cited by</dt><dd>${p.cout.length ? "" : "none"}</dd></div>
     <div class="tagrow">${linkTags(p.cout)}</div>
+    ${(p.upd || []).length || (p.updBy || []).length ? `<div class="divider"></div>
+    <div class="ins-eyebrow">Instrument lineage</div>
+    ${(p.upd || []).length ? `<div class="ins-kv"><dt>Updates</dt><dd>likely the same instrument as:</dd></div><div class="tagrow">${linkTags(p.upd)}</div>` : ""}
+    ${(p.updBy || []).length ? `<div class="ins-kv"><dt>Updated by</dt><dd>later records, same city:</dd></div><div class="tagrow">${linkTags(p.updBy)}</div>` : ""}
+    <div class="fignote" style="font-size:11px;margin:6px 0 0">Same affiliation city + in-corpus citation — a candidate update, not necessarily a new instrument.</div>` : ""}
     <div class="divider"></div>
     <div class="ins-eyebrow">History — append-only</div>
     <ul class="changelog">${p.chg.map(c => `<li><b>${esc(c.date || "")}</b> ${esc(c.change || "")}</li>`).join("") || "<li>no changelog</li>"}</ul>`;
@@ -431,12 +473,17 @@ function mapApplyView() {
     el.setAttribute("r", ((2.2 + 3.2 * Math.sqrt(pl.n / maxPn)) / MZ.k).toFixed(2));
     el.setAttribute("stroke-width", (1.2 / MZ.k).toFixed(2));
   });
+  // city labels appear once zoomed in enough to read the geography
+  $("worldmap").querySelectorAll("text.placelbl").forEach(el => {
+    el.style.display = MZ.k >= 5 ? "block" : "none";
+    el.setAttribute("font-size", (11 / MZ.k).toFixed(2));
+  });
 }
 function mapZoom(factor, cx, cy) {
   // cx,cy = zoom center in map coords; defaults to current view center
   const w = MAPW / MZ.k, h = MAPH / MZ.k;
   cx = cx ?? MZ.x + w / 2; cy = cy ?? MZ.y + h / 2;
-  const k2 = Math.min(14, Math.max(1, MZ.k * factor));
+  const k2 = Math.min(40, Math.max(1, MZ.k * factor));
   const w2 = MAPW / k2, h2 = MAPH / k2;
   MZ.x = cx - (cx - MZ.x) * (w2 / w);
   MZ.y = cy - (cy - MZ.y) * (h2 / h);
@@ -509,14 +556,15 @@ function renderAtlas() {
   const dots = (window.PLACES || []).map((pl, pi) => {
     const [x, y] = prj(pl.lo, pl.la);
     const r = (2.2 + 3.2 * Math.sqrt(pl.n / maxPn)) / MZ.k;
-    return `<circle class="place" data-pi="${pi}" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${r.toFixed(2)}" stroke-width="${(1.2 / MZ.k).toFixed(2)}"/>`;
+    return `<circle class="place" data-pi="${pi}" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${r.toFixed(2)}" stroke-width="${(1.2 / MZ.k).toFixed(2)}"/>` +
+      `<text class="placelbl" data-pi="${pi}" x="${(x + r + 2 / MZ.k).toFixed(1)}" y="${(y + 1).toFixed(1)}">${esc(pl.c)} · ${pl.n}</text>`;
   }).join("");
   $("worldmap").innerHTML = paths + dots;
   mapApplyView();
   $("worldmap").querySelectorAll("circle.place").forEach(el => {
     const pl = window.PLACES[+el.dataset.pi];
     el.addEventListener("mousemove", e => showTipAt(e,
-      `<b>${esc(pl.c)}, ${esc(pl.i)} — ${pl.n} instrument${pl.n > 1 ? "s" : ""}</b>` +
+      `<b>${esc(pl.c)}, ${esc(pl.i)} — ${pl.n} record${pl.n > 1 ? "s" : ""}</b>` +
       `<span class="tmono">${pl.ids.slice(0, 5).map(id => esc(byId.get(id)?.lbl || id)).join(" · ")}${pl.ids.length > 5 ? " · +" + (pl.ids.length - 5) : ""}<br>click to open</span>`));
     el.addEventListener("mouseleave", hideTip);
     el.addEventListener("click", e => {
@@ -530,9 +578,13 @@ function renderAtlas() {
   $("worldmap").querySelectorAll("path.country").forEach(el => {
     const cty = window.WORLD[+el.dataset.ci];
     const n = cc[cty.i] || 0;
-    el.addEventListener("mousemove", e => showTipAt(e,
-      `<b>${esc(cty.n)}${n ? ` — ${n} instrument${n > 1 ? "s" : ""}` : ""}</b>` +
-      (n ? `<span class="tmono">${esc(famsIn(cty.i))}</span>` : `<span class="tmono">no instruments in corpus</span>`)));
+    el.addEventListener("mousemove", e => {
+      const rs = sorted(P.filter(p => p.cc === cty.i));
+      showTipAt(e,
+        `<b>${esc(cty.n)}${n ? ` — ${n} record${n > 1 ? "s" : ""}` : ""}</b>` +
+        (n ? `<span class="tmono">${esc(famsIn(cty.i))}<br>${rs.slice(0, 8).map(p => esc(p.lbl)).join(" · ")}${rs.length > 8 ? " · +" + (rs.length - 8) : ""}</span>`
+           : `<span class="tmono">no records in corpus</span>`));
+    });
     el.addEventListener("mouseleave", hideTip);
     if (n) el.addEventListener("click", () => {
       state.q = ""; $("q").value = "";
@@ -552,7 +604,7 @@ function renderHealth() {
   const rawStrings = new Set(P.flatMap(p => p.det));
   const incomplete = P.filter(p => p.l0 == null || p.t0 == null).length;
   const nogeom = P.filter(p => p.d == null).length;
-  const mojibake = P.filter(p => p.a.some(a => /\S\?|\?\S/.test(a))).length;
+  const dmgN = P.filter(p => p.dmg).length;
   const edges = GRAPH?.links?.length ?? "—";
   const tiles = [
     { n: P.length, l: `records · ${Math.min(...years)}–${Math.max(...years)}`, cls: "good" },
@@ -560,7 +612,8 @@ function renderHealth() {
     { n: rawStrings.size, l: "raw detection strings to normalize", cls: "warn", go: () => goView("vocab") },
     { n: incomplete, l: "records missing λ- or T-range", cls: "warn", special: "incomplete" },
     { n: nogeom, l: "records without geometry", cls: "warn", special: "nogeom" },
-    { n: mojibake, l: "author names with encoding damage", cls: mojibake ? "crit" : "good", special: "mojibake" },
+    { n: dmgN, l: "author names with encoding or TeX damage", cls: dmgN ? "crit" : "good", special: "mojibake" },
+    { n: "≤" + (P.length - LINEAGE.members + LINEAGE.clusters), l: `distinct instruments — ${LINEAGE.clusters} same-city citation lineages cover ${LINEAGE.members} records (e.g. one emissometer, several papers)`, cls: "warn", special: "update" },
   ];
   const host = $("healthTiles"); host.innerHTML = "";
   tiles.forEach(t => {
@@ -571,7 +624,7 @@ function renderHealth() {
     else if (t.go) el.onclick = t.go;
     host.appendChild(el);
   });
-  $("cntHealth").textContent = String((incomplete ? 1 : 0) + (nogeom ? 1 : 0) + (mojibake ? 1 : 0) + 1);
+  $("cntHealth").textContent = String((incomplete ? 1 : 0) + (nogeom ? 1 : 0) + (dmgN ? 1 : 0) + 1);
 }
 
 // ---------------- vocabulary ----------------
@@ -752,6 +805,7 @@ async function loadData(path) {
     const ds = await invoke("load_dataset", { path: path ?? null });
     P = ds.papers.map(compact);
     byId = new Map(P.map(p => [p.id, p]));
+    computeLineage();
     GRAPH = ds.graph;
     computeDensities();
     state.sel = byId.get("10.1063/1.2393157") || P[0];
