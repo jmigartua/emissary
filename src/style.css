@@ -48,7 +48,13 @@ body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sys);f
 .chip[aria-pressed="true"]{border-color:var(--ink);color:var(--ink);font-weight:600}
 .chip.dismiss{border-color:var(--warn);color:var(--warn);font-weight:600}
 :is(.chip,.navitem,.tbtn,.row,button):focus-visible{outline:2px solid var(--c-nor);outline-offset:2px}
-.dataset{margin-top:auto;border-top:1px solid var(--line);padding-top:8px}
+.apptag{margin-top:auto;display:flex;flex-direction:column;gap:2px;padding:0 6px 8px}
+.appver{font-family:var(--mono);font-size:10.5px;color:var(--ink3)}
+.copyr{border:0;background:none;padding:0;text-align:left;font-family:var(--mono);font-size:10.5px;color:var(--ink3);cursor:help;text-decoration:underline dotted;text-underline-offset:2px}
+.copyr:hover{color:var(--ink)}
+.sidebar.m-icons .apptag{align-items:center}
+.sidebar.m-icons .copyr,.sidebar.m-icons .appver{font-size:9px;text-align:center}
+.dataset{border-top:1px solid var(--line);padding-top:8px}
 .dspath{font-family:var(--mono);font-size:10px;color:var(--ink3);margin:2px 6px 8px;word-break:break-all;max-height:44px;overflow:hidden}
 .tbtn{font-size:12px;color:var(--ink2);border:1px solid var(--line2);background:var(--panel);border-radius:6px;padding:4px 10px;cursor:pointer;margin:0 4px;font-family:var(--sys)}
 

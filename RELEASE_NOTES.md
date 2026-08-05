@@ -1,5 +1,12 @@
 # Release Notes
 
+## 0.6.1 — 2026-08-05
+
+- Sidebar banner above the dataset section: app version and a © line whose
+  hover popup carries the full ownership/licensing statement (TPMR Group ·
+  UPV/EHU, MIT app / CC-BY-4.0 dataset, authors); clicking it opens Help.
+
+
 ## 0.6.0 — 2026-08-05
 
 ### Added

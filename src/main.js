@@ -928,6 +928,18 @@ $("palq").addEventListener("input", () => { palHot = 0; renderPalette(); });
 $("palette").addEventListener("click", e => { if (e.target === $("palette")) $("palette").hidden = true; });
 window.matchMedia?.("(prefers-color-scheme: dark)").addEventListener?.("change", () => { renderAll(); renderTimeline(); renderAtlas(); });
 
+// version + copyright banner
+(async () => {
+  let v = null;
+  try { v = await T?.app?.getVersion?.(); } catch { /* no bridge */ }
+  $("appVer").textContent = v ? "Emissary " + v : "Emissary";
+})();
+const COPY_TEXT = `<b>© 2026 Thermophysical Properties of Materials Research Group</b>University of the Basque Country UPV/EHU — owner of the compilation, this app, and the HAIRL emissometer.<br>
+<span class="tmono">App: MIT license · Dataset: CC-BY-4.0 (Gabirondo-López, Arredondo &amp; Igartua — Zenodo DOI 10.5281/zenodo.21762418)<br>Conceived &amp; maintained by Jon Gabirondo-López and Josu M. Igartua · click for the full note in Help</span>`;
+$("copyBtn").addEventListener("mousemove", e => showTipAt(e, COPY_TEXT));
+$("copyBtn").addEventListener("mouseleave", hideTip);
+$("copyBtn").addEventListener("click", () => { hideTip(); goView("help"); });
+
 applyTheme();
 switchView(SETTINGS.defaultView);
 loadData(localStorage.getItem("emissary.dataset") || null);
