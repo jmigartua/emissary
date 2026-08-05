@@ -48,6 +48,16 @@ src-tauri/      Rust backend: load_dataset command, bundled dataset resource
 website/        landing page (self-contained, includes the live demo)
 ```
 
+## Authorship, ownership & license
+
+Conceived jointly by **Jon Gabirondo-López** (corpus compilation, sorting, and
+manual inspection of every article) and **Josu M. Igartua** (creator of the
+app) — the database's intellectual authors and maintainers, with instrument
+measurement data planned as the next layer. Compilation and app are owned by
+the **Thermophysical Properties of Materials Research Group** (UPV/EHU), also
+owner of the HAIRL emissometer. App: [MIT](LICENSE) · dataset: CC-BY-4.0.
+See [AUTHORS.md](AUTHORS.md) and [CITATION.cff](CITATION.cff).
+
 ## Roadmap
 
 Phase 1 (this app): read-only reader over the canonical dataset.

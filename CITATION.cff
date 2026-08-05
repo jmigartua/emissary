@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use Emissary, please cite it as below; cite the dataset via its own CITATION.cff."
+title: "Emissary — a macOS application for the radiometric emissometers database"
+type: software
+authors:
+  - family-names: "Igartua"
+    given-names: "Josu M."
+    affiliation: "Thermophysical Properties of Materials Research Group, University of the Basque Country UPV/EHU"
+    orcid: "https://orcid.org/0000-0001-7983-5331"
+  - family-names: "Gabirondo-López"
+    given-names: "Jon"
+    affiliation: "Thermophysical Properties of Materials Research Group, University of the Basque Country UPV/EHU"
+    orcid: "https://orcid.org/0000-0002-3510-4606"
+license: MIT
+repository-code: "https://github.com/jmigartua/emissary"
+keywords:
+  - emissivity
+  - radiometry
+  - instrumentation
+  - thermal radiation
+  - database browser
+references:
+  - type: data
+    title: "A database of radiometric emissometer designs"
+    doi: "10.5281/zenodo.21762418"
+    repository-code: "https://github.com/jongablop/radiometric-emissometers-db"
