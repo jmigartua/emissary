@@ -1,6 +1,6 @@
 # Emissary
 
-A macOS-native browser and curation instrument for the
+A native desktop browser and curation instrument (macOS & Windows) for the
 [radiometric-emissometers-db](https://github.com/jongablop/radiometric-emissometers-db)
 dataset (Gabirondo-López, Arredondo & Igartua, UPV/EHU · Zenodo DOI
 10.5281/zenodo.21762418 · CC-BY-4.0).
@@ -27,6 +27,22 @@ and `graph.json` directly — a bundled copy ships inside the app, and
 - **Vocabulary** — raw method strings grouped by collapsed key so case variants
   and typos surface together (the Phase 2 mapping queue).
 - **⌘K** — command palette: jump to any record or view.
+
+## Install
+
+Downloads for both platforms are attached to every
+[GitHub Release](https://github.com/jmigartua/emissary/releases):
+
+- **macOS** (Intel): `Emissary_<version>_x64.dmg` — unsigned: right-click →
+  Open on first launch.
+- **Windows** (x64): `Emissary_<version>_x64-setup.exe` (NSIS installer) or
+  the `.msi` package — unsigned: SmartScreen will ask for
+  "More info → Run anyway" on first launch.
+
+The Windows installers are built automatically on GitHub Actions
+(`.github/workflows/windows.yml`) for every version tag; the workflow can also
+be dispatched manually against an existing release tag. On Windows the
+keyboard shortcuts use **Ctrl** in place of ⌘.
 
 ## Develop
 
