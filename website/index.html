@@ -153,8 +153,9 @@
   <div class="eyebrow">Emissary · a macOS app for the radiometric emissometers database</div>
   <h1>The instrument database, as one view per instrument</h1>
   <div class="dlrow">
-    <a class="dlbtn" href="https://github.com/jmigartua/emissary/releases/download/v0.2.0/Emissary_0.2.0_x64.dmg" rel="noopener">Download for macOS ↓</a>
-    <span class="dlnote">v0.2.0 · Intel (Apple-silicon build planned) · free, open data (CC-BY-4.0)</span>
+    <a class="dlbtn" href="https://github.com/jmigartua/emissary/releases/download/v0.6.1/Emissary_0.6.1_x64.dmg" rel="noopener">Download for macOS ↓</a>
+    <a class="dlbtn" href="https://github.com/jmigartua/emissary/releases/download/v0.6.1/Emissary_0.6.1_x64-setup.exe" rel="noopener">Download for Windows ↓</a>
+    <span class="dlnote">v0.6.1 · macOS Intel &amp; Windows x64 (Apple-silicon build planned) · free, open data (CC-BY-4.0)</span>
   </div>
   <p class="meta">Everything below is the app itself, running on the real dataset in your browser — all <b>139 records</b> of <code>radiometric-emissometers-db</code> (Gabirondo-López, Arredondo &amp; Igartua, Zenodo · CC-BY-4.0). Three commitments shape the design: the window chrome stays monochrome so <em>data is the only color</em>; measurement geometry is the one categorical encoding (colorblind-validated); and every instrument gets a <em>fingerprint</em> — a single plot that states its capability completely.</p>
 </header>
@@ -320,11 +321,34 @@
   <p class="meta" style="margin-top:16px">Native details assumed throughout: vibrancy sidebar, system light/dark (this page follows yours), SF Pro via the system stack, menu-bar parity for every palette action, notarized DMG distribution. Phase 1 ships Library + Inspector + Health read/write; the plane, timeline and atlas are Phase 1 reads of the same store; vocabulary and intake land in Phase 2 — measurement spectra (FER/EKHI) remain Phase 3, exactly as in the written proposal.</p>
 </section>
 
+<section id="screenshots">
+  <h2>The app</h2>
+  <p class="lede">Native macOS (Tauri 2, ~3 MB installed). All screenshots are the actual app rendering the full dataset.</p>
+  <div style="display:grid;gap:14px">
+    <img src="shots/library.png" alt="Library view: faceted record list with λ/T micro-previews and the record inspector" style="max-width:100%;border-radius:12px;border:1px solid var(--line)">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
+      <img src="shots/plane.png" alt="Capability plane: wavelength–temperature rectangles for the whole corpus" style="max-width:100%;border-radius:12px;border:1px solid var(--line)">
+      <img src="shots/atlas.png" alt="Atlas: zoomable world choropleth with instrument locations" style="max-width:100%;border-radius:12px;border:1px solid var(--line)">
+    </div>
+  </div>
+</section>
+<section id="links">
+  <h2>Project</h2>
+  <div class="notes" style="margin-top:6px">
+    <div class="note"><span class="nnum">→</span><span><b><a href="https://github.com/jmigartua/emissary" rel="noopener" style="color:inherit">App repository</a></b> — source, manual, release notes (MIT-friendly Tauri 2 + vanilla ES modules).</span></div>
+    <div class="note"><span class="nnum">→</span><span><b><a href="https://github.com/jongablop/radiometric-emissometers-db" rel="noopener" style="color:inherit">Dataset</a></b> — radiometric-emissometers-db: 139 records, CC-BY-4.0, Zenodo DOI 10.5281/zenodo.21762418 (Gabirondo-López, Arredondo &amp; Igartua, UPV/EHU).</span></div>
+    <div class="note"><span class="nnum">→</span><span><b><a href="https://github.com/jmigartua/emissary/releases" rel="noopener" style="color:inherit">Downloads</a></b> — signed-free DMG per release; right-click → Open on first launch.</span></div>
+  </div>
+</section>
 <section id="download">
   <h2>Download</h2>
   <p class="lede">Emissary is a native macOS app (Tauri 2, ~12 MB) that ships with the full dataset bundled and can point at any live checkout of <code style="font-family:var(--mono);font-size:13px">radiometric-emissometers-db</code>. Get the DMG from <a href="https://github.com/jmigartua/emissary/releases" rel="noopener" style="color:inherit">github.com/jmigartua/emissary/releases</a> (unsigned build: right-click → Open on first launch), or build from source:</p>
   <pre style="background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px;font-family:var(--mono);font-size:12.5px;overflow-x:auto">git clone https://github.com/jmigartua/emissary &amp;&amp; cd emissary
 npx @tauri-apps/cli build        # → src-tauri/target/release/bundle/dmg/Emissary_0.1.0_*.dmg</pre>
+</section>
+<section id="credits">
+  <h2>Authorship &amp; ownership</h2>
+  <p class="lede">The database was conceived jointly by <b>Jon Gabirondo-López</b> and <b>Josu M. Igartua</b> — its intellectual authors and maintainers, who will keep extending it, with the measurement data produced by these instruments planned as the next layer. Jon Gabirondo-López compiled, sorted and manually inspected the article corpus. Josu M. Igartua created the Emissary application. The compilation and the app belong to the <b>Thermophysical Properties of Materials Research Group</b> of the University of the Basque Country (UPV/EHU) — the group that also owns and operates the HAIRL emissometer in Leioa. Free to use: dataset under CC-BY-4.0, app under the MIT license.</p>
 </section>
 <footer>Emissary v0.1.0 · built on radiometric-emissometers-db (Gabirondo-López, Arredondo &amp; Igartua · Zenodo DOI 10.5281/zenodo.21762418 · CC-BY-4.0) · UPV/EHU</footer>
 </div>
