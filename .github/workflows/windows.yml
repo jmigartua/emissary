@@ -1,0 +1,52 @@
+name: build-windows
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Existing release tag to attach the installer to (e.g. v0.6.1)"
+        required: true
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  windows-x64:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Rust (stable)
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Rust cache
+        uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: src-tauri
+
+      - name: Build Tauri app (NSIS + MSI)
+        run: npx --yes @tauri-apps/cli build
+
+      - name: Collect installers
+        shell: bash
+        run: |
+          mkdir -p out
+          find src-tauri/target/release/bundle -type f \( -name "*.exe" -o -name "*.msi" \) -exec cp {} out/ \;
+          ls -la out/
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: emissary-windows-x64
+          path: out/*
+
+      - name: Attach to release
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="${{ github.event.inputs.tag }}"
+          if [ -z "$TAG" ]; then TAG="${GITHUB_REF#refs/tags/}"; fi
+          gh release upload "$TAG" out/* --clobber

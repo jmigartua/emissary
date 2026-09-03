@@ -23,9 +23,9 @@
   },
   "bundle": {
     "active": true,
-    "targets": ["app", "dmg"],
+    "targets": "all",
     "category": "Utility",
-    "icon": ["icons/icon.icns", "icons/icon.png"],
+    "icon": ["icons/icon.icns", "icons/icon.ico", "icons/icon.png"],
     "resources": ["resources/data"]
   }
 }
