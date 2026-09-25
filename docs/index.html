@@ -1,4 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Emissary — the emissometer database, as an app</title>
+<meta name="description" content="Emissary is a free desktop app (macOS and Windows) for exploring the radiometric emissometers database: 139 infrared-emissivity instruments from a century of literature, compiled at UPV/EHU. Open data, CC-BY-4.0.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="favicon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Emissary — the emissometer database, as an app">
+<meta property="og:description" content="Free desktop app for exploring 139 radiometric emissometers: capability plane, timeline, fingerprints. Open data from UPV/EHU.">
+<meta property="og:image" content="https://jmigartua.github.io/emissary/shots/plane.png">
 <style>
   :root{
     --ground:#F5F5F7; --panel:#FFFFFF; --panel2:#FAFAFB; --ink:#1D1D1F; --ink2:#6E6E73; --ink3:#9A9CA3;
@@ -147,6 +160,8 @@
   }
 </style>
 
+</head>
+<body>
 <div class="wrap">
 
 <header class="doc">
@@ -644,5 +659,5 @@ renderAll(); renderTimeline(); renderCountries();
 new MutationObserver(()=>{ renderAll(); renderTimeline(); }).observe(document.documentElement,{attributes:true,attributeFilter:["data-theme"]});
 if(window.matchMedia) window.matchMedia("(prefers-color-scheme: dark)").addEventListener?.("change",()=>{ renderAll(); renderTimeline(); });
 </script>
-
-
+</body>
+</html>
